@@ -1,0 +1,183 @@
+utterance_id,text,factiverse_claim,CW_claim_count,Not_CW_claim_count,majority_claim,output_matched
+2462733,"Hello, and welcome to Zoe Shorts, the bite-sized podcast where we discuss one topic around science and nutrition.",Not Checkworthy,3,4,Not Checkworthy,True
+2462734,"I'm Jonathan Wolfe, and today I'm joined by Dr. Sarah Berry.",Checkworthy,1,3,Not Checkworthy,False
+2462735,And today's subject is nuts.,Not Checkworthy,0,4,Not Checkworthy,True
+2462736,"And Jonathan, this is a subject I absolutely love.",Not Checkworthy,0,3,Not Checkworthy,True
+2462737,I've done loads of interventional human studies measuring the effects of eating nuts on people's health.,Checkworthy,1,2,Not Checkworthy,False
+2462738,"Well, the good news is we had lots of listeners worried that nuts are full of fat and therefore are bad for you.",Checkworthy,1,2,Not Checkworthy,False
+2462739,"Well, I hope that they'll be very surprised by what we're about to discuss then.",Not Checkworthy,0,3,Not Checkworthy,True
+2462740,Good.,Not Checkworthy,0,2,Not Checkworthy,True
+2462741,Let's go nuts.,Not Checkworthy,0,2,Not Checkworthy,True
+2462742,Sorry about that.,Not Checkworthy,0,2,Not Checkworthy,True
+2462743,"Right, so it's important before we get into the nutritional value of nuts to point out that there's lots of different ways of consuming nuts.",Not Checkworthy,2,0,Checkworthy,False
+2462744,"But on average, our consumption of nuts and seeds in the UK is about six grams per day, which doesn't sound like lots, but that's because we have a lot of people don't consume nuts at all.",Checkworthy,3,0,Checkworthy,True
+2462745,And that also includes nut butters.,Not Checkworthy,2,0,Checkworthy,False
+2462746,"To put that in perspective, one portion of nuts is around 30 grams, and that's roughly a small handful of nuts.",Checkworthy,2,0,Checkworthy,True
+2462747,"So six grams is literally just a couple of nuts a day then, Sarah?",Checkworthy,1,1,Checkworthy,True
+2462748,"Yeah, that's right, Jonathan.",Not Checkworthy,1,0,Checkworthy,False
+2462749,Which is a shame because I know they're packed full of nutrients.,Not Checkworthy,1,1,Checkworthy,False
+2462750,"In fact, I've heard Tim describe the nut as a tree egg.",Checkworthy,1,1,Checkworthy,True
+2462751,"And Sarah, you know how much you like the nutrients in eggs?",Not Checkworthy,0,3,Not Checkworthy,True
+2462752,"Yeah, absolutely.",Not Checkworthy,0,2,Not Checkworthy,True
+2462753,And mixed nuts contain so many great nutrients.,Not Checkworthy,2,0,Checkworthy,False
+2462754,"They contain fibre, they contain vitamin E, magnesium, selenium.",Checkworthy,1,0,Checkworthy,True
+2462755,"And nuts are also very high in fat, but they're particularly high in monounsaturated fats, which we know are the healthy type of fats.",Checkworthy,2,0,Checkworthy,True
+2462756,"So Sarah, let's get into the nuts and bolts of things, shall we?",Not Checkworthy,0,2,Not Checkworthy,True
+2462757,Oh my gosh.,Not Checkworthy,0,2,Not Checkworthy,True
+2462758,I've got loads more of these today.,Checkworthy,0,1,Not Checkworthy,False
+2462759,It's a great one.,Not Checkworthy,0,1,Not Checkworthy,True
+2462760,How do nuts affect our health then?,Not Checkworthy,1,0,Checkworthy,False
+2462761,"In particular, I've read that nuts might be good for our hearts.",Checkworthy,3,0,Checkworthy,True
+2462762,"Yeah, nuts do lots of great things that help our heart health.",Not Checkworthy,1,0,Checkworthy,False
+2462763,"So in particular, nuts can decrease our bad LDL cholesterol, and they can also decrease our blood triglyceride concentrations.",Not Checkworthy,2,0,Checkworthy,False
+2462764,And this means that nuts might help to lower the risk of both heart disease and stroke.,Not Checkworthy,2,0,Checkworthy,False
+2462765,"Now, in addition, nuts also contain bioactives.",Checkworthy,3,0,Checkworthy,True
+2462766,And these are tiny molecules that have lots of really special roles to play in the body.,Not Checkworthy,3,0,Checkworthy,False
+2462767,"For example, some have antioxidant and anti-inflammatory properties.",Not Checkworthy,2,0,Checkworthy,False
+2462768,And a great example is polyphenols.,Not Checkworthy,2,0,Checkworthy,False
+2462769,And these are thought to protect your cells from damage that are caused by free radicals.,Not Checkworthy,2,0,Checkworthy,False
+2462770,"And polyphenol chemicals from nuts can help to reduce bad cholesterol from being oxidised, which happens when LDL cholesterol reacts with free radicals.",Checkworthy,1,0,Checkworthy,True
+2462771,This is great because we know that oxidised LDL cholesterol can build up in the walls of your arteries.,Not Checkworthy,1,0,Checkworthy,False
+2462772,"It can cause them to become thicker and to stiffen, reducing just how much blood can actually get through these arteries, which can lead to atherosclerosis, which is the first step towards heart disease and strokes.",Not Checkworthy,1,0,Checkworthy,False
+2462773,And there's lots of different studies that have measured this.,Checkworthy,1,0,Checkworthy,True
+2462774,And there's a number of different ones that have found that people who eat various types of nuts see a drop in the levels of these oxidised bad LDL by up to about 30%.,Checkworthy,1,0,Checkworthy,True
+2462775,"Now, on top of that, there's also impact on inflammation, isn't there?",Not Checkworthy,0,3,Not Checkworthy,True
+2462776,And inflammation is something that we're very interested in at ZOE because of the way that it seems to be linked to sort of almost every long-term disease that scientists are investigating.,Checkworthy,2,0,Checkworthy,True
+2462777,It just comes up over and over again on these podcasts and elsewhere.,Checkworthy,0,1,Not Checkworthy,False
+2462778,"Now, my understanding, looking at some of the research there is that there are also studies where people whose diets were supplemented with nuts saw a real decrease in inflammation, what they call inflammatory markers in those papers.",Checkworthy,1,1,Checkworthy,True
+2462779,"Yeah, that's right, Jonathan.",Not Checkworthy,0,1,Not Checkworthy,True
+2462780,"We see with lots of different types of nuts like walnuts, almonds, pistachios, if you eat over a long period of time, a portion of these nuts a day, you have a reduction in many of these different types of inflammatory measures.",Checkworthy,2,0,Checkworthy,True
+2462781,We also know that there's an impact of eating nuts for people that have metabolic syndrome and type 2 diabetes.,Checkworthy,1,0,Checkworthy,True
+2462782,We know that they improve insulin sensitivity.,Not Checkworthy,1,0,Checkworthy,False
+2462783,We know that they reduce your fasting blood glucose.,Checkworthy,1,0,Checkworthy,True
+2462784,"But interestingly, they also improve your blood vessel function.",Not Checkworthy,0,0,,
+2462785,And this is something I've looked at in my own research.,Not Checkworthy,0,2,Not Checkworthy,True
+2462786,And I think it's important to say at this point that I have received a lot of funding from the Ulmer Board of California to research the impact of almonds on cardiovascular health.,Checkworthy,0,2,Not Checkworthy,False
+2462787,So I do always like to put any conflict of interest out there.,Not Checkworthy,0,1,Not Checkworthy,True
+2462788,And we ran a study where we supplemented people with nuts for six weeks compared to a control.,Checkworthy,0,1,Not Checkworthy,False
+2462789,And we found an improvement in the functioning of people's blood vessels when they had almonds.,Checkworthy,1,1,Checkworthy,True
+2462790,So almost like how elastic they are.,Not Checkworthy,0,2,Not Checkworthy,True
+2462791,"And finally, there's some evidence as well just emerging that nuts might even prevent memory loss as we age, although this is still at quite early stages of research.",Checkworthy,1,1,Checkworthy,True
+2462792,So that's all pretty amazing.,Not Checkworthy,0,1,Not Checkworthy,True
+2462793,These like tiny nuts are definitely punching well above their weight.,Not Checkworthy,0,1,Not Checkworthy,True
+2462794,"Oh, how many more of these jokes are we going to have, Jonathan?",Not Checkworthy,0,2,Not Checkworthy,True
+2462795,"Okay, Jonathan, we haven't even mentioned the fiber that's in nuts, which is another great property of nuts.",Not Checkworthy,2,0,Checkworthy,False
+2462796,"And fiber, simply put, is the nut cell walls.",Not Checkworthy,1,0,Checkworthy,False
+2462797,"And in one 30 gram portion of peanuts, there's about two and a half grams of fiber.",Checkworthy,1,0,Checkworthy,True
+2462798,"And this is in comparison to a pack of salted crisps or potato chips, which has less than one grams of fiber.",Checkworthy,1,0,Checkworthy,True
+2462799,And there's really compelling evidence linking high fiber intake to reducing the risk of many chronic diseases.,Checkworthy,1,0,Checkworthy,True
+2462800,"And even death, which I'm particularly keen on.",Not Checkworthy,1,1,Checkworthy,False
+2462801,"So as you increase your dosage of fiber, actually your life expectancy increases.",Checkworthy,2,0,Checkworthy,True
+2462802,"And this is rare, right?",Not Checkworthy,0,2,Not Checkworthy,True
+2462803,"There's very few things actually where you see really clear impact, not just on some sort of disease, but actually whether or not you're going to live longer.",Not Checkworthy,1,1,Checkworthy,False
+2462804,Yeah.,Not Checkworthy,0,1,Not Checkworthy,True
+2462805,And fiber is the one nutrient that every nutritional scientist in the world agrees we need to be getting more of.,Not Checkworthy,1,0,Checkworthy,False
+2462806,"In the UK, in the US, we consume less than 20 grams.",Checkworthy,1,0,Checkworthy,True
+2462807,We should be getting at least 30 grams a day of fiber.,Not Checkworthy,0,1,Not Checkworthy,True
+2462808,So what's great is these nuts are packed full of fiber.,Not Checkworthy,1,0,Checkworthy,False
+2462809,And this fiber basically works to feed your healthy gut bacteria.,Not Checkworthy,1,0,Checkworthy,False
+2462810,I want to take a moment to thank you for listening to this show.,Not Checkworthy,0,2,Not Checkworthy,True
+2462811,Our mission at ZOE is to improve the health of millions by empowering our community with the most accurate information about our own bodies based on the latest science.,Not Checkworthy,1,1,Checkworthy,False
+2462812,"We think the best way to achieve this is with ZOE's personalized nutrition program, but we know some people aren't ready for it yet.",Not Checkworthy,0,1,Not Checkworthy,True
+2462813,"And that for others, this technology is still too expensive.",Not Checkworthy,0,1,Not Checkworthy,True
+2462814,And that's why we put the show out for free without ads to share the latest science with everyone.,Not Checkworthy,0,1,Not Checkworthy,True
+2462815,"To justify us continuing this labor of love, I have a small favor to ask.",Not Checkworthy,0,2,Not Checkworthy,True
+2462816,It has two parts.,Not Checkworthy,1,1,Checkworthy,False
+2462817,"Firstly, if you know someone who would benefit from listening to today's podcast, please share a link to the show right now.",Not Checkworthy,0,2,Not Checkworthy,True
+2462818,It's the continued growth in new listeners that makes us feel all the effort recording the show is worthwhile.,Not Checkworthy,0,2,Not Checkworthy,True
+2462819,"Secondly, in whichever podcast app you're using right now, hit subscribe.",Not Checkworthy,0,2,Not Checkworthy,True
+2462820,That's it.,Not Checkworthy,1,1,Checkworthy,False
+2462821,That will mean many others are more likely to discover this podcast and hopefully learn something that will help their health.,Not Checkworthy,0,1,Not Checkworthy,True
+2462822,Thank you so much for listening and for being a valued member of the ZOE community.,Not Checkworthy,0,1,Not Checkworthy,True
+2462823,Enjoy the rest of the show.,Not Checkworthy,0,1,Not Checkworthy,True
+2462824,"So Sarah, it seems pretty clear nuts have lots of benefits.",Not Checkworthy,0,1,Not Checkworthy,True
+2462825,"They're also surprisingly well studied in terms of sort of the research that you're talking about compared to a lot of the topics where we say, you know, there's like three studies in the whole world ever.",Checkworthy,2,0,Checkworthy,True
+2462826,And it seems like particularly clear to do with cardiovascular health.,Not Checkworthy,1,0,Checkworthy,False
+2462827,"So, you know, sort of heart disease and Stroh's.",Not Checkworthy,0,1,Not Checkworthy,True
+2462828,I think the elephant in the room is really weight.,Not Checkworthy,0,1,Not Checkworthy,True
+2462829,"If nuts are high in calories, won't they contribute to weight gain?",Not Checkworthy,0,1,Not Checkworthy,True
+2462830,So this is where I think it gets really interesting.,Not Checkworthy,0,1,Not Checkworthy,True
+2462831,"And obviously I'm biased because this has been the focus of my research with nuts, which is their food matrix.",Checkworthy,0,1,Not Checkworthy,False
+2462832,So what makes the humble nut even more special is their structure.,Not Checkworthy,1,0,Checkworthy,False
+2462833,And this is what I call the food matrix.,Not Checkworthy,0,1,Not Checkworthy,True
+2462834,"So Sarah, most people only know the matrix is like a hit film 30 years ago.",Not Checkworthy,0,1,Not Checkworthy,True
+2462835,So could you explain a bit more what the food matrix is?,Not Checkworthy,0,1,Not Checkworthy,True
+2462836,Yeah.,Not Checkworthy,0,1,Not Checkworthy,True
+2462837,"So we're not talking about Keanu Reeves here, Jonathan.",Not Checkworthy,0,1,Not Checkworthy,True
+2462838,"We're talking about the food structure and really simply put, it just refers to the structure of a food.",Not Checkworthy,1,0,Checkworthy,False
+2462839,So I think a really good way to illustrate this is using almonds.,Not Checkworthy,1,0,Checkworthy,False
+2462840,And let's say you had a packet of whole almonds and a packet of ground almonds.,Checkworthy,0,1,Not Checkworthy,False
+2462841,"According to the back-of-pack labelling information, they're nutritionally identical, but actually how they behave in our body is really different.",Checkworthy,1,0,Checkworthy,True
+2462842,"Nuts consist of millions of tiny cells and these have cell walls, which we've already mentioned is the fibre.",Checkworthy,1,0,Checkworthy,True
+2462843,And they have a really important structural role.,Not Checkworthy,1,0,Checkworthy,False
+2462844,And within these cell walls are tiny fat globules.,Checkworthy,1,0,Checkworthy,True
+2462845,"Now, if I very, very finely grind the nuts, I break down the cell walls and the fat bursts out.",Not Checkworthy,0,0,,
+2462846,"But when you eat whole nuts, the matrix, so the structure of these cell walls remains intact.",Not Checkworthy,0,0,,
+2462847,So the fat is remaining within the cell walls and it's therefore not easily digestible.,Not Checkworthy,0,0,,
+2462848,And so research has shown that about 30% fewer calories are absorbed from these whole nuts compared to what's predicted based on the ingredients listed on the back-of-pack labelling.,Checkworthy,0,0,,
+2462849,"And Jonathan, from the studies that I've done where we collect poo after people have eaten whole nuts, you actually see these whole big nut particles.",Checkworthy,0,0,,
+2462850,"And if you slice through them, which fortunately my researchers do rather than I do, and then put them under a microscope, you can actually see these hundreds of intact cells still within these chewed nut particles that we've collected from the poo.",Checkworthy,0,0,,
+2462851,"And you can see within those all of these fat globules, which is why it has 30% less calories that are being absorbed.",Checkworthy,0,0,,
+2462852,"And Sarah, is this true of any plant that we eat?",Not Checkworthy,0,0,,
+2462853,Or is this because like most plants we cook for ages first?,Not Checkworthy,0,0,,
+2462854,Or is there something special and magical about nuts?,Not Checkworthy,0,0,,
+2462855,How do we understand that?,Not Checkworthy,0,0,,
+2462856,This is true of nearly all nuts.,Not Checkworthy,0,0,,
+2462857,So we've looked at this with lots of different types of nuts and we find consistently that the back-of-pack labelling information would overestimate the calorie amount by about 30%.,Checkworthy,0,0,,
+2462858,The impact of the cell wall structure within other plants varies depending on the plant.,Not Checkworthy,0,0,,
+2462859,"So for example, in more carbohydrate-rich foods such as oats, you will still get full absorption of all of the nutrients.",Not Checkworthy,0,0,,
+2462860,"So you will still absorb all of the calories, but you will change the rate at which you absorb them.",Not Checkworthy,0,0,,
+2462861,"So you will lower your blood sugar response, which is beneficial if you're having really large oats versus having really finely ground oats.",Not Checkworthy,0,0,,
+2462862,Got it.,Not Checkworthy,0,0,,
+2462863,"And so if I'm eating, I don't know, lentils, for example, which are quite a high fibre food, I know, but they do have lots of carbohydrate.",Not Checkworthy,0,0,,
+2462864,It's not the same as nuts.,Not Checkworthy,0,0,,
+2462865,"I am probably going to end up extracting all of that, but it's just going to take a while.",Not Checkworthy,0,0,,
+2462866,"But I'm going to get to it, including my bacteria, they're going to get their way through.",Not Checkworthy,0,0,,
+2462867,"Whereas these nuts, it's sort of really unusual.",Not Checkworthy,0,0,,
+2462868,"Basically, we're sort of struggling to get all the calories out before actually it's coming out the other end.",Not Checkworthy,0,0,,
+2462869,"Yeah, absolutely.",Not Checkworthy,0,0,,
+2462870,"And we've done what we call mastication studies, Jonathan, where these are even more glamorous than the poo studies that we do.",Checkworthy,0,0,,
+2462871,"These studies involve people chewing nuts, and at the point at which they're about to swallow, they spit them out.",Checkworthy,0,0,,
+2462872,We collect them and we analyse them.,Not Checkworthy,0,0,,
+2462873,We analyse them for how much fat is released at that point.,Not Checkworthy,0,0,,
+2462874,"And what's interesting is at the point at you're about to swallow an almond, the amount of fat that's released from the chewing action bursting the cells is only about 10% at that point.",Checkworthy,0,0,,
+2462875,"And this is because the cells of almonds, and it's the same with other nuts, are so, so tiny.",Not Checkworthy,0,0,,
+2462876,"They're 35 micrometres, which is tiny, yet the point at which you swallow nuts is normally around nearly one millimetre particle size.",Checkworthy,0,0,,
+2462877,And so that's why so much is entering your stomach and your intestine intact.,Not Checkworthy,0,0,,
+2462878,"And so that explains why actually, you know, the amount of calories you actually consume might be much less than sort of on the packet.",Not Checkworthy,0,0,,
+2462879,"Presumably, that does mean the more that you process nuts, the more that the fat will be released, and the more energy you'll be able to absorb.",Not Checkworthy,0,0,,
+2462880,"Yeah, and this is another really interesting area of research is looking at the effect of consuming whole nuts versus nut butters and really finely ground nut powders.",Not Checkworthy,0,0,,
+2462881,"And what we know is if you commercially grind the nuts to break all of the cell walls and release all of the fat, then a lot more of that fat is accessible and therefore you do absorb a large proportion of the calories.",Not Checkworthy,0,0,,
+2462882,"However, using the kind of techniques that you might use at home to grind nuts or to make your own nut butters, you're unlikely to be able to grind the nut to an extent that you break all of the cell walls.",Not Checkworthy,0,0,,
+2462883,"So you're still likely to actually have a nut that has a lot lower energy density, so lower calorie amount that's absorbed compared to if it was fully ground.",Not Checkworthy,0,0,,
+2462884,"So I guess one question follows from this, you know, you might think it's a good idea that your body isn't absorbing all the fat.",Not Checkworthy,0,0,,
+2462885,"But on the other hand, does it mean that all these other nutrients that you were talking about, like, you know, vitamin E and whatever else are also not going to be absorbed as much?",Not Checkworthy,0,0,,
+2462886,"Yeah, that's right.",Not Checkworthy,0,0,,
+2462887,And I've actually published research showing that the vitamin E in the blood after eating whole almonds is lots lower than the vitamin E after eating industrially ground almonds where all of the cell walls are broken down.,Checkworthy,0,0,,
+2462888,"And Sarah, I remember you telling me something really extraordinary that there's a study about how many calories different individuals extract from the same nuts and sort of showing this huge variation.",Checkworthy,0,0,,
+2462889,Is that right?,Not Checkworthy,0,0,,
+2462890,"Yeah, absolutely.",Not Checkworthy,0,0,,
+2462891,"So there was a study carried out a number of years ago by David Bear in the US where they fed individuals nuts over a period of time, collected their poo and had a look how much energy was excreted from consuming nuts.",Checkworthy,0,0,,
+2462892,"And what this meant in real terms is that for some people, a 30 gram portion of almonds resulted in them eating about 56 calories.",Checkworthy,0,0,,
+2462893,"And yet for other people, eating a 30 gram portion of almonds resulted in them eating about 168 calories.",Checkworthy,0,0,,
+2462894,So that's a huge difference.,Not Checkworthy,0,0,,
+2462895,"And if you extract that over a week, that's a large amount.",Not Checkworthy,0,0,,
+2462896,"I can't do the maths off the top of my head, but I think that's about 750 calorie difference.",Not Checkworthy,0,0,,
+2462897,"So Jonathan, I think all of this taken together goes some way to explain why, despite what a lot of people fear, research has shown that nuts simply do not cause you to put on weight.",Not Checkworthy,0,0,,
+2462898,"And whilst the nutritional makeup of each nut vary slightly, broadly speaking, one nut is not necessarily better than another.",Not Checkworthy,0,0,,
+2462899,"And any type of nut, as long as they're not coated in chocolate, salt or sugar, will make a really great addition to your diet.",Not Checkworthy,0,0,,
+2462900,"Sarah, what's your final conclusion?",Not Checkworthy,0,0,,
+2462901,"So my final thoughts are that nuts are a great addition to anyone's diet, that having different types of nuts is great because whilst nearly all nuts contain fantastic combination of healthy fats and these magic polyphenols, they do also differ slightly in some of their other attributes.",Not Checkworthy,0,0,,
+2462902,So having mixed nuts is great.,Not Checkworthy,0,0,,
+2462903,And my other top tip is to actually try substituting your normal snacks for nuts.,Not Checkworthy,0,0,,
+2462904,We know that about 20% of our energy intake comes from snacks.,Checkworthy,0,0,,
+2462905,"If you can change your typical snacks to nuts, you'll really see big improvements in your health.",Not Checkworthy,0,0,,
+2462906,I think the short summary is we think nuts are great.,Not Checkworthy,0,0,,
+2462907,We do.,Not Checkworthy,0,0,,
+2462908,"We agree on this one, Jonathan.",Not Checkworthy,0,0,,
+2462909,As we do on so many.,Not Checkworthy,0,0,,
+2462910,"Well, if you'd like to discover how nuts can best fit into your life, you may want to try Zoe's Personalised Nutrition Programme to improve your health and manage your weight.",Not Checkworthy,0,0,,
+2462911,You can get 10% off by going to joinzoe.com slash podcast.,Not Checkworthy,0,0,,
+2462912,I'm Jonathan Wolfe.,Not Checkworthy,0,0,,
+2462913,And I'm Sarah Berry.,Not Checkworthy,0,0,,
+2462914,Join us next week for another Zoe podcast.,Not Checkworthy,0,0,,

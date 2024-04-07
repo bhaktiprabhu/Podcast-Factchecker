@@ -1,0 +1,176 @@
+utterance_id,text,factiverse_claim,CW_claim_count,Not_CW_claim_count,majority_claim,output_matched
+2465307,Hello and welcome to this podcast from the BBC World Service.,Not Checkworthy,3,1,Checkworthy,False
+2465308,Please let us know what you think and tell other people about us on social media.,Not Checkworthy,2,1,Checkworthy,False
+2465309,Podcasts from the BBC World Service are supported by advertising.,Not Checkworthy,2,0,Checkworthy,False
+2465310,How does AI even work?,Not Checkworthy,1,1,Checkworthy,False
+2465311,Where does creativity come from?,Not Checkworthy,1,1,Checkworthy,False
+2465312,What's the secret to living longer?,Not Checkworthy,1,1,Checkworthy,False
+2465313,TED Radio Hour explores the biggest questions with some of the world's greatest thinkers.,Not Checkworthy,1,0,Checkworthy,False
+2465314,"They will surprise, challenge and even change you.",Not Checkworthy,1,0,Checkworthy,False
+2465315,Listen to NPR's TED Radio Hour wherever you get your podcasts.,Not Checkworthy,0,1,Not Checkworthy,True
+2465316,"We would all like some quick and simple ways to improve our health, but we're inundated with often conflicting advice.",Not Checkworthy,1,0,Checkworthy,False
+2465317,"So if you were going to try just one thing to improve your mental and physical well-being, what should it be?",Not Checkworthy,0,1,Not Checkworthy,True
+2465318,Perhaps the martial art of Tai Chi to improve your immune system.,Not Checkworthy,1,0,Checkworthy,False
+2465319,Maybe a few nuts to slow aging.,Not Checkworthy,1,0,Checkworthy,False
+2465320,Or how about cleaning your teeth to give your brain a boost?,Not Checkworthy,0,1,Not Checkworthy,True
+2465321,"I'm Dr Michael Moseley and this is Just One Thing, where each episode we'll explore one thing you can start doing today to improve your health or life in ways you might not expect.",Not Checkworthy,2,0,Checkworthy,False
+2465322,It's lunchtime,Not Checkworthy,0,1,Not Checkworthy,True
+2465323,and I'm throwing together a vegetarian curry.,Not Checkworthy,0,1,Not Checkworthy,True
+2465324,I've got the onions here and now they go into the frying pan.,Not Checkworthy,0,1,Not Checkworthy,True
+2465325,You can hear them sizzle away.,Not Checkworthy,0,1,Not Checkworthy,True
+2465326,Leave that for a moment.,Not Checkworthy,0,1,Not Checkworthy,True
+2465327,And now to the most important part.,Not Checkworthy,0,1,Not Checkworthy,True
+2465328,I'm about to add in something that could boost my mood and my memory and it may even reduce inflammation.,Not Checkworthy,1,0,Checkworthy,False
+2465329,I'm adding turmeric.,Not Checkworthy,0,1,Not Checkworthy,True
+2465330,"You can buy it fresh or as a dried spice, which is what I'm using, or even take it as a supplement.",Not Checkworthy,1,0,Checkworthy,False
+2465331,"Okay, I think the onions are looking rather golden now and time to add in the turmeric powder.",Not Checkworthy,0,1,Not Checkworthy,True
+2465332,"Wow, it's got a wonderfully bright colour and quite a strong aroma as well.",Not Checkworthy,0,1,Not Checkworthy,True
+2465333,"Now, turmeric is a close relative of ginger and if you buy it fresh, it has a similar knobbly, root-like look, but inside it's this vibrant yellow-orange.",Checkworthy,0,1,Not Checkworthy,False
+2465334,The colour comes from a substance within it called curcumin and that's the compound scientists think is the key to turmeric's benefits for the brain and body.,Checkworthy,1,0,Checkworthy,True
+2465335,"Turmeric has been widely used for millennia in many parts of the world, especially in Southeast Asia, not just for cooking but also as medicine and there is new research showing it could be especially beneficial for some types of pain.",Checkworthy,1,0,Checkworthy,True
+2465336,So is this something you'd like to use more?,Not Checkworthy,0,1,Not Checkworthy,True
+2465337,"I'm speaking to Yushi, an office worker.",Checkworthy,0,1,Not Checkworthy,False
+2465338,Let's see if spicing up her life with turmeric is just one thing she'd like to do.,Not Checkworthy,0,1,Not Checkworthy,True
+2465339,Hi there.,Not Checkworthy,0,1,Not Checkworthy,True
+2465340,Hello.,Not Checkworthy,0,1,Not Checkworthy,True
+2465341,"Now, first of all, do you enjoy cooking?",Not Checkworthy,0,1,Not Checkworthy,True
+2465342,I do enjoy cooking,Not Checkworthy,0,1,Not Checkworthy,True
+2465343,but I wish I had a bit more time to try different recipes.,Not Checkworthy,0,1,Not Checkworthy,True
+2465344,"Right, and have you ever cooked with turmeric before?",Not Checkworthy,0,1,Not Checkworthy,True
+2465345,I haven't actually.,Checkworthy,0,1,Not Checkworthy,False
+2465346,I've been wanting to incorporate more spices in my cooking.,Checkworthy,0,1,Not Checkworthy,False
+2465347,"Turmeric, as you may well know, is widely used in curries",Checkworthy,1,0,Checkworthy,True
+2465348,"but it's also delicious in scrambled eggs, soups and yogurts or a turmeric pancake.",Not Checkworthy,0,1,Not Checkworthy,True
+2465349,"What I want you to do is to add one teaspoon a day to your cooking, could be breakfast, lunch or supper, however you want to do it, but one teaspoon a day.",Not Checkworthy,1,0,Checkworthy,False
+2465350,Do you think you can manage that?,Not Checkworthy,0,1,Not Checkworthy,True
+2465351,That sounds okay.,Not Checkworthy,0,1,Not Checkworthy,True
+2465352,"Yeah, I'm definitely up for giving it a go.",Not Checkworthy,0,1,Not Checkworthy,True
+2465353,Be aware that it is a very bright yellow colour and it can stain.,Not Checkworthy,0,1,Not Checkworthy,True
+2465354,That sounds good.,Not Checkworthy,0,1,Not Checkworthy,True
+2465355,Thanks for the heads up.,Not Checkworthy,0,1,Not Checkworthy,True
+2465356,"I've asked Yushi to spice things up with turmeric because this golden-hued powder not only adds colour and flavouring to food, it's also been linked to some surprising health claims, from boosting attention and working memory to improving asthma and eczema.",Checkworthy,1,0,Checkworthy,True
+2465357,The link between turmeric and health is nothing new.,Not Checkworthy,0,1,Not Checkworthy,True
+2465358,It's been used in ancient Ayurvedic medicine for thousands of years to alleviate liver problems and digestive ailments.,Checkworthy,1,0,Checkworthy,True
+2465359,"Over the last couple of decades or so, scientific research into turmeric and in particular into its active ingredient curcumin has exploded, with lots of studies exploring the health effects of this golden spice.",Checkworthy,1,0,Checkworthy,True
+2465360,And some of the findings have been impressive.,Not Checkworthy,0,1,Not Checkworthy,True
+2465361,Let's start with the brain.,Not Checkworthy,0,1,Not Checkworthy,True
+2465362,"A Singaporean study in 2022, following 2,700 older people for nearly five years, found those who ate a lot of turmeric-rich curries, like korma, kept their brains in better shape, when measured for things like working memory and problem-solving, than those who didn't.",Checkworthy,1,0,Checkworthy,True
+2465363,"The authors suggest that it's the curcumin, which is a polyphenol in the turmeric, which is responsible for these positive effects.",Checkworthy,1,0,Checkworthy,True
+2465364,"Now, a big problem with curcumin is that normally very little of it gets absorbed.",Not Checkworthy,0,1,Not Checkworthy,True
+2465365,"So the scientists think that one of the reasons why they saw such good results in their study is because when you consume curcumin with fat and certain spices, this helps your body to absorb more of it.",Checkworthy,1,0,Checkworthy,True
+2465366,It's a great excuse to add it to curry.,Not Checkworthy,0,1,Not Checkworthy,True
+2465367,"And if you don't fancy curry, then you might consider a curcumin supplement.",Not Checkworthy,0,1,Not Checkworthy,True
+2465368,"In an Australian study where they gave curcumin in pill form to 80 older individuals, they found that compared to placebo, taking the supplements improved working memory and reduced fatigue.",Checkworthy,1,0,Checkworthy,True
+2465369,One way it might be working is by reducing inflammation.,Not Checkworthy,1,0,Checkworthy,False
+2465370,"In a recent Japanese study where overweight but otherwise healthy participants were randomly allocated to placebo or curcumin extract, they found those taking the supplements had lower levels of an inflammatory marker in the blood called C-reactive protein.",Checkworthy,1,0,Checkworthy,True
+2465371,"And as we'll discover in a moment, it appears turmeric can also relieve pain.",Not Checkworthy,0,1,Not Checkworthy,True
+2465372,I'll be delving into that with an expert shortly.,Not Checkworthy,0,1,Not Checkworthy,True
+2465373,"But first, let's check in with Yushi.",Not Checkworthy,0,1,Not Checkworthy,True
+2465374,The first recipe I tried was the chicken korma and the taste was really good overall.,Checkworthy,0,1,Not Checkworthy,False
+2465375,It was a nice bright yellow colour.,Not Checkworthy,0,1,Not Checkworthy,True
+2465376,It did stain things.,Not Checkworthy,0,1,Not Checkworthy,True
+2465377,The wooden spoon that I use for cooking is now just permanently yellow.,Checkworthy,0,1,Not Checkworthy,False
+2465378,The challenges really inspired me to be a bit more adventurous with the food that I make.,Not Checkworthy,0,1,Not Checkworthy,True
+2465379,I'm looking forward to the rest of the week.,Not Checkworthy,0,1,Not Checkworthy,True
+2465380,We'll catch up with Yushi at the end of the week and see if she can find some tasty ways to incorporate turmeric into her diet.,Not Checkworthy,0,1,Not Checkworthy,True
+2465381,"But now to get the lowdown on turmeric, I'm speaking to Dr Benny Antony from the Menzies Institute of Medical Research at the University of Tasmania in Australia.",Checkworthy,0,1,Not Checkworthy,False
+2465382,G'day.,Not Checkworthy,0,1,Not Checkworthy,True
+2465383,"Good day, Michael.",Not Checkworthy,0,1,Not Checkworthy,True
+2465384,"Now, what would you say are the main benefits of turmeric?",Not Checkworthy,0,1,Not Checkworthy,True
+2465385,"Turmeric has been used for centuries in Ayurvedic medicine, that is a traditional Indian medicine, as well as traditional Chinese medicine.",Checkworthy,1,0,Checkworthy,True
+2465386,"But only recently, people have identified the active components such as the curcumin.",Checkworthy,0,1,Not Checkworthy,False
+2465387,So turmeric has been mainly known as an anti-inflammatory agent.,Checkworthy,1,0,Checkworthy,True
+2465388,It is also known to be an antioxidant.,Not Checkworthy,1,0,Checkworthy,False
+2465389,"Therefore, it can be useful for chronic conditions.",Not Checkworthy,1,0,Checkworthy,False
+2465390,It's also got antifungal properties and some wound healing properties.,Not Checkworthy,1,0,Checkworthy,False
+2465391,So what not?,Not Checkworthy,0,1,Not Checkworthy,True
+2465392,It's got many properties.,Checkworthy,0,1,Not Checkworthy,False
+2465393,"Now, I know you have done clinical trials looking at the benefits of using turmeric in arthritis.",Checkworthy,0,1,Not Checkworthy,False
+2465394,Can you tell me about that?,Checkworthy,0,1,Not Checkworthy,False
+2465395,So this clinical trial involved 70 patients.,Checkworthy,1,0,Checkworthy,True
+2465396,So we selected patients based on pain as well as based on the joint inflammation.,Checkworthy,0,1,Not Checkworthy,False
+2465397,So we randomized 35 people into placebo group and 35 people into the active group who received the turmeric extract.,Checkworthy,1,0,Checkworthy,True
+2465398,And then we followed these patients over 12 weeks.,Checkworthy,0,1,Not Checkworthy,False
+2465399,And we found that the participants who were taking the turmeric extracts had relief in pain compared to the placebo group.,Checkworthy,0,1,Not Checkworthy,False
+2465400,"Obviously, both placebo and treatment group both reduced the knee pain.",Checkworthy,1,0,Checkworthy,True
+2465401,But the treatment group had a further reduction compared to placebo group.,Checkworthy,0,1,Not Checkworthy,False
+2465402,Right.,Not Checkworthy,0,1,Not Checkworthy,True
+2465403,"Because we know the placebo effect is very powerful, particularly in pain.",Not Checkworthy,0,1,Not Checkworthy,True
+2465404,"So oddly enough, you would actually have to be quite impressive to outdo the placebo in this context.",Not Checkworthy,0,1,Not Checkworthy,True
+2465405,And did it affect the amount of pain medication they were taking?,Checkworthy,0,1,Not Checkworthy,False
+2465406,"Yeah, that's one of the interesting or secondary outcomes of this trial was that there was a reduction in the number of medications which they were taking for their knee pain.",Checkworthy,1,0,Checkworthy,True
+2465407,So how does turmeric compare to a standard painkiller like ibuprofen?,Not Checkworthy,0,1,Not Checkworthy,True
+2465408,"In our trial, we did not really compare turmeric extract with a non-steroidal anti-inflammatory drug.",Checkworthy,0,1,Not Checkworthy,False
+2465409,"However, we can indirectly compare the effect size of the treatment.",Not Checkworthy,0,1,Not Checkworthy,True
+2465410,That means we found a modest effect of the treatment compared to placebo.,Checkworthy,0,1,Not Checkworthy,False
+2465411,"And similarly, the non-steroidal anti-inflammatory drugs such as the ibuprofen have got only a modest effect.",Checkworthy,1,0,Checkworthy,True
+2465412,Non-steroidal anti-inflammatory drugs such as the ibuprofen seems to have a lot of contraindications.,Checkworthy,1,0,Checkworthy,True
+2465413,That means they cannot be taken in older patients.,Checkworthy,0,1,Not Checkworthy,False
+2465414,And a lot of these drugs have more severe adverse events such as the gastrointestinal bleeding or cardiovascular events.,Checkworthy,1,0,Checkworthy,True
+2465415,"So compared to the non-steroidal anti-inflammatory drugs, there seems to be no adverse event for turmeric extract.",Checkworthy,1,0,Checkworthy,True
+2465416,Right.,Not Checkworthy,0,1,Not Checkworthy,True
+2465417,Did you also see an anti-inflammatory effect?,Not Checkworthy,0,1,Not Checkworthy,True
+2465418,Did they actually have less inflammation in the joint?,Checkworthy,0,1,Not Checkworthy,False
+2465419,We did not find a significant difference in local inflammation.,Checkworthy,0,1,Not Checkworthy,False
+2465420,And we also tested whether the turmeric consumption led to a reduction in the inflammatory markers in the bloodstream.,Checkworthy,0,1,Not Checkworthy,False
+2465421,And we did not find a significant effect of these biomarkers.,Checkworthy,0,1,Not Checkworthy,False
+2465422,Because of the treatment of turmeric.,Not Checkworthy,1,0,Checkworthy,False
+2465423,So it's possible there is something else going on.,Not Checkworthy,0,1,Not Checkworthy,True
+2465424,That turmeric is not necessarily acting by reducing inflammation.,Not Checkworthy,0,1,Not Checkworthy,True
+2465425,What do you think that something else might be?,Not Checkworthy,0,1,Not Checkworthy,True
+2465426,So there is possibly other mechanisms that could have explained the reduction in pain.,Not Checkworthy,0,1,Not Checkworthy,True
+2465427,Some studies suggest that turmeric might have an effect in the gut-brain axis that turmeric extracts.,Checkworthy,1,0,Checkworthy,True
+2465428,Especially the curcumin can actually improve a certain type of bacterial colony which reduces the inflammation.,Not Checkworthy,1,0,Checkworthy,False
+2465429,So there is plenty of other evidence to say that turmeric can reduce inflammation in a systemic level and which is evidenced in the biomarkers as well.,Checkworthy,1,0,Checkworthy,True
+2465430,OK.,Not Checkworthy,0,1,Not Checkworthy,True
+2465431,Now you are obviously focusing on osteoarthritis which is an inflammatory condition in the knee.,Not Checkworthy,1,0,Checkworthy,False
+2465432,Do you think it could be beneficial for other types of pain?,Not Checkworthy,0,1,Not Checkworthy,True
+2465433,So what we have found that it's been effective for acute pain as well.,Not Checkworthy,1,0,Checkworthy,False
+2465434,It's not just for the chronic conditions as well.,Not Checkworthy,0,1,Not Checkworthy,True
+2465435,But it's for normal healthy people.,Not Checkworthy,0,1,Not Checkworthy,True
+2465436,It can be used to reduce the pain.,Not Checkworthy,0,1,Not Checkworthy,True
+2465437,Although it still needs more research in this area.,Not Checkworthy,0,1,Not Checkworthy,True
+2465438,"If people do want to boost their turmeric consumption, what's the best way of doing so?",Not Checkworthy,0,1,Not Checkworthy,True
+2465439,So if people want to increase the active component in the turmeric such as the curcumin in their body.,Not Checkworthy,0,1,Not Checkworthy,True
+2465440,The best way to do it is to combine it with some pepper because piperine seems to increase the bioavailability that means the increased absorption of curcumin in the body.,Not Checkworthy,1,0,Checkworthy,False
+2465441,The other option is fatty food seems to increase the bioavailability of curcumin.,Not Checkworthy,1,0,Checkworthy,False
+2465442,Obviously I've got an Indian heritage so I follow some of the Indian cuisine.,Not Checkworthy,0,1,Not Checkworthy,True
+2465443,So I pour oil first and then I put turmeric powder in it.,Not Checkworthy,0,1,Not Checkworthy,True
+2465444,So it's good for taste and it's going to increase the bioavailability.,Not Checkworthy,0,1,Not Checkworthy,True
+2465445,"Right, that's the science.",Not Checkworthy,0,1,Not Checkworthy,True
+2465446,Now let's check in one more time with Yushi to see how she's getting on with turmeric.,Not Checkworthy,0,1,Not Checkworthy,True
+2465447,It's the end of the week.,Not Checkworthy,0,1,Not Checkworthy,True
+2465448,The turmeric ended up tasting a lot nicer than I expected.,Not Checkworthy,0,1,Not Checkworthy,True
+2465449,And I surprised myself with the range of different dishes I was able to incorporate turmeric into.,Not Checkworthy,0,1,Not Checkworthy,True
+2465450,The turmeric pancakes were really delicious.,Not Checkworthy,0,1,Not Checkworthy,True
+2465451,The turmeric gave the pancakes a really warm flavour.,Not Checkworthy,0,1,Not Checkworthy,True
+2465452,It worked quite well with savoury toppings.,Checkworthy,0,1,Not Checkworthy,False
+2465453,I'll definitely be making the curry again.,Not Checkworthy,0,0,,
+2465454,Overall I found the challenge a great success.,Not Checkworthy,0,1,Not Checkworthy,True
+2465455,I really enjoyed it.,Not Checkworthy,0,0,,
+2465456,I'm really glad to hear that Yushi has enjoyed her challenge and I've been adding more turmeric to my diet and I've discovered something novel which I do enjoy and that is having it as a latte.,Not Checkworthy,0,0,,
+2465457,Now I've got some milk here and I'm going to add it to my milk frother.,Not Checkworthy,0,0,,
+2465458,There we go.,Not Checkworthy,0,0,,
+2465459,Nice and frost up.,Not Checkworthy,0,0,,
+2465460,I'm adding a nice teaspoon of turmeric and then giving it a good old stir.,Not Checkworthy,0,0,,
+2465461,And it's certainly a wonderfully orange colour.,Not Checkworthy,0,0,,
+2465462,And the advantage of using milk is the fat means that I'm going to absorb more of the good stuff as well.,Not Checkworthy,0,0,,
+2465463,It's also delicious.,Not Checkworthy,0,1,Not Checkworthy,True
+2465464,"So if you're looking for an excuse to have a delicious hot drink or perhaps that curry you've been craving, here it is.",Not Checkworthy,0,1,Not Checkworthy,True
+2465465,Add in some turmeric.,Not Checkworthy,0,1,Not Checkworthy,True
+2465466,It could boost your brain and take away your pain.,Not Checkworthy,1,0,Checkworthy,False
+2465467,So that's it.,Not Checkworthy,0,1,Not Checkworthy,True
+2465468,It's just one thing you can incorporate into your daily routine which really could benefit your body and life.,Not Checkworthy,1,0,Checkworthy,False
+2465469,"If you want to hear more of the series, why not subscribe on BBC Sounds.",Not Checkworthy,0,1,Not Checkworthy,True
+2465470,"On the next episode of Just One Thing, the healing power of the pen.",Not Checkworthy,0,1,Not Checkworthy,True
+2465471,"How a technique called expressive writing can lift your mood, improve your immune system and give your brain a boost.",Not Checkworthy,1,0,Checkworthy,False
+2465472,Are you confused about why your mortgage rate is going up?,Not Checkworthy,0,1,Not Checkworthy,True
+2465473,Unsure of what causes inflation or befuddled over what GDP stands for?,Not Checkworthy,0,1,Not Checkworthy,True
+2465474,I've got the perfect podcast for you.,Not Checkworthy,0,1,Not Checkworthy,True
+2465475,"I'm Tim Harford and in my new Radio 4 podcast, Understand the Economy, I'm taking you back to basics.",Not Checkworthy,0,1,Not Checkworthy,True
+2465476,I'm going to explain all the complex financial terms you're hearing in the news as clearly as I can.,Not Checkworthy,0,1,Not Checkworthy,True
+2465477,"Inflation, interest rates, growth, bonds, banks, I'll explain it all.",Not Checkworthy,0,1,Not Checkworthy,True
+2465478,"Search for Understand the Economy, available now on BBC Sounds.",Checkworthy,0,1,Not Checkworthy,False
+2465479,"And send it in now, while you're on the podcast.",Not Checkworthy,0,1,Not Checkworthy,True
+2465480,Do it now.,Not Checkworthy,0,1,Not Checkworthy,True
+2465481,"The very flexible accounting program TripleTax, you can try for free at www.tripletax.no.",Checkworthy,2,1,Checkworthy,True
