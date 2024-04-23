@@ -201,7 +201,7 @@ def generate_claim_detection_crowdwork_csv(episode_id: int):
 
 
 def generate_ai_claim_detection_prediction_csv(episode_id: int):
-    """Generates csv with AI prediction for claim detection for an episode 
+    """Generates csv with AI prediction for claim detection for an episode
 
     Args:
         episode_id (int): Episode Id
@@ -221,4 +221,3 @@ def generate_ai_claim_detection_prediction_csv(episode_id: int):
     ouput_file_path = os.path.join(podcast_dir, ouput_file_name)
 
     result_df.to_csv(ouput_file_path, index=False)
-    
