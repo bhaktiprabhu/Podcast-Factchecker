@@ -46,7 +46,7 @@ class FactiverseAPI:
         """Factiverse Claim Detection API
 
         Args:
-            text (str): text for verifying whether it is a claim or not
+            text (str):
             lang (str, optional): Language. Defaults to "en"
             score_th(float, optional): threshold for claim detection.
                                     Defaults to 0.5
