@@ -7,8 +7,7 @@ import pandas as pd
 
 import openai_utils
 from factiverse_api import factiverse_api
-from utils import (execute_query_pandas, execute_query_sqlite,
-                   get_podcast_dir_path)
+from utils import execute_query_pandas, execute_query_sqlite, get_podcast_dir_path
 
 
 def get_segmentation_id(episode_id: int) -> int:
@@ -30,7 +29,7 @@ def get_segmentation_id(episode_id: int) -> int:
             )
             and name = 'Factiverse CW/MO/CS'
         """
-    seg_id = execute_query_sqlite(q, 'one')[0]
+    seg_id = execute_query_sqlite(q, "one")[0]
     return seg_id
 
 
@@ -52,9 +51,7 @@ def get_utterances(episode_id: int) -> pd.DataFrame:
         """
 
     utterances = execute_query_sqlite(q)
-    utterance_df = pd.DataFrame(
-        utterances, columns=["utterance_id", "text", "text_coref"]
-    )
+    utterance_df = pd.DataFrame(utterances, columns=["utterance_id", "text", "text_coref"])
     utterance_df["text_coref"] = utterance_df["text_coref"].fillna(utterance_df["text"])
     return utterance_df
 
@@ -101,9 +98,9 @@ def get_openai_claim_df(episode_id: int) -> pd.DataFrame:
 
     for i, text in enumerate(utterance_df["text_coref"]):
         openai_claim_check = openai_utils.claim_detection(text)
-        if openai_claim_check in ('No', 'no'):
+        if openai_claim_check in ("No", "no"):
             openai_claim_df.loc[i, "openai_gpt4_is_CW"] = "FALSE"
-        elif openai_claim_check in ('Yes', 'yes'):
+        elif openai_claim_check in ("Yes", "yes"):
             openai_claim_df.loc[i, "openai_gpt4_is_CW"] = "TRUE"
 
     return openai_claim_df
@@ -151,10 +148,10 @@ def generate_toloka_annot_claim_detection_csv(episode_id: int):
     utterance_df = utterance_df[["utterance_id", "text_coref"]]
     utterance_df.is_copy = False
     utterance_df = utterance_df.rename(columns={"text_coref": "utterance_text"})
-    
+
     annot_claim_df = get_annotation_claim_df(episode_id)
-    
-    result_df = pd.merge(utterance_df, annot_claim_df, on='utterance_id', how='left')
+
+    result_df = pd.merge(utterance_df, annot_claim_df, on="utterance_id", how="left")
 
     result_df["CW_claim_count"] = result_df["CW_claim_count"].fillna(0)
     result_df["Not_CW_claim_count"] = result_df["Not_CW_claim_count"].fillna(0)
@@ -162,7 +159,7 @@ def generate_toloka_annot_claim_detection_csv(episode_id: int):
     result_df["CW_claim_count"] = result_df["CW_claim_count"].astype(int)
     result_df["Not_CW_claim_count"] = result_df["Not_CW_claim_count"].astype(int)
 
-    result_df = result_df.sort_values(by='utterance_id')
+    result_df = result_df.sort_values(by="utterance_id")
     result_df = result_df.reset_index(drop=True)
 
     current_dir = os.path.dirname(os.path.abspath(__file__))
@@ -186,9 +183,10 @@ def generate_claim_detection_crowdwork_csv(episode_id: int):
     crowd_work_df = utterance_df[["utterance_id", "text_coref"]]
     crowd_work_df.is_copy = False
     crowd_work_df = crowd_work_df.rename(columns={"text_coref": "utterance_text"})
-    crowd_work_df["is_check_worthy_claim"] = 'FALSE'
-    
-    crowd_work_df = crowd_work_df.sort_values(by='utterance_id')
+    crowd_work_df["is_check_worthy_claim"] = "FALSE"
+    crowd_work_df["relevance_level"] = None
+
+    crowd_work_df = crowd_work_df.sort_values(by="utterance_id")
     crowd_work_df = crowd_work_df.reset_index(drop=True)
 
     current_dir = os.path.dirname(os.path.abspath(__file__))
@@ -208,12 +206,12 @@ def generate_ai_claim_detection_prediction_csv(episode_id: int):
     """
     facti_claim_df = get_factiverse_claim_df(episode_id)
     openai_claim_df = get_openai_claim_df(episode_id)
-    openai_claim_df = openai_claim_df.drop(columns=['utterance_text'])
-    result_df = pd.merge(facti_claim_df, openai_claim_df, on='utterance_id', how='left')
-    
-    result_df = result_df.sort_values(by='utterance_id')
+    openai_claim_df = openai_claim_df.drop(columns=["utterance_text"])
+    result_df = pd.merge(facti_claim_df, openai_claim_df, on="utterance_id", how="left")
+
+    result_df = result_df.sort_values(by="utterance_id")
     result_df = result_df.reset_index(drop=True)
-    
+
     current_dir = os.path.dirname(os.path.abspath(__file__))
     ouput_path = os.path.join(current_dir, "output", "ai-prediction", "claim-detection")
     podcast_dir = get_podcast_dir_path(ouput_path, episode_id)
