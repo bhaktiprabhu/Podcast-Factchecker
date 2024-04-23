@@ -110,3 +110,29 @@ def list_all_episodes(podcast_id: int = None) -> List:
         )
 
     return ep_ids
+
+
+def get_podcast_dir_path(output_path: str, episode_id: int) -> str:
+    """Returns podcast directory path for a given epidode id in given output path
+
+    Args:
+        output_path(str): Path for Podcast directory existence
+        episode_id (int): Episode Id
+
+    Returns:
+        str: Directory Path for Podcast
+    """
+    q = f"""select pod.id, pod.title
+            from api_audioitem ep
+            inner join api_audiochannel pod on ep.channel_id = pod.id
+            where ep.id = {episode_id}
+        """
+    podcast = execute_query_sqlite(q, 'one')
+    podcast_dir_name = (str(podcast[0]) + '_' + podcast[1]).replace(' ', '_')
+
+    podcast_dir_path = os.path.join(output_path, podcast_dir_name)
+
+    if not os.path.exists(podcast_dir_path):
+        os.makedirs(podcast_dir_path)
+
+    return podcast_dir_path
