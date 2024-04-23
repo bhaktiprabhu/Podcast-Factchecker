@@ -98,16 +98,7 @@ def list_all_episodes(podcast_id: int = None) -> List:
 
     for item in episodes:
         ep_ids.append(item[0])
-        print(
-            "Id: "
-            + str(item[0])
-            + " || "
-            + "Episode: "
-            + item[1]
-            + " || "
-            + "Podcast: "
-            + item[2]
-        )
+        print("Id: " + str(item[0]) + " || " + "Episode: " + item[1] + " || " + "Podcast: " + item[2])
 
     return ep_ids
 
@@ -127,8 +118,8 @@ def get_podcast_dir_path(output_path: str, episode_id: int) -> str:
             inner join api_audiochannel pod on ep.channel_id = pod.id
             where ep.id = {episode_id}
         """
-    podcast = execute_query_sqlite(q, 'one')
-    podcast_dir_name = (str(podcast[0]) + '_' + podcast[1]).replace(' ', '_')
+    podcast = execute_query_sqlite(q, "one")
+    podcast_dir_name = (str(podcast[0]) + "_" + podcast[1]).replace(" ", "_")
 
     podcast_dir_path = os.path.join(output_path, podcast_dir_name)
 
