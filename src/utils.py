@@ -1,4 +1,4 @@
-"""This module includes all utility functions"""
+"""This module includes all general utility functions"""
 
 import os
 import sqlite3
@@ -16,9 +16,9 @@ sqliteConnection = sqlite3.connect(db_file_path)
 cursor = sqliteConnection.cursor()
 
 # Store annotation results in DataFrame
-csv_file_path = os.path.join(current_dir, "data", "annotation_output.csv")
-data = pd.read_csv(csv_file_path)
-annotation_df = data[
+csv_file_path = os.path.join(current_dir, "data", "toloka_annotation_output.csv")
+toloka_data = pd.read_csv(csv_file_path)
+toloka_annotation_df = toloka_data[
     [
         "id",
         "qualifier",
@@ -127,3 +127,18 @@ def get_podcast_dir_path(output_path: str, episode_id: int) -> str:
         os.makedirs(podcast_dir_path)
 
     return podcast_dir_path
+
+
+def create_csv_from_df(df: pd.DataFrame, episode_id: int, output_path: str, output_file_name: str):
+    """Creates csv file from given dataframe in given folder path
+
+    Args:
+        df (pd.DataFrame): Dataframe for csv generation
+        episode_id (int): Episode Id
+        output_path (str): Output Directory Path
+        output_file_name (str): Output File Name
+    """
+    podcast_dir = get_podcast_dir_path(output_path, episode_id)
+    output_file_path = os.path.join(podcast_dir, output_file_name)
+
+    df.to_csv(output_file_path, index=False)
