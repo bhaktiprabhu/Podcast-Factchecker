@@ -1,4 +1,4 @@
-"""This module includes function for Claim Detection Analysis"""
+"""This module includes functions related to Claim Detection Phase"""
 
 import os
 
@@ -7,7 +7,9 @@ import pandas as pd
 
 import openai_utils
 from factiverse_api import factiverse_api
-from utils import execute_query_pandas, execute_query_sqlite, get_podcast_dir_path
+from utils import create_csv_from_df, execute_query_pandas, execute_query_sqlite, get_podcast_dir_path
+
+current_dir = os.path.dirname(os.path.abspath(__file__))
 
 
 def get_segmentation_id(episode_id: int) -> int:
@@ -121,16 +123,14 @@ def get_annotation_claim_df(episode_id: int) -> pd.DataFrame:
                 utterance_id,
                 sum(case when category = 'Checkable' then 1 else 0 end) as CW_claim_count,
                 sum(case when category = 'Not Checkable' then 1 else 0 end) as Not_CW_claim_count
-            from annotation_df
+            from toloka_annotation_df
             where qualifier = 'Checkworthiness'
             and segmentation_id = {seg_id}
             group by utterance_id
             """
     annot_claim_df = execute_query_pandas(q)
-    annot_claim_df["majority_claim"] = np.where(
-        annot_claim_df["CW_claim_count"] < annot_claim_df["Not_CW_claim_count"],
-        "Not Checkworthy",
-        "Checkworthy",
+    annot_claim_df["toloka_is_cw"] = np.where(
+        annot_claim_df["CW_claim_count"] < annot_claim_df["Not_CW_claim_count"], False, True
     )
 
     annot_claim_df["utterance_id"] = annot_claim_df["utterance_id"].astype(int)
@@ -153,8 +153,8 @@ def generate_toloka_annot_claim_detection_csv(episode_id: int):
 
     result_df = pd.merge(utterance_df, annot_claim_df, on="utterance_id", how="left")
 
-    result_df["CW_claim_count"] = result_df["CW_claim_count"].fillna(0)
-    result_df["Not_CW_claim_count"] = result_df["Not_CW_claim_count"].fillna(0)
+    result_df["CW_claim_count"] = result_df["CW_claim_count"].infer_objects(copy=False).fillna(0)
+    result_df["Not_CW_claim_count"] = result_df["Not_CW_claim_count"].infer_objects(copy=False).fillna(0)
 
     result_df["CW_claim_count"] = result_df["CW_claim_count"].astype(int)
     result_df["Not_CW_claim_count"] = result_df["Not_CW_claim_count"].astype(int)
@@ -162,18 +162,14 @@ def generate_toloka_annot_claim_detection_csv(episode_id: int):
     result_df = result_df.sort_values(by="utterance_id")
     result_df = result_df.reset_index(drop=True)
 
-    current_dir = os.path.dirname(os.path.abspath(__file__))
-    ouput_path = os.path.join(current_dir, "output", "toloka-annotation")
-    podcast_dir = get_podcast_dir_path(ouput_path, episode_id)
-    ouput_file_name = f"toloka_annot_cd_ep_{episode_id}.csv"
+    output_path = os.path.join(current_dir, "output", "toloka-annotation")
+    output_file_name = f"toloka_annot_cd_ep_{episode_id}.csv"
 
-    ouput_file_path = os.path.join(podcast_dir, ouput_file_name)
-
-    result_df.to_csv(ouput_file_path, index=False)
+    create_csv_from_df(result_df, episode_id, output_path, output_file_name)
 
 
 def generate_claim_detection_crowdwork_csv(episode_id: int):
-    """Generates csv for getting true value for claim detection by crowdwork for an episode
+    """Generates csv for getting true value for claim detection by crowd-work for an episode
 
     Args:
         episode_id (int): Episode Id
@@ -189,13 +185,10 @@ def generate_claim_detection_crowdwork_csv(episode_id: int):
     crowd_work_df = crowd_work_df.sort_values(by="utterance_id")
     crowd_work_df = crowd_work_df.reset_index(drop=True)
 
-    current_dir = os.path.dirname(os.path.abspath(__file__))
-    ouput_path = os.path.join(current_dir, "output", "crowd-work", "claim-detection")
-    podcast_dir = get_podcast_dir_path(ouput_path, episode_id)
-    ouput_file_name = f"crowd_work_cd_ep_{episode_id}.csv"
-    ouput_file_path = os.path.join(podcast_dir, ouput_file_name)
+    output_path = os.path.join(current_dir, "output", "crowd-work", "claim-detection")
+    output_file_name = f"crowd_work_cd_ep_{episode_id}.csv"
 
-    crowd_work_df.to_csv(ouput_file_path, index=False)
+    create_csv_from_df(crowd_work_df, episode_id, output_path, output_file_name)
 
 
 def generate_ai_claim_detection_prediction_csv(episode_id: int):
@@ -212,10 +205,49 @@ def generate_ai_claim_detection_prediction_csv(episode_id: int):
     result_df = result_df.sort_values(by="utterance_id")
     result_df = result_df.reset_index(drop=True)
 
-    current_dir = os.path.dirname(os.path.abspath(__file__))
-    ouput_path = os.path.join(current_dir, "output", "ai-prediction", "claim-detection")
-    podcast_dir = get_podcast_dir_path(ouput_path, episode_id)
-    ouput_file_name = f"ai_cd_ep_{episode_id}.csv"
-    ouput_file_path = os.path.join(podcast_dir, ouput_file_name)
+    output_path = os.path.join(current_dir, "output", "ai-prediction", "claim-detection")
+    output_file_name = f"ai_cd_ep_{episode_id}.csv"
 
-    result_df.to_csv(ouput_file_path, index=False)
+    create_csv_from_df(result_df, episode_id, output_path, output_file_name)
+
+
+def generate_claim_detection_ground_truth_csv(episode_id: int):
+    """Generates csv with Ground Truth for claim detection for an episode from crowd annotation work
+
+    Args:
+        episode_id (int): Episode Id
+    """
+
+    utterance_df = get_utterances(episode_id)
+
+    cd_ground_truth_df = utterance_df[["utterance_id", "text_coref"]]
+    cd_ground_truth_df.is_copy = False
+    cd_ground_truth_df = cd_ground_truth_df.rename(columns={"text_coref": "utterance_text"})
+
+    # Get Toloka Annotated Data
+    toloka_is_cw = get_annotation_claim_df(episode_id)["toloka_is_cw"]
+    cd_ground_truth_df["Toloka_annotation"] = toloka_is_cw
+
+    data_source_path = os.path.join(current_dir, "data", "crowd-work", "claim-detection")
+    podcast_dir = get_podcast_dir_path(data_source_path, episode_id)
+
+    # Get Crowd-work annotated data from CSV
+    for data_file_name in os.listdir(podcast_dir):
+        if data_file_name.endswith(f"_cd_{episode_id}.csv"):
+            data_file_path = os.path.join(podcast_dir, data_file_name)
+            df = pd.read_csv(data_file_path)
+            df = df.drop(columns=["utterance_text"])
+            # Drop Relevance column temporarily (Need to Decide how to evaluate ground truth from annotation values)
+            df = df.drop(columns=["relevance_level"])
+            col_name = data_file_name.split("_")[0] + "_annotation"
+            df = df.rename(columns={"is_check_worthy_claim": col_name})
+            cd_ground_truth_df = pd.merge(cd_ground_truth_df, df, on="utterance_id", how="left")
+
+    modes = cd_ground_truth_df.iloc[:, 2:].mode(axis=1).iloc[:, 0]
+    cd_ground_truth_df["is_check_worthy_claim"] = modes
+
+    cd_ground_truth_df = cd_ground_truth_df[["utterance_id", "utterance_text", "is_check_worthy_claim"]]
+
+    output_path = os.path.join(current_dir, "output", "crowd-work", "claim-detection-ground-truth")
+    output_file_name = f"cd_ground_truth_ep_{episode_id}.csv"
+    create_csv_from_df(cd_ground_truth_df, episode_id, output_path, output_file_name)
