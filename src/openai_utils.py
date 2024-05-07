@@ -1,5 +1,5 @@
-
 """Module containing the OpenAI Summary Generator class."""
+
 import os
 from typing import List
 
@@ -9,9 +9,7 @@ from openai import AzureOpenAI, BadRequestError
 dotenv.load_dotenv()
 
 OPENAI_CLIENT = AzureOpenAI(
-    api_key=os.getenv("AZURE_OPENAI_KEY"),
-    azure_endpoint=os.getenv("AZURE_OPENAI_ENDPOINT"),
-    api_version="2024-02-01"
+    api_key=os.getenv("AZURE_OPENAI_KEY"), azure_endpoint=os.getenv("AZURE_OPENAI_ENDPOINT"), api_version="2024-02-01"
 )
 
 CHECKWORTHY_SYSTEM_PROMPT = """
@@ -27,23 +25,26 @@ CHECHWORTHY_PROMPT = [
     {"role": "user", "content": "I think Apple is a good company."},
     {"role": "assistant", "content": "No"},
     {"role": "user", "content": "Apple's CEO is Tim Cook."},
-    {"role": "assistant", "content": "Yes"}
+    {"role": "assistant", "content": "Yes"},
 ]
 
 IDENTIFY_STANCE_SYSTEM_PROMPT = """
 You are given a claim and an evidence text both in the english language.
 You need to decide whether the evidence supports or refutes the claim.
 Choose from the following two options.
-A. The evidence supports the claim.
-B. The evidence refutes the claim.
-Pick the correct option either A or B. You must not add any other words.
+SUPPORTS -> The evidence supports the claim.
+REFUTES -> The evidence refutes the claim.
+Pick the correct option either 'SUPPORTS' or 'REFUTES'. You must not add any other words.
 """
 
 IDENTIFY_STANCE_PROMPT = [
     {"role": "system", "content": IDENTIFY_STANCE_SYSTEM_PROMPT},
-    {"role": "user", "content": "[Claim]: India has the largest population in the world. \
-    [Evidence]: In 2023 India overtook China to become the most populous country."},
-    {"role": "assistant", "content": "A"}
+    {
+        "role": "user",
+        "content": "[Claim]: India has the largest population in the world. \
+    [Evidence]: In 2023 India overtook China to become the most populous country.",
+    },
+    {"role": "assistant", "content": "SUPPORTS"},
 ]
 
 
@@ -57,11 +58,7 @@ def generate_response(messages: List, model=os.getenv("AZURE_OPENAI_MODEL_ID")) 
     Returns:
         The API's response as a string.
     """
-    response = OPENAI_CLIENT.chat.completions.create(
-        model=model,
-        messages=messages,
-        max_tokens=10
-    )
+    response = OPENAI_CLIENT.chat.completions.create(model=model, messages=messages, max_tokens=10)
     return response.choices[0].message.content.strip()
 
 
@@ -79,27 +76,35 @@ def claim_detection(text_prompt: str) -> str:
 
     try:
         response = generate_response(messages)
-        return response
+        if response in ("Yes", "No"):
+            return response
+        else:
+            raise BadRequestError
     except BadRequestError:
         print(text_prompt)
-        return 'No'
+        return "No"
 
 
-def stance_detection(text_prompt: str) -> str:
+def stance_detection(claim: str, evidence_snippet: str) -> str:
     """Generate Open AI response for Identifying Stance
 
     Args:
-        text_prompt (str): text for identifying stance
+        claim (str): claim text
+        evidence_snippet (str): evidence snippet to for identifying stance
 
     Returns:
-        str: The API's response as a string (A or B).
+        str: The API's response as a string (SUPPORTS or REFUTES).
     """
+    text_prompt = f"[Claim]: {claim} [Evidence]: {evidence_snippet}"
     messages = IDENTIFY_STANCE_PROMPT
     messages.append({"role": "user", "content": text_prompt})
 
     try:
         response = generate_response(messages)
-        return response
+        if response in ("SUPPORTS", "REFUTES"):
+            return response
+        else:
+            raise BadRequestError
     except BadRequestError:
         print(text_prompt)
-        return 'B'
+        return "REFUTES"

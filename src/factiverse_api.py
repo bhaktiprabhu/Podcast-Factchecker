@@ -1,5 +1,7 @@
 """This module includes functions for executing Factiverse APIs requests"""
+
 import os
+import random
 from typing import Dict
 
 import dotenv
@@ -9,11 +11,10 @@ DEFAULT_ACCESS_TOKEN_URL = "https://factiverse-dev.eu.auth0.com/oauth/token"
 
 
 class FactiverseAPI:
-    """Factiverse API Class
-    """
+    """Factiverse API Class"""
+
     def __init__(self) -> None:
-        """Initializes the Factiverse API client.
-        """
+        """Initializes the Factiverse API client."""
         dotenv.load_dotenv()
         self.client_id = os.getenv("CLIENT_ID")
         self.client_secret = os.getenv("CLIENT_SECRET")
@@ -38,9 +39,7 @@ class FactiverseAPI:
         if response.status_code == 200:
             return response.json()["access_token"]
         else:
-            raise requests.exceptions.HTTPError(
-                f"Failed to obtain token: {response.status_code} {response.text}"
-            )
+            raise requests.exceptions.HTTPError(f"Failed to obtain token: {response.status_code} {response.text}")
 
     def claim_detection(self, text: str, lang: str = "en", score_th: float = 0.5) -> Dict:
         """Factiverse Claim Detection API
@@ -67,9 +66,7 @@ class FactiverseAPI:
             "claimScoreThreshold": score_th,
         }
 
-        response = requests.post(
-            api_endpoint, headers=headers, json=payload, timeout=10
-        )
+        response = requests.post(api_endpoint, headers=headers, json=payload, timeout=10)
 
         if response.status_code == 200:
             return response.json()
@@ -98,9 +95,7 @@ class FactiverseAPI:
             "claim": claim,
         }
 
-        response = requests.post(
-            api_endpoint, headers=headers, json=payload, timeout=10
-        )
+        response = requests.post(api_endpoint, headers=headers, json=payload, timeout=30)
 
         if response.status_code == 200:
             return response.json()
