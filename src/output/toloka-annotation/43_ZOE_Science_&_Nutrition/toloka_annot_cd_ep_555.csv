@@ -1,116 +1,116 @@
-utterance_id,utterance_text,CW_claim_count,Not_CW_claim_count,majority_claim
-2462733,"Hello, and welcome to Zoe Shorts, the bite-sized podcast where we discuss one topic around science and nutrition.",3,4,Not Checkworthy
-2462734,"I'm Jonathan Wolfe, and today I'm joined by Dr. Sarah Berry.",1,3,Not Checkworthy
-2462735,And today's subject is nuts.,0,4,Not Checkworthy
-2462736,"And Jonathan, today's subject is a subject Jonathan absolutely love.",0,3,Not Checkworthy
-2462737,Jonathan've done loads of interventional human studies measuring the effects of eating nuts on people's health.,1,2,Not Checkworthy
-2462738,"Well, the good news is we had lots of listeners worried that nuts are full of fat and therefore are bad for you.",1,2,Not Checkworthy
-2462739,"Well, Jonathan hope that lots of listeners worried that nuts are full of fat and therefore are bad for you'll be very surprised by what we're about to discuss then.",0,3,Not Checkworthy
-2462740,.,0,2,Not Checkworthy
-2462741,Let's go nuts.,0,2,Not Checkworthy
-2462742,Sorry about that.,0,2,Not Checkworthy
-2462743,"Right, so it's important before we get into the nutritional value of nuts to point out that there's lots of different ways of consuming nuts.",2,0,Checkworthy
-2462744,"But on average, our consumption of nuts and seeds in the UK is about six grams per day, which doesn't sound like lots, but that's because we have a lot of people don't consume nuts at all.",3,0,Checkworthy
-2462745,And that also includes nut butters.,2,0,Checkworthy
-2462746,"To put that in perspective, one portion of nuts is around 30 grams, and one portion of nuts's roughly a small handful of nuts.",2,0,Checkworthy
-2462747,"So six grams is literally just a couple of nuts a day then, Dr. Sarah Berry?",1,1,Checkworthy
-2462748,"Yeah, that's right, Jonathan.",1,0,Checkworthy
-2462749,Which is a shame because Jonathan know nuts're packed full of nutrients.,1,1,Checkworthy
-2462750,"In fact, Jonathan've heard Tim describe the nut as a tree egg.",1,1,Checkworthy
-2462751,"And Dr. Sarah Berry, Dr. Sarah Berry know how much Dr. Sarah Berry like the nutrients in eggs?",0,3,Not Checkworthy
-2462752,"Yeah, absolutely.",0,2,Not Checkworthy
-2462753,And mixed nuts contain so many great nutrients.,2,0,Checkworthy
-2462754,"mixed nuts contain fibre, mixed nuts contain vitamin E, magnesium, selenium.",1,0,Checkworthy
-2462755,"And nuts are also very high in fat, but nuts're particularly high in monounsaturated fats, which we know are the healthy type of fats.",2,0,Checkworthy
-2462756,"So Dr. Sarah Berry, let's get into the nuts and bolts of things, shall we?",0,2,Not Checkworthy
-2462757,Oh my gosh.,0,2,Not Checkworthy
-2462758,Dr. Sarah Berry've got loads more of these today.,0,1,Not Checkworthy
-2462759,It's a great one.,0,1,Not Checkworthy
-2462760,How do nuts affect our health then?,1,0,Checkworthy
-2462761,"In particular, Dr. Sarah Berry've read that nuts might be good for our hearts.",3,0,Checkworthy
-2462762,"Yeah, nuts do lots of great things that help our heart health.",1,0,Checkworthy
-2462763,"So in particular, nuts can decrease our bad LDL cholesterol, and they can also decrease our blood triglyceride concentrations.",2,0,Checkworthy
-2462764,And this means that nuts might help to lower the risk of both heart disease and stroke.,2,0,Checkworthy
-2462765,"Now, in addition, nuts also contain bioactives.",3,0,Checkworthy
-2462766,And bioactives are tiny molecules that have lots of really special roles to play in the body.,3,0,Checkworthy
-2462767,"For example, some have antioxidant and anti-inflammatory properties.",2,0,Checkworthy
-2462768,And a great example is polyphenols.,2,0,Checkworthy
-2462769,And polyphenols are thought to protect your cells from damage that are caused by free radicals.,2,0,Checkworthy
-2462770,"And polyphenol chemicals from nuts can help to reduce bad cholesterol from being oxidised, which happens when LDL cholesterol reacts with free radicals.",1,0,Checkworthy
-2462771,This is great because we know that oxidised LDL cholesterol can build up in the walls of your arteries.,1,0,Checkworthy
-2462772,"oxidised LDL cholesterol can cause your arteries to become thicker and to stiffen, reducing just how much blood can actually get through your arteries, which can lead to atherosclerosis, which is the first step towards heart disease and strokes.",1,0,Checkworthy
-2462773,And there's lots of different studies that have measured this.,1,0,Checkworthy
-2462774,And there's a number of different ones that have found that people who eat various types of nuts see a drop in the levels of oxidised LDL cholesterol by up to about 30%.,1,0,Checkworthy
-2462775,"Now, on top of that, there's also impact on inflammation, isn't there?",0,3,Not Checkworthy
-2462776,And inflammation is something that we're very interested in at ZOE because of the way that inflammation seems to be linked to sort of almost every long-term disease that scientists are investigating.,2,0,Checkworthy
-2462777,inflammation just comes up over and over again on these podcasts and elsewhere.,0,1,Not Checkworthy
-2462778,"Now, Jonathan's understanding, looking at some of the research there is that there are also studies where people whose diets were supplemented with nuts saw a real decrease in inflammation, what they call inflammatory markers in studies where people whose diets were supplemented with nuts saw a real decrease in inflammation, what they call inflammatory markers in those papers.",1,1,Checkworthy
-2462779,"Yeah, that's right, Jonathan.",0,1,Not Checkworthy
-2462780,"We see with lots of different types of nuts like walnuts, almonds, pistachios, if you eat over a long period of time, a portion of lots of different types of nuts like walnuts, almonds, pistachios a day, you have a reduction in many of these different types of inflammatory measures.",2,0,Checkworthy
-2462781,We also know that there's an impact of eating nuts for people that have metabolic syndrome and type 2 diabetes.,1,0,Checkworthy
-2462782,We know that nuts improve insulin sensitivity.,1,0,Checkworthy
-2462783,We know that nuts reduce your fasting blood glucose.,1,0,Checkworthy
+utterance_id,utterance_text,CW_claim_count,Not_CW_claim_count,toloka_is_cw
+2462733,"Hello, and welcome to Zoe Shorts, the bite-sized podcast where we discuss one topic around science and nutrition.",3,4,False
+2462734,"I'm Jonathan Wolfe, and today I'm joined by Dr. Sarah Berry.",1,3,False
+2462735,And today's subject is nuts.,0,4,False
+2462736,"And Jonathan, today's subject is a subject Jonathan absolutely love.",0,3,False
+2462737,Jonathan've done loads of interventional human studies measuring the effects of eating nuts on people's health.,1,2,False
+2462738,"Well, the good news is we had lots of listeners worried that nuts are full of fat and therefore are bad for you.",1,2,False
+2462739,"Well, Jonathan hope that lots of listeners worried that nuts are full of fat and therefore are bad for you'll be very surprised by what we're about to discuss then.",0,3,False
+2462740,.,0,2,False
+2462741,Let's go nuts.,0,2,False
+2462742,Sorry about that.,0,2,False
+2462743,"Right, so it's important before we get into the nutritional value of nuts to point out that there's lots of different ways of consuming nuts.",2,0,True
+2462744,"But on average, our consumption of nuts and seeds in the UK is about six grams per day, which doesn't sound like lots, but that's because we have a lot of people don't consume nuts at all.",3,0,True
+2462745,And that also includes nut butters.,2,0,True
+2462746,"To put that in perspective, one portion of nuts is around 30 grams, and one portion of nuts's roughly a small handful of nuts.",2,0,True
+2462747,"So six grams is literally just a couple of nuts a day then, Dr. Sarah Berry?",1,1,True
+2462748,"Yeah, that's right, Jonathan.",1,0,True
+2462749,Which is a shame because Jonathan know nuts're packed full of nutrients.,1,1,True
+2462750,"In fact, Jonathan've heard Tim describe the nut as a tree egg.",1,1,True
+2462751,"And Dr. Sarah Berry, Dr. Sarah Berry know how much Dr. Sarah Berry like the nutrients in eggs?",0,3,False
+2462752,"Yeah, absolutely.",0,2,False
+2462753,And mixed nuts contain so many great nutrients.,2,0,True
+2462754,"mixed nuts contain fibre, mixed nuts contain vitamin E, magnesium, selenium.",1,0,True
+2462755,"And nuts are also very high in fat, but nuts're particularly high in monounsaturated fats, which we know are the healthy type of fats.",2,0,True
+2462756,"So Dr. Sarah Berry, let's get into the nuts and bolts of things, shall we?",0,2,False
+2462757,Oh my gosh.,0,2,False
+2462758,Dr. Sarah Berry've got loads more of these today.,0,1,False
+2462759,It's a great one.,0,1,False
+2462760,How do nuts affect our health then?,1,0,True
+2462761,"In particular, Dr. Sarah Berry've read that nuts might be good for our hearts.",3,0,True
+2462762,"Yeah, nuts do lots of great things that help our heart health.",1,0,True
+2462763,"So in particular, nuts can decrease our bad LDL cholesterol, and they can also decrease our blood triglyceride concentrations.",2,0,True
+2462764,And this means that nuts might help to lower the risk of both heart disease and stroke.,2,0,True
+2462765,"Now, in addition, nuts also contain bioactives.",3,0,True
+2462766,And bioactives are tiny molecules that have lots of really special roles to play in the body.,3,0,True
+2462767,"For example, some have antioxidant and anti-inflammatory properties.",2,0,True
+2462768,And a great example is polyphenols.,2,0,True
+2462769,And polyphenols are thought to protect your cells from damage that are caused by free radicals.,2,0,True
+2462770,"And polyphenol chemicals from nuts can help to reduce bad cholesterol from being oxidised, which happens when LDL cholesterol reacts with free radicals.",1,0,True
+2462771,This is great because we know that oxidised LDL cholesterol can build up in the walls of your arteries.,1,0,True
+2462772,"oxidised LDL cholesterol can cause your arteries to become thicker and to stiffen, reducing just how much blood can actually get through your arteries, which can lead to atherosclerosis, which is the first step towards heart disease and strokes.",1,0,True
+2462773,And there's lots of different studies that have measured this.,1,0,True
+2462774,And there's a number of different ones that have found that people who eat various types of nuts see a drop in the levels of oxidised LDL cholesterol by up to about 30%.,1,0,True
+2462775,"Now, on top of that, there's also impact on inflammation, isn't there?",0,3,False
+2462776,And inflammation is something that we're very interested in at ZOE because of the way that inflammation seems to be linked to sort of almost every long-term disease that scientists are investigating.,2,0,True
+2462777,inflammation just comes up over and over again on these podcasts and elsewhere.,0,1,False
+2462778,"Now, Jonathan's understanding, looking at some of the research there is that there are also studies where people whose diets were supplemented with nuts saw a real decrease in inflammation, what they call inflammatory markers in studies where people whose diets were supplemented with nuts saw a real decrease in inflammation, what they call inflammatory markers in those papers.",1,1,True
+2462779,"Yeah, that's right, Jonathan.",0,1,False
+2462780,"We see with lots of different types of nuts like walnuts, almonds, pistachios, if you eat over a long period of time, a portion of lots of different types of nuts like walnuts, almonds, pistachios a day, you have a reduction in many of these different types of inflammatory measures.",2,0,True
+2462781,We also know that there's an impact of eating nuts for people that have metabolic syndrome and type 2 diabetes.,1,0,True
+2462782,We know that nuts improve insulin sensitivity.,1,0,True
+2462783,We know that nuts reduce your fasting blood glucose.,1,0,True
 2462784,"But interestingly, nuts also improve your blood vessel function.",0,0,
-2462785,And this is something Jonathan've looked at in Jonathan's own research.,0,2,Not Checkworthy
-2462786,And I think it's important to say at this point that I have received a lot of funding from the Ulmer Board of California to research the impact of almonds on cardiovascular health.,0,2,Not Checkworthy
-2462787,So Jonathan do always like to put any conflict of interest out there.,0,1,Not Checkworthy
-2462788,And we ran a study where we supplemented people with nuts for six weeks compared to a control.,0,1,Not Checkworthy
-2462789,And we found an improvement in the functioning of people's's blood vessels when people's had almonds.,1,1,Checkworthy
-2462790,So almost like how elastic people's blood vessels are.,0,2,Not Checkworthy
-2462791,"And finally, there's some evidence as well just emerging that nuts might even prevent memory loss as we age, although this is still at quite early stages of research.",1,1,Checkworthy
-2462792,So that's all pretty amazing.,0,1,Not Checkworthy
-2462793,These like tiny nuts are definitely punching well above These like tiny nuts's weight.,0,1,Not Checkworthy
-2462794,"Oh, how many more of these jokes are we going to have, Jonathan?",0,2,Not Checkworthy
-2462795,"Okay, Jonathan, we haven't even mentioned the fiber that's in nuts, which is another great property of nuts.",2,0,Checkworthy
-2462796,"And the fiber that's in nuts, which is another great property of nuts, simply put, is the nut cell walls.",1,0,Checkworthy
-2462797,"And in one 30 gram portion of peanuts, there's about two and a half grams of fiber.",1,0,Checkworthy
-2462798,"And about two and a half grams of fiber is in comparison to a pack of salted crisps or potato chips, which has less than one grams of fiber.",1,0,Checkworthy
-2462799,And there's really compelling evidence linking high fiber intake to reducing the risk of many chronic diseases.,1,0,Checkworthy
-2462800,"And even death, which Sarah'm particularly keen on.",1,1,Checkworthy
-2462801,"So as you increase your dosage of fiber, actually your life expectancy increases.",2,0,Checkworthy
-2462802,"And this is rare, right?",0,2,Not Checkworthy
-2462803,"There's very few things actually where you see really clear impact, not just on some sort of disease, but actually whether or not you're going to live longer.",1,1,Checkworthy
-2462804,Yeah.,0,1,Not Checkworthy
-2462805,And fiber is the one nutrient that every nutritional scientist in the world agrees we need to be getting more of.,1,0,Checkworthy
-2462806,"In the UK, in the US, we consume less than 20 grams.",1,0,Checkworthy
-2462807,We should be getting at least 30 grams a day of fiber.,0,1,Not Checkworthy
-2462808,So what's great is These like tiny nuts are packed full of fiber.,1,0,Checkworthy
-2462809,And fiber basically works to feed your healthy gut bacteria.,1,0,Checkworthy
-2462810,Jonathan want to take a moment to thank you for listening to this show.,0,2,Not Checkworthy
-2462811,Our mission at ZOE is to improve the health of millions by empowering our community with the most accurate information about our own bodies based on the latest science.,1,1,Checkworthy
-2462812,"We think the best way to achieve this is with ZOE's personalized nutrition program, but we know some people aren't ready for ZOE's personalized nutrition program yet.",0,1,Not Checkworthy
-2462813,"And that for others, ZOE's personalized nutrition program is still too expensive.",0,1,Not Checkworthy
-2462814,And that's why we put this show out for free without ads to share the latest science with everyone.,0,1,Not Checkworthy
-2462815,"To justify us continuing this labor of love, I have a small favor to ask.",0,2,Not Checkworthy
-2462816,a small favor to ask has two parts.,1,1,Checkworthy
-2462817,"Firstly, if you know someone who would benefit from listening to today's podcast, please share a link to this show right now.",0,2,Not Checkworthy
-2462818,It's the continued growth in new listeners that makes us feel all the effort recording this show is worthwhile.,0,2,Not Checkworthy
-2462819,"Secondly, in whichever podcast app you're using right now, hit subscribe.",0,2,Not Checkworthy
-2462820,That's it.,1,1,Checkworthy
-2462821,That will mean many others are more likely to discover this show and hopefully learn something that will help many others's health.,0,1,Not Checkworthy
-2462822,Thank you so much for listening and for being a valued member of the ZOE community.,0,1,Not Checkworthy
-2462823,Enjoy the rest of this show.,0,1,Not Checkworthy
-2462824,"So Sarah, it seems pretty clear nuts have lots of benefits.",0,1,Not Checkworthy
-2462825,"nuts're also surprisingly well studied in terms of sort of the research that Jonathan're talking about compared to a lot of the topics where we say, you know, there's like three studies in the whole world ever.",2,0,Checkworthy
-2462826,And it seems like particularly clear to do with cardiovascular health.,1,0,Checkworthy
-2462827,"So, you know, sort of heart disease and Stroh's.",0,1,Not Checkworthy
-2462828,Jonathan think the elephant in the room is really weight.,0,1,Not Checkworthy
-2462829,"If nuts are high in calories, won't nuts contribute to weight gain?",0,1,Not Checkworthy
-2462830,So this is where Jonathan think it gets really interesting.,0,1,Not Checkworthy
-2462831,"And obviously Sarah'm biased because this has been the focus of Sarah's research with nuts, which is nuts's food matrix.",0,1,Not Checkworthy
-2462832,So what makes the humble nut even more special is nuts's structure.,1,0,Checkworthy
-2462833,And this is what Sarah call their food matrix.,0,1,Not Checkworthy
-2462834,"So Sarah, most people only know their food matrix is like a hit film 30 years ago.",0,1,Not Checkworthy
-2462835,So could Sarah explain a bit more what their food matrix is?,0,1,Not Checkworthy
-2462836,Yeah.,0,1,Not Checkworthy
-2462837,"So we're not talking about Keanu Reeves here, Jonathan.",0,1,Not Checkworthy
-2462838,"We're talking about the food structure and really simply put, the matrix just refers to the structure of a food.",1,0,Checkworthy
-2462839,So Sarah think a really good way to illustrate this is using almonds.,1,0,Checkworthy
-2462840,And let's say you had a packet of whole almonds and a packet of ground almonds.,0,1,Not Checkworthy
-2462841,"According to the back-of-pack labelling information, a packet of whole almonds and a packet of ground almonds're nutritionally identical, but actually how a packet of whole almonds and a packet of ground almonds behave in our body is really different.",1,0,Checkworthy
-2462842,"Nuts consist of millions of tiny cells and millions of tiny cells have cell walls, which we've already mentioned is the fibre.",1,0,Checkworthy
-2462843,"And cell walls, which we've already mentioned is the fibre have a really important structural role.",1,0,Checkworthy
-2462844,"And within cell walls, which we've already mentioned is the fibre are tiny fat globules.",1,0,Checkworthy
+2462785,And this is something Jonathan've looked at in Jonathan's own research.,0,2,False
+2462786,And I think it's important to say at this point that I have received a lot of funding from the Ulmer Board of California to research the impact of almonds on cardiovascular health.,0,2,False
+2462787,So Jonathan do always like to put any conflict of interest out there.,0,1,False
+2462788,And we ran a study where we supplemented people with nuts for six weeks compared to a control.,0,1,False
+2462789,And we found an improvement in the functioning of people's's blood vessels when people's had almonds.,1,1,True
+2462790,So almost like how elastic people's blood vessels are.,0,2,False
+2462791,"And finally, there's some evidence as well just emerging that nuts might even prevent memory loss as we age, although this is still at quite early stages of research.",1,1,True
+2462792,So that's all pretty amazing.,0,1,False
+2462793,These like tiny nuts are definitely punching well above These like tiny nuts's weight.,0,1,False
+2462794,"Oh, how many more of these jokes are we going to have, Jonathan?",0,2,False
+2462795,"Okay, Jonathan, we haven't even mentioned the fiber that's in nuts, which is another great property of nuts.",2,0,True
+2462796,"And the fiber that's in nuts, which is another great property of nuts, simply put, is the nut cell walls.",1,0,True
+2462797,"And in one 30 gram portion of peanuts, there's about two and a half grams of fiber.",1,0,True
+2462798,"And about two and a half grams of fiber is in comparison to a pack of salted crisps or potato chips, which has less than one grams of fiber.",1,0,True
+2462799,And there's really compelling evidence linking high fiber intake to reducing the risk of many chronic diseases.,1,0,True
+2462800,"And even death, which Sarah'm particularly keen on.",1,1,True
+2462801,"So as you increase your dosage of fiber, actually your life expectancy increases.",2,0,True
+2462802,"And this is rare, right?",0,2,False
+2462803,"There's very few things actually where you see really clear impact, not just on some sort of disease, but actually whether or not you're going to live longer.",1,1,True
+2462804,Yeah.,0,1,False
+2462805,And fiber is the one nutrient that every nutritional scientist in the world agrees we need to be getting more of.,1,0,True
+2462806,"In the UK, in the US, we consume less than 20 grams.",1,0,True
+2462807,We should be getting at least 30 grams a day of fiber.,0,1,False
+2462808,So what's great is These like tiny nuts are packed full of fiber.,1,0,True
+2462809,And fiber basically works to feed your healthy gut bacteria.,1,0,True
+2462810,Jonathan want to take a moment to thank you for listening to this show.,0,2,False
+2462811,Our mission at ZOE is to improve the health of millions by empowering our community with the most accurate information about our own bodies based on the latest science.,1,1,True
+2462812,"We think the best way to achieve this is with ZOE's personalized nutrition program, but we know some people aren't ready for ZOE's personalized nutrition program yet.",0,1,False
+2462813,"And that for others, ZOE's personalized nutrition program is still too expensive.",0,1,False
+2462814,And that's why we put this show out for free without ads to share the latest science with everyone.,0,1,False
+2462815,"To justify us continuing this labor of love, I have a small favor to ask.",0,2,False
+2462816,a small favor to ask has two parts.,1,1,True
+2462817,"Firstly, if you know someone who would benefit from listening to today's podcast, please share a link to this show right now.",0,2,False
+2462818,It's the continued growth in new listeners that makes us feel all the effort recording this show is worthwhile.,0,2,False
+2462819,"Secondly, in whichever podcast app you're using right now, hit subscribe.",0,2,False
+2462820,That's it.,1,1,True
+2462821,That will mean many others are more likely to discover this show and hopefully learn something that will help many others's health.,0,1,False
+2462822,Thank you so much for listening and for being a valued member of the ZOE community.,0,1,False
+2462823,Enjoy the rest of this show.,0,1,False
+2462824,"So Sarah, it seems pretty clear nuts have lots of benefits.",0,1,False
+2462825,"nuts're also surprisingly well studied in terms of sort of the research that Jonathan're talking about compared to a lot of the topics where we say, you know, there's like three studies in the whole world ever.",2,0,True
+2462826,And it seems like particularly clear to do with cardiovascular health.,1,0,True
+2462827,"So, you know, sort of heart disease and Stroh's.",0,1,False
+2462828,Jonathan think the elephant in the room is really weight.,0,1,False
+2462829,"If nuts are high in calories, won't nuts contribute to weight gain?",0,1,False
+2462830,So this is where Jonathan think it gets really interesting.,0,1,False
+2462831,"And obviously Sarah'm biased because this has been the focus of Sarah's research with nuts, which is nuts's food matrix.",0,1,False
+2462832,So what makes the humble nut even more special is nuts's structure.,1,0,True
+2462833,And this is what Sarah call their food matrix.,0,1,False
+2462834,"So Sarah, most people only know their food matrix is like a hit film 30 years ago.",0,1,False
+2462835,So could Sarah explain a bit more what their food matrix is?,0,1,False
+2462836,Yeah.,0,1,False
+2462837,"So we're not talking about Keanu Reeves here, Jonathan.",0,1,False
+2462838,"We're talking about the food structure and really simply put, the matrix just refers to the structure of a food.",1,0,True
+2462839,So Sarah think a really good way to illustrate this is using almonds.,1,0,True
+2462840,And let's say you had a packet of whole almonds and a packet of ground almonds.,0,1,False
+2462841,"According to the back-of-pack labelling information, a packet of whole almonds and a packet of ground almonds're nutritionally identical, but actually how a packet of whole almonds and a packet of ground almonds behave in our body is really different.",1,0,True
+2462842,"Nuts consist of millions of tiny cells and millions of tiny cells have cell walls, which we've already mentioned is the fibre.",1,0,True
+2462843,"And cell walls, which we've already mentioned is the fibre have a really important structural role.",1,0,True
+2462844,"And within cell walls, which we've already mentioned is the fibre are tiny fat globules.",1,0,True
 2462845,"Now, if Sarah very, very finely grind the nuts, Sarah break down cell walls, which we've already mentioned is the fibre and the fat bursts out.",0,0,
 2462846,"But when you eat whole nuts, the matrix, so the structure of cell walls, which we've already mentioned is the fibre remains intact.",0,0,
 2462847,"So the fat is remaining within cell walls, which we've already mentioned is the fibre and the fat's therefore not easily digestible.",0,0,

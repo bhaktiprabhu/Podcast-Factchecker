@@ -1,31 +1,31 @@
-utterance_id,utterance_text,CW_claim_count,Not_CW_claim_count,majority_claim
-2434682,"During the chaos of the Trump years, the big running joke was that the New York Times kept reporting about UFOs, and that was still one of the least shocking news events during the chaos of the Trump years.",0,2,Not Checkworthy
-2434683,"And so how did you get, as a longtime reporter for the New York Times, how did you get into the UFO",0,2,Not Checkworthy
-2434684,"And so how did you get, as a longtime reporter for the New York Times, how did you get into the UFO And how did you get UFOs on the front page of the New York Times in 2020?",0,1,Not Checkworthy
-2434685,"Well, 2017, it started.",0,1,Not Checkworthy
-2434686,Right.,0,1,Not Checkworthy
-2434687,"But 2020 was the big, like, gasp reveal.",0,1,Not Checkworthy
-2434688,Yeah.,0,1,Not Checkworthy
-2434689,"Well, we got UFOs in in 2020 because we had broken the ground in 2017 with that big front page story about ATIP, you know, the secret Pentagon unit that was investigating UFOs that no one knew about until we broke the story on the front page of the New York Times.",0,1,Not Checkworthy
-2434690,"After that, we had some follow ups, including in 2020, where we talked about close encounters, close calls, Navy jets almost colliding with some of these UFOs.",0,1,Not Checkworthy
-2434691,"And finally, we just kind of broke the story that Congress or committees in Congress were briefed on materials, OK, quote, very difficult story to get, and we can talk about the story that Congress or committees in Congress were briefed on materials, OK, quote, very difficult story to get in more detail.",0,1,Not Checkworthy
-2434692,"You know, and that was in the height of the Trump craziness, breaking the story that Congress or committees in Congress were briefed on materials, OK, quote, very difficult story to get.",0,1,Not Checkworthy
-2434693,So but that that was really the trajectory.,0,1,Not Checkworthy
-2434694,We did a number of stories starting in 2017.,0,1,Not Checkworthy
-2434695,And how did your colleagues react to you working on a number of stories all these years?,0,1,Not Checkworthy
-2434696,"Well, your colleagues're mixed.",0,1,Not Checkworthy
-2434697,"You know, we were the butt of some jokes, some joking in the Washington bureau, particularly Helene Cooper, who collaborated with Leslie Kane and me on the first story.",0,1,Not Checkworthy
+utterance_id,utterance_text,CW_claim_count,Not_CW_claim_count,toloka_is_cw
+2434682,"During the chaos of the Trump years, the big running joke was that the New York Times kept reporting about UFOs, and that was still one of the least shocking news events during the chaos of the Trump years.",0,2,False
+2434683,"And so how did you get, as a longtime reporter for the New York Times, how did you get into the UFO",0,2,False
+2434684,"And so how did you get, as a longtime reporter for the New York Times, how did you get into the UFO And how did you get UFOs on the front page of the New York Times in 2020?",0,1,False
+2434685,"Well, 2017, it started.",0,1,False
+2434686,Right.,0,1,False
+2434687,"But 2020 was the big, like, gasp reveal.",0,1,False
+2434688,Yeah.,0,1,False
+2434689,"Well, we got UFOs in in 2020 because we had broken the ground in 2017 with that big front page story about ATIP, you know, the secret Pentagon unit that was investigating UFOs that no one knew about until we broke the story on the front page of the New York Times.",0,1,False
+2434690,"After that, we had some follow ups, including in 2020, where we talked about close encounters, close calls, Navy jets almost colliding with some of these UFOs.",0,1,False
+2434691,"And finally, we just kind of broke the story that Congress or committees in Congress were briefed on materials, OK, quote, very difficult story to get, and we can talk about the story that Congress or committees in Congress were briefed on materials, OK, quote, very difficult story to get in more detail.",0,1,False
+2434692,"You know, and that was in the height of the Trump craziness, breaking the story that Congress or committees in Congress were briefed on materials, OK, quote, very difficult story to get.",0,1,False
+2434693,So but that that was really the trajectory.,0,1,False
+2434694,We did a number of stories starting in 2017.,0,1,False
+2434695,And how did your colleagues react to you working on a number of stories all these years?,0,1,False
+2434696,"Well, your colleagues're mixed.",0,1,False
+2434697,"You know, we were the butt of some jokes, some joking in the Washington bureau, particularly Helene Cooper, who collaborated with Leslie Kane and me on the first story.",0,1,False
 2434698,"Helene Cooper, who collaborated with Leslie Kane and me on the first story was and is the Pentagon correspondent.",0,0,
-2434699,"So Helene Cooper, who collaborated with Leslie Kane and me on the first story took some heat from Helene Cooper, who collaborated with Leslie Kane and me on the first story's colleagues.",0,1,Not Checkworthy
-2434700,"her colleagues would go, you know, da, da, da, da, da, da, da, da, you know, when Helene Cooper, who collaborated with Leslie Kane and me on the first story would pass in the newsroom.",0,1,Not Checkworthy
-2434701,"But when Helene Cooper, who collaborated with Leslie Kane and me on the first story showed some of the videos that we had gotten from Navy that showed these UFOs and we actually broke, you know, the news of the videos that we had gotten from the Navy that showed these UFOs in the New York Times, when Helene Cooper, who collaborated with Leslie Kane and me on the first story pulled some of the videos that we had gotten from the Navy that showed these UFOs up on Helene Cooper, who collaborated with Leslie Kane and me on the first story's computer, everybody, you know, in the Washington bureau crowded around and everybody, you know, in the Washington bureau were everybody, you know, in the Washington bureau were mesmerized.",0,1,Not Checkworthy
-2434702,"everybody, you know, in the Washington bureau wanted to see that.",0,1,Not Checkworthy
-2434703,"Oh, my God, what's that?",0,1,Not Checkworthy
-2434704,"So I think basically, we had got a lot of support from our colleagues.",0,1,Not Checkworthy
-2434705,"Yeah, I mean, it's a tough, taboo subject.",0,1,Not Checkworthy
-2434706,And you can just define for our listeners what exactly are UFOs?,0,1,Not Checkworthy
-2434707,"Well, UAP is really what Pentagon likes to call UFOs, unidentified aerial phenomena, UFOs, unidentified flying objects.",0,1,Not Checkworthy
-2434708,"And, you know, people say, do you believe in UFOs?",0,1,Not Checkworthy
+2434699,"So Helene Cooper, who collaborated with Leslie Kane and me on the first story took some heat from Helene Cooper, who collaborated with Leslie Kane and me on the first story's colleagues.",0,1,False
+2434700,"her colleagues would go, you know, da, da, da, da, da, da, da, da, you know, when Helene Cooper, who collaborated with Leslie Kane and me on the first story would pass in the newsroom.",0,1,False
+2434701,"But when Helene Cooper, who collaborated with Leslie Kane and me on the first story showed some of the videos that we had gotten from Navy that showed these UFOs and we actually broke, you know, the news of the videos that we had gotten from the Navy that showed these UFOs in the New York Times, when Helene Cooper, who collaborated with Leslie Kane and me on the first story pulled some of the videos that we had gotten from the Navy that showed these UFOs up on Helene Cooper, who collaborated with Leslie Kane and me on the first story's computer, everybody, you know, in the Washington bureau crowded around and everybody, you know, in the Washington bureau were everybody, you know, in the Washington bureau were mesmerized.",0,1,False
+2434702,"everybody, you know, in the Washington bureau wanted to see that.",0,1,False
+2434703,"Oh, my God, what's that?",0,1,False
+2434704,"So I think basically, we had got a lot of support from our colleagues.",0,1,False
+2434705,"Yeah, I mean, it's a tough, taboo subject.",0,1,False
+2434706,And you can just define for our listeners what exactly are UFOs?,0,1,False
+2434707,"Well, UAP is really what Pentagon likes to call UFOs, unidentified aerial phenomena, UFOs, unidentified flying objects.",0,1,False
+2434708,"And, you know, people say, do you believe in UFOs?",0,1,False
 2434709,You don't have to believe in UFOs.,0,0,
 2434710,UFOs're unidentified.,0,0,
 2434711,"You know, there's something up there that they can't identify.",0,0,

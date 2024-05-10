@@ -1,50 +1,50 @@
-utterance_id,utterance_text,CW_claim_count,Not_CW_claim_count,majority_claim
-2465482,Hello and welcome to this podcast from the BBC World Service.,0,4,Not Checkworthy
-2465483,Please let the BBC World Service know what you think and tell other people about the BBC World Service on social media.,1,4,Not Checkworthy
-2465484,Podcasts from the BBC World Service are supported by advertising.,1,4,Not Checkworthy
-2465485,How does AI even work?,1,4,Not Checkworthy
-2465486,Where does creativity come from?,1,3,Not Checkworthy
-2465487,What's the secret to living longer?,0,3,Not Checkworthy
-2465488,TED Radio Hour explores the biggest questions with some of the world's greatest thinkers.,1,3,Not Checkworthy
-2465489,"some of the world's greatest thinkers will surprise, challenge and even change you.",1,3,Not Checkworthy
-2465490,Listen to TED Radio Hour wherever you get your podcasts.,0,4,Not Checkworthy
-2465491,"We would all like some quick and simple ways to improve our health, but we're inundated with often conflicting advice.",0,4,Not Checkworthy
-2465492,"So if you were going to try just one thing to improve your mental and physical wellbeing, what should just one thing be?",0,3,Not Checkworthy
-2465493,Perhaps the martial art of Tai Chi to improve your immune system.,0,4,Not Checkworthy
-2465494,Maybe a few nuts to slow ageing.,1,2,Not Checkworthy
-2465495,Or how about cleaning your teeth to give your brain a boost?,1,1,Checkworthy
-2465496,"I'm Dr Michael Moseley and this podcast from the BBC World Service is Just One Thing, where each episode we'll explore one thing you can start doing today to improve your health or life in ways you might not expect.",1,3,Not Checkworthy
-2465497,"Nuts often get a bad press because Nuts are high in fat, and Nuts can cause life-threatening allergies, which is why Nuts are rightly banned from places like schools and nurseries.",2,1,Checkworthy
-2465498,"But if, like me, you're able to eat nuts, this is definitely one thing you should start doing today.",0,4,Not Checkworthy
-2465499,nuts are amazing little nutritional powerhouses.,1,2,Not Checkworthy
-2465500,"When we eat nuts, we get lots of fibre and, importantly, compounds called polyphenols, which feed our gut bacteria and can reduce inflammation.",0,2,Not Checkworthy
-2465501,Eating nuts has even been linked to a longer life.,2,2,Checkworthy
-2465502,nuts give you lots of good fats and we'll discuss some surprising new research on how nuts can trim your waistline and even boost your brainpower.,0,1,Not Checkworthy
-2465503,"First though, I'm going to chat with Emma, who is a journalist from Surrey.",0,3,Not Checkworthy
-2465504,"Let's see if a handful of nuts a day is just one thing Emma, who is a journalist from Surrey can fit into Emma, who is a journalist from Surrey's diet.",0,2,Not Checkworthy
-2465505,"Hi, Emma, who is a journalist from Surrey.",1,1,Checkworthy
-2465506,"Hi, Mike.",1,1,Checkworthy
-2465507,Confessions time.,0,2,Not Checkworthy
-2465508,Are you a snacker?,0,1,Not Checkworthy
+utterance_id,utterance_text,CW_claim_count,Not_CW_claim_count,toloka_is_cw
+2465482,Hello and welcome to this podcast from the BBC World Service.,0,4,False
+2465483,Please let the BBC World Service know what you think and tell other people about the BBC World Service on social media.,1,4,False
+2465484,Podcasts from the BBC World Service are supported by advertising.,1,4,False
+2465485,How does AI even work?,1,4,False
+2465486,Where does creativity come from?,1,3,False
+2465487,What's the secret to living longer?,0,3,False
+2465488,TED Radio Hour explores the biggest questions with some of the world's greatest thinkers.,1,3,False
+2465489,"some of the world's greatest thinkers will surprise, challenge and even change you.",1,3,False
+2465490,Listen to TED Radio Hour wherever you get your podcasts.,0,4,False
+2465491,"We would all like some quick and simple ways to improve our health, but we're inundated with often conflicting advice.",0,4,False
+2465492,"So if you were going to try just one thing to improve your mental and physical wellbeing, what should just one thing be?",0,3,False
+2465493,Perhaps the martial art of Tai Chi to improve your immune system.,0,4,False
+2465494,Maybe a few nuts to slow ageing.,1,2,False
+2465495,Or how about cleaning your teeth to give your brain a boost?,1,1,True
+2465496,"I'm Dr Michael Moseley and this podcast from the BBC World Service is Just One Thing, where each episode we'll explore one thing you can start doing today to improve your health or life in ways you might not expect.",1,3,False
+2465497,"Nuts often get a bad press because Nuts are high in fat, and Nuts can cause life-threatening allergies, which is why Nuts are rightly banned from places like schools and nurseries.",2,1,True
+2465498,"But if, like me, you're able to eat nuts, this is definitely one thing you should start doing today.",0,4,False
+2465499,nuts are amazing little nutritional powerhouses.,1,2,False
+2465500,"When we eat nuts, we get lots of fibre and, importantly, compounds called polyphenols, which feed our gut bacteria and can reduce inflammation.",0,2,False
+2465501,Eating nuts has even been linked to a longer life.,2,2,True
+2465502,nuts give you lots of good fats and we'll discuss some surprising new research on how nuts can trim your waistline and even boost your brainpower.,0,1,False
+2465503,"First though, I'm going to chat with Emma, who is a journalist from Surrey.",0,3,False
+2465504,"Let's see if a handful of nuts a day is just one thing Emma, who is a journalist from Surrey can fit into Emma, who is a journalist from Surrey's diet.",0,2,False
+2465505,"Hi, Emma, who is a journalist from Surrey.",1,1,True
+2465506,"Hi, Mike.",1,1,True
+2465507,Confessions time.,0,2,False
+2465508,Are you a snacker?,0,1,False
 2465509,"Yes, Mike definitely am.",0,0,
 2465510,Mike'm a bit of a chocoholic.,0,0,
-2465511,"Anything involving chocolate, even if Anything involving chocolate's chocolate-covered rice cakes or chocolate buttons.",0,1,Not Checkworthy
+2465511,"Anything involving chocolate, even if Anything involving chocolate's chocolate-covered rice cakes or chocolate buttons.",0,1,False
 2465512,"Emma, who is a journalist from Surrey can feel Emma, who is a journalist from Surrey's mouth salivating.",0,0,
 2465513,I'm a huge fan.,0,0,
-2465514,"Do Emma, who is a journalist from Surrey have chocolate-covered rice cakes or chocolate buttons in the house?",1,0,Checkworthy
-2465515,"Emma, who is a journalist from Surrey try and avoid it, but inevitably, if Emma, who is a journalist from Surrey've got a big deadline, Emma, who is a journalist from Surrey'll nip off to the shops to get something sweet.",0,1,Not Checkworthy
+2465514,"Do Emma, who is a journalist from Surrey have chocolate-covered rice cakes or chocolate buttons in the house?",1,0,True
+2465515,"Emma, who is a journalist from Surrey try and avoid it, but inevitably, if Emma, who is a journalist from Surrey've got a big deadline, Emma, who is a journalist from Surrey'll nip off to the shops to get something sweet.",0,1,False
 2465516,"Emma, who is a journalist from Surrey's eating habits are not as healthy as My eating habits should be, and Emma, who is a journalist from Surrey tend to crash in terms of energy levels quite regularly through the day.",0,0,
 2465517,"Emma, who is a journalist from Surrey think Emma, who is a journalist from Surrey'm relying too much on sugar.",0,0,
 2465518,"Okay, so Emma, who is a journalist from Surrey, Mike'm going to ask Emma, who is a journalist from Surrey to do a hard thing.",0,0,
-2465519,"Mike'm going to ask Emma, who is a journalist from Surrey to put aside Emma, who is a journalist from Surrey's regular snacks and have a small handful of nuts a day.",0,1,Not Checkworthy
+2465519,"Mike'm going to ask Emma, who is a journalist from Surrey to put aside Emma, who is a journalist from Surrey's regular snacks and have a small handful of nuts a day.",0,1,False
 2465520,"So a small handful of nuts a day's about 30 grams if Emma, who is a journalist from Surrey want to weigh them out.",0,0,
 2465521,a small handful of nuts a day is a substitute.,0,0,
 2465522,a small handful of nuts a day is not in addition.,0,0,
 2465523,"Emma, who is a journalist from Surrey'll do Emma, who is a journalist from Surrey's best.",0,0,
 2465524,"This could be a breakthrough for Emma, who is a journalist from Surrey.",0,0,
 2465525,"Mike've asked Emma, who is a journalist from Surrey to swap Emma, who is a journalist from Surrey's usual sweet treats for a handful of nuts every day for a week.",0,0,
-2465526,"We'll see if Emma, who is a journalist from Surrey's cracked it later this week.",0,1,Not Checkworthy
-2465527,"The nutty thing, botanically speaking, is that most of the nuts we like to eat aren't actually nuts, which are defined as a dry fruit with a single seed encased in a hard shell.",1,0,Checkworthy
+2465526,"We'll see if Emma, who is a journalist from Surrey's cracked it later this week.",0,1,False
+2465527,"The nutty thing, botanically speaking, is that most of the nuts we like to eat aren't actually nuts, which are defined as a dry fruit with a single seed encased in a hard shell.",1,0,True
 2465528,"Based on this definition, chestnuts and hazelnuts are true nuts, while almonds and cashews are classified as droops.",0,0,
 2465529,almonds and cashews have a fleshy outer layer.,0,0,
 2465530,"Whether almonds and cashews are true nuts or droops, almonds and cashews are still packed full of good things like unsaturated fats, fibre and protein, as well as a number of compounds with antioxidant and anti-inflammatory properties, all of which are good for you.",0,0,
@@ -55,17 +55,17 @@ utterance_id,utterance_text,CW_claim_count,Not_CW_claim_count,majority_claim
 2465535,"The longer our telomeres are, the younger your DNA is, and several studies have found a link between eating nuts and retaining the length of our telomeres.",0,0,
 2465536,"As well as keeping your telomeres in good shape, eating nuts may reduce your risk of a whole range of diseases, including cancer, diabetes and heart disease.",0,0,
 2465537,"A five-year Spanish intervention study involving over 7,000 older adults found that the group who were asked to eat nuts more than three times a week were over 40% less likely to die from cancer and 55% less likely from heart disease, compared to the control group who didn't.",0,0,
-2465538,"And that was after controlling for other lifestyle factors like alcohol consumption, physical activity and smoking.",0,1,Not Checkworthy
-2465539,Those are some big numbers and you don't need to go nuts.,0,1,Not Checkworthy
+2465538,"And that was after controlling for other lifestyle factors like alcohol consumption, physical activity and smoking.",0,1,False
+2465539,Those are some big numbers and you don't need to go nuts.,0,1,False
 2465540,A handful a day is plenty.,0,0,
-2465541,One thing that puts people off nuts is the fact that some are about 70% fat.,1,0,Checkworthy
-2465542,"But it's unsaturated fats, the sort that can actually benefit your heart health.",0,1,Not Checkworthy
+2465541,One thing that puts people off nuts is the fact that some are about 70% fat.,1,0,True
+2465542,"But it's unsaturated fats, the sort that can actually benefit your heart health.",0,1,False
 2465543,"A massive study involving more than 300,000 people found that eating more nuts is associated with reduced weight gain over a five-year period, as well as a lower risk of becoming overweight or obese.",0,0,
-2465544,And do bear in mind the human brain is about 60% fat.,1,0,Checkworthy
-2465545,Our brains need fat to work well.,0,1,Not Checkworthy
+2465544,And do bear in mind the human brain is about 60% fat.,1,0,True
+2465545,Our brains need fat to work well.,0,1,False
 2465546,New research shows that eating nuts can actually give your thinking skills a boost.,0,0,
-2465547,How?,1,0,Checkworthy
-2465548,"Well, we'll crack into that with an expert in a moment.",0,1,Not Checkworthy
+2465547,How?,1,0,True
+2465548,"Well, we'll crack into that with an expert in a moment.",0,1,False
 2465549,"But first, let's find out how Emma, who is a journalist from Surrey is getting on.",0,0,
 2465550,So this is day four of Mike's nut snack adventure.,0,0,
 2465551,Mike'm really enjoying my nut snack adventure so far.,0,0,
@@ -78,34 +78,34 @@ utterance_id,utterance_text,CW_claim_count,Not_CW_claim_count,majority_claim
 2465558,It sounds like Emma has found it easy to swap out Emma's sugary treats for nutty snacks.,0,0,
 2465559,So Emma'm keen to see if Emma sticks with it.,0,0,
 2465560,"But first, let's choose some nutty fat with an expert.",0,0,
-2465561,Hello there.,1,0,Checkworthy
+2465561,Hello there.,1,0,True
 2465562,"Hi, Michael.",0,0,
-2465563,How are Michael?,0,1,Not Checkworthy
+2465563,How are Michael?,0,1,False
 2465564,"Very good, thanks.",0,0,
-2465565,"Now, Michael can understand why nuts are good for Michael's diet, but tell Michael why nuts are good for Michael's brain.",0,1,Not Checkworthy
+2465565,"Now, Michael can understand why nuts are good for Michael's diet, but tell Michael why nuts are good for Michael's brain.",0,1,False
 2465566,nuts are good for our cognitive function.,0,0,
 2465567,So this was based on a study that we published recently in 2021.,0,0,
 2465568,We compared the nut intake and cognitive function of over 1800 older adults in America.,0,0,
 2465569,"We found that older adults who consume nuts, about 15 to 30 grams per day, perform significantly better in terms of older adults who consume nuts, about 15 to 30 grams per day's short-term memory, fluency, processing speed, and also attention.",0,0,
 2465570,"Right, and 15 to 30 grams, 15 to 30 grams was enough to produce these changes in older adults who consume nuts, about 15 to 30 grams per day's cognitive skills.",0,0,
-2465571,Why do an expert think that nuts are good for the brain?,0,1,Not Checkworthy
-2465572,"In one study, they found that including nuts into the diet can actually improve the brain reactivity.",0,1,Not Checkworthy
+2465571,Why do an expert think that nuts are good for the brain?,0,1,False
+2465572,"In one study, they found that including nuts into the diet can actually improve the brain reactivity.",0,1,False
 2465573,"They also found that the small blood vessels in the brain actually have higher elasticity, so meaning that there's better blood flow into the brain, potentially explaining the benefits.",0,0,
-2465574,And are some types of nuts better than others?,1,0,Checkworthy
-2465575,"In terms of nuts, they all have very similar kind of nutrient profile.",0,1,Not Checkworthy
+2465574,And are some types of nuts better than others?,1,0,True
+2465575,"In terms of nuts, they all have very similar kind of nutrient profile.",0,1,False
 2465576,"So they are all high in protein, they are all high in unsaturated fats, which are healthy.",0,0,
 2465577,"For example, if we are talking about cardiovascular health, we see the benefits coming from almonds, we see the benefits coming from peanuts, we see the benefits coming from walnuts and other nuts as well.",0,0,
 2465578,So there's no reason to believe that one nut is better than another.,0,0,
 2465579,"Right, that's interesting because Michael always thought that peanuts were an almost inferior type of nut.",0,0,
 2465580,"Now, one of the ideas that has been around for a long time is that eating nuts is likely to help you put on weight because nuts're so full of fat and protein, and yet Dr Ziyan Tan from the School of Exercise and Nutrition Sciences at Deakin University in Australia's research suggests that's not the case.",0,0,
-2465581,That is correct.,1,0,Checkworthy
-2465582,"If we look at the body of research out there, the body of evidence, they the body of research out there, the body of evidence seem to suggest consistently that including nuts into the diet doesn't really have much effect on your body weight.",0,1,Not Checkworthy
+2465581,That is correct.,1,0,True
+2465582,"If we look at the body of research out there, the body of evidence, they the body of research out there, the body of evidence seem to suggest consistently that including nuts into the diet doesn't really have much effect on your body weight.",0,1,False
 2465583,"In fact, those with higher nut intake tend to have lower body weight or lower body fat.",0,0,
 2465584,"So many, many studies have repeatedly shown that incorporating nuts into the diet doesn't make you gain weight.",0,0,
-2465585,So why might that be?,0,1,Not Checkworthy
+2465585,So why might that be?,0,1,False
 2465586,There are a number of potential explanations for that phenomenon.,0,0,
 2465587,We don't absorb all the fat or all the energy from nuts when we consume nuts.,0,0,
-2465588,That's the first reason.,0,1,Not Checkworthy
+2465588,That's the first reason.,0,1,False
 2465589,"The second reason is that when we eat nuts, we feel fuller and consequently we adjust our diet in the next meal.",0,0,
 2465590,The third reason being there are some studies showing that nut consumption can actually increase how energy is burned in the body when we consume nuts.,0,0,
 2465591,Nuts must be one of the tougher foods that modern humans eat.,0,0,
@@ -115,22 +115,22 @@ utterance_id,utterance_text,CW_claim_count,Not_CW_claim_count,majority_claim
 2465595,"So in order to access the fat in thousands of shoe boxes put together, we would have to go in and break thousands of shoe boxes put together.",0,0,
 2465596,"When we chew the nuts, we break thousands of shoe boxes put together, we release the fat in those shoe boxes.",0,0,
 2465597,"But in the process, not all boxes are being broken.",0,0,
-2465598,"Hence, there's still about 20% of fat left in thousands of shoe boxes put together that are not accessible by the body.",1,0,Checkworthy
-2465599,Right.,0,1,Not Checkworthy
-2465600,"Now, Michael have been using nuts as a snack.",0,1,Not Checkworthy
+2465598,"Hence, there's still about 20% of fat left in thousands of shoe boxes put together that are not accessible by the body.",1,0,True
+2465599,Right.,0,1,False
+2465600,"Now, Michael have been using nuts as a snack.",0,1,False
 2465601,"Rather than reach for a chocolate bar, Michael tend to eat a small handful of nuts.",0,0,
 2465602,"Dr Ziyan Tan from the School of Exercise and Nutrition Sciences at Deakin University in Australia have tried to go for sort of unsalted, healthy nuts, if you like.",0,0,
 2465603,"Michael have to say, Michael found salted nuts more addictive.",0,0,
-2465604,"So probably the challenge with nuts is stopping, isn't the challenge with nuts?",0,1,Not Checkworthy
-2465605,"Small handful, fine.",0,1,Not Checkworthy
+2465604,"So probably the challenge with nuts is stopping, isn't the challenge with nuts?",0,1,False
+2465605,"Small handful, fine.",0,1,False
 2465606,"Large bowlful, not fine.",0,0,
-2465607,That's correct.,1,0,Checkworthy
-2465608,"So even though we do see a lot of benefits coming from nuts, we don't recommend people to go nuts about eating nuts.",0,1,Not Checkworthy
+2465607,That's correct.,1,0,True
+2465608,"So even though we do see a lot of benefits coming from nuts, we don't recommend people to go nuts about eating nuts.",0,1,False
 2465609,We do want people to maintain at a level of about 15 to 30 grams per day.,0,0,
-2465610,The one thing that Dr Ziyan Tan from the School of Exercise and Nutrition Sciences at Deakin University in Australia can say on a level of about 15 to 30 grams per day is that a lot of the beneficial compounds are found on the skin of the nuts.,0,1,Not Checkworthy
+2465610,The one thing that Dr Ziyan Tan from the School of Exercise and Nutrition Sciences at Deakin University in Australia can say on a level of about 15 to 30 grams per day is that a lot of the beneficial compounds are found on the skin of the nuts.,0,1,False
 2465611,"So when you prepare your nuts, whether it's in cooking or in baking or consuming your nuts on its own, make sure that you consume the skin of the nuts together with the nuts in order to get all the nutrients, all the beneficial compounds coming from nuts.",0,0,
 2465612,So that's the science.,0,0,
-2465613,Now let's check in one more time with Emma to see if Emma's enjoyed Emma's nutty week.,0,1,Not Checkworthy
+2465613,Now let's check in one more time with Emma to see if Emma's enjoyed Emma's nutty week.,0,1,False
 2465614,"So it's the end of Emma's nut challenge week and Emma've really enjoyed her nutty week, actually.",0,0,
 2465615,"Emma've had them in the morning with some yogurt, which was lovely.",0,0,
 2465616,Emma think it did help regulate Emma's mealtimes a bit better.,0,0,
@@ -154,23 +154,23 @@ utterance_id,utterance_text,CW_claim_count,Not_CW_claim_count,majority_claim
 2465634,"On the next episode of Just One Thing, cook with turmeric.",0,0,
 2465635,"How this golden hued powder might boost your brain, reduce pain and improve your mood.",0,0,
 2465636,"Hello, I'm Brian Cox and we are back for season 26 of the Infinite Monkey Cage.",0,0,
-2465637,"And we begin, where do we begin, Robin?",1,0,Checkworthy
-2465638,"We start in a galaxy far, far away and a long time ago.",0,1,Not Checkworthy
-2465639,So it's Australia.,1,0,Checkworthy
-2465640,"Oh, OK.",0,1,Not Checkworthy
-2465641,Australia then.,1,0,Checkworthy
-2465642,"We start, it felt like a galaxy to me, but we were in Australia where we talked about, well, spiders.",0,1,Not Checkworthy
-2465643,You were scared of spiders.,0,1,Not Checkworthy
-2465644,"Robin wasn't actually scared, but you'll hear many trailers for this thing where they say, I wasn't scared of spiders.",0,1,Not Checkworthy
-2465645,"We also did astronomy actually in Australia, which is fantastic.",0,1,Not Checkworthy
-2465646,"And then we came back to the UK and we had guests like Ross Noble, Susan Calliman, Russell Kane, Ed Byrne, Joe Brand, Sally Gunnell.",0,1,Not Checkworthy
-2465647,"Yeah, Anna Fry, Sue Black, Randa Munro.",0,1,Not Checkworthy
-2465648,"And we found out, amongst other things, how to commit the perfect murder, which still hasn't really worked for Emma because Emma'm still so upset at him.",0,1,Not Checkworthy
-2465649,Listen on BBC Sam's.,0,1,Not Checkworthy
-2465650,What a great platform.,0,1,Not Checkworthy
-2465651,"BBC Sam's is wonderful, isn't BBC Sam's?",0,1,Not Checkworthy
-2465652,That you can wage in the Infinite Monkey Cage.,0,1,Not Checkworthy
-2465653,Direkta.,0,1,Not Checkworthy
-2465654,Vereinskapsprogrammer.,0,1,Not Checkworthy
-2465655,Prüft TripleTex gratis.,0,1,Not Checkworthy
-2465656,Po tripletex.no slash gratis.,1,1,Checkworthy
+2465637,"And we begin, where do we begin, Robin?",1,0,True
+2465638,"We start in a galaxy far, far away and a long time ago.",0,1,False
+2465639,So it's Australia.,1,0,True
+2465640,"Oh, OK.",0,1,False
+2465641,Australia then.,1,0,True
+2465642,"We start, it felt like a galaxy to me, but we were in Australia where we talked about, well, spiders.",0,1,False
+2465643,You were scared of spiders.,0,1,False
+2465644,"Robin wasn't actually scared, but you'll hear many trailers for this thing where they say, I wasn't scared of spiders.",0,1,False
+2465645,"We also did astronomy actually in Australia, which is fantastic.",0,1,False
+2465646,"And then we came back to the UK and we had guests like Ross Noble, Susan Calliman, Russell Kane, Ed Byrne, Joe Brand, Sally Gunnell.",0,1,False
+2465647,"Yeah, Anna Fry, Sue Black, Randa Munro.",0,1,False
+2465648,"And we found out, amongst other things, how to commit the perfect murder, which still hasn't really worked for Emma because Emma'm still so upset at him.",0,1,False
+2465649,Listen on BBC Sam's.,0,1,False
+2465650,What a great platform.,0,1,False
+2465651,"BBC Sam's is wonderful, isn't BBC Sam's?",0,1,False
+2465652,That you can wage in the Infinite Monkey Cage.,0,1,False
+2465653,Direkta.,0,1,False
+2465654,Vereinskapsprogrammer.,0,1,False
+2465655,Prüft TripleTex gratis.,0,1,False
+2465656,Po tripletex.no slash gratis.,1,1,True

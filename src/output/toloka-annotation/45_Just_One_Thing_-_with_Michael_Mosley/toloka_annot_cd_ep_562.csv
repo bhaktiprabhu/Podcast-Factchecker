@@ -1,18 +1,18 @@
-utterance_id,utterance_text,CW_claim_count,Not_CW_claim_count,majority_claim
-2465095,Hello and welcome to this podcast from the BBC World Service.,0,1,Not Checkworthy
-2465096,Please let the BBC World Service know what you think and tell other people about the BBC World Service on social media.,0,1,Not Checkworthy
-2465097,Podcasts from the BBC World Service are supported by advertising.,1,0,Checkworthy
-2465098,How does AI even work?,1,0,Checkworthy
-2465099,Where does creativity come from?,1,0,Checkworthy
-2465100,What's the secret to living longer?,1,0,Checkworthy
-2465101,TED Radio Hour explores the biggest questions with some of the world's greatest thinkers.,1,0,Checkworthy
-2465102,"some of the world's greatest thinkers will surprise, challenge and even change you.",1,0,Checkworthy
-2465103,Listen to TED Radio Hour wherever you get your podcasts.,1,0,Checkworthy
-2465104,"We would all like some quick and simple ways to improve our health, but we're inundated with often conflicting advice.",1,0,Checkworthy
-2465105,"So if you were going to try just one thing to improve your mental and physical well-being, what should just one thing be?",1,0,Checkworthy
-2465106,Perhaps the martial art of Tai Chi to improve your immune system.,1,0,Checkworthy
-2465107,Maybe a few nuts to slow aging.,1,0,Checkworthy
-2465108,Or how about cleaning your teeth to give your brain a boost?,0,1,Not Checkworthy
+utterance_id,utterance_text,CW_claim_count,Not_CW_claim_count,toloka_is_cw
+2465095,Hello and welcome to this podcast from the BBC World Service.,0,1,False
+2465096,Please let the BBC World Service know what you think and tell other people about the BBC World Service on social media.,0,1,False
+2465097,Podcasts from the BBC World Service are supported by advertising.,1,0,True
+2465098,How does AI even work?,1,0,True
+2465099,Where does creativity come from?,1,0,True
+2465100,What's the secret to living longer?,1,0,True
+2465101,TED Radio Hour explores the biggest questions with some of the world's greatest thinkers.,1,0,True
+2465102,"some of the world's greatest thinkers will surprise, challenge and even change you.",1,0,True
+2465103,Listen to TED Radio Hour wherever you get your podcasts.,1,0,True
+2465104,"We would all like some quick and simple ways to improve our health, but we're inundated with often conflicting advice.",1,0,True
+2465105,"So if you were going to try just one thing to improve your mental and physical well-being, what should just one thing be?",1,0,True
+2465106,Perhaps the martial art of Tai Chi to improve your immune system.,1,0,True
+2465107,Maybe a few nuts to slow aging.,1,0,True
+2465108,Or how about cleaning your teeth to give your brain a boost?,0,1,False
 2465109,"I'm Dr Michael Moseley and this podcast from the BBC World Service is Just One Thing, where each episode we'll explore one thing you can start doing today to improve your health or life in ways you might not expect.",0,0,
 2465110,I do a lot of writing in my day job as a journalist and an author.,0,0,
 2465111,"But today, sitting at my computer, I'm going to try something very different.",0,0,
