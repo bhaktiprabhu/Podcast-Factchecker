@@ -228,6 +228,8 @@ def generate_claim_detection_ground_truth_csv(episode_id: int):
     toloka_is_cw = get_annotation_claim_df(episode_id)["toloka_is_cw"]
     cd_ground_truth_df["Toloka_annotation"] = toloka_is_cw
 
+    relevance_df = cd_ground_truth_df[["utterance_id"]]
+
     data_source_path = os.path.join(current_dir, "data", "crowd-work", "claim-detection")
     podcast_dir = get_podcast_dir_path(data_source_path, episode_id)
 
@@ -237,16 +239,26 @@ def generate_claim_detection_ground_truth_csv(episode_id: int):
             data_file_path = os.path.join(podcast_dir, data_file_name)
             df = pd.read_csv(data_file_path)
             df = df.drop(columns=["utterance_text"])
-            # Drop Relevance column temporarily (Need to Decide how to evaluate ground truth from annotation values)
+
+            rel_col_name = data_file_name.split("_")[0] + "_relevance"
+            relevance_df = relevance_df.copy()
+            relevance_df.loc[:, rel_col_name] = df["relevance_level"]
             df = df.drop(columns=["relevance_level"])
-            col_name = data_file_name.split("_")[0] + "_annotation"
-            df = df.rename(columns={"is_check_worthy_claim": col_name})
+
+            cw_col_name = data_file_name.split("_")[0] + "_annotation"
+
+            df = df.rename(columns={"is_check_worthy_claim": cw_col_name})
             cd_ground_truth_df = pd.merge(cd_ground_truth_df, df, on="utterance_id", how="left")
 
-    modes = cd_ground_truth_df.iloc[:, 2:].mode(axis=1).iloc[:, 0]
-    cd_ground_truth_df["is_check_worthy_claim"] = modes
+    is_cw_modes = cd_ground_truth_df.iloc[:, 2:].mode(axis=1).iloc[:, 0]
+    cd_ground_truth_df["is_check_worthy_claim"] = is_cw_modes
 
-    cd_ground_truth_df = cd_ground_truth_df[["utterance_id", "utterance_text", "is_check_worthy_claim"]]
+    rel_modes = relevance_df.iloc[:, 2:].mode(axis=1).iloc[:, 0]
+    cd_ground_truth_df["relevance_level"] = rel_modes
+
+    cd_ground_truth_df = cd_ground_truth_df[
+        ["utterance_id", "utterance_text", "is_check_worthy_claim", "relevance_level"]
+    ]
 
     output_path = os.path.join(current_dir, "output", "crowd-work", "claim-detection-ground-truth")
     output_file_name = f"cd_ground_truth_ep_{episode_id}.csv"
