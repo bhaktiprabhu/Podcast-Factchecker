@@ -95,7 +95,7 @@ class FactiverseAPI:
             "claim": claim,
         }
 
-        response = requests.post(api_endpoint, headers=headers, json=payload, timeout=30)
+        response = requests.post(api_endpoint, headers=headers, json=payload, timeout=40)
 
         if response.status_code == 200:
             return response.json()

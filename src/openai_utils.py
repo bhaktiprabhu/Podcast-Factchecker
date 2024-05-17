@@ -48,6 +48,16 @@ IDENTIFY_STANCE_PROMPT = [
 ]
 
 
+class BadResponseError(Exception):
+    """Custom error defined to handle OpenAI API response
+
+    Args:
+        Exception (_type_): Extends class Exception
+    """
+
+    pass
+
+
 def generate_response(messages: List, model=os.getenv("AZURE_OPENAI_MODEL_ID")) -> str:
     """Generates a response from the OpenAI API for the given prompt.
 
@@ -104,7 +114,10 @@ def stance_detection(claim: str, evidence_snippet: str) -> str:
         if response in ("SUPPORTS", "REFUTES"):
             return response
         else:
-            raise BadRequestError
+            raise BadResponseError
     except BadRequestError:
-        print(text_prompt)
+        print("OpenAI BadRequestError occured for claim: ", claim)
+        return "REFUTES"
+    except BadResponseError:
+        print("OpenAI BadResponseError occured for claim: ", claim, "Response: ", response)
         return "REFUTES"
