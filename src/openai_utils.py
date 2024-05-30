@@ -45,6 +45,12 @@ IDENTIFY_STANCE_PROMPT = [
     [Evidence]: In 2023 India overtook China to become the most populous country.",
     },
     {"role": "assistant", "content": "SUPPORTS"},
+    {
+        "role": "user",
+        "content": "[Claim]: The Earth is flat. \
+    [Evidence]: Scientific consensus and numerous observations from space confirm that the Earth is spherical.",
+    },
+    {"role": "assistant", "content": "REFUTES"},
 ]
 
 
@@ -54,8 +60,6 @@ class BadResponseError(Exception):
     Args:
         Exception (_type_): Extends class Exception
     """
-
-    pass
 
 
 def generate_response(messages: List, model=os.getenv("AZURE_OPENAI_MODEL_ID")) -> str:

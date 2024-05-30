@@ -5,9 +5,7 @@ import os
 import numpy as np
 import pandas as pd
 
-import openai_utils
-from factiverse_api import factiverse_api
-from utils import create_csv_from_df, execute_query_pandas, execute_query_sqlite, get_podcast_dir_path
+from src import factiverse_utils, openai_utils, utils
 
 current_dir = os.path.dirname(os.path.abspath(__file__))
 
@@ -31,7 +29,7 @@ def get_segmentation_id(episode_id: int) -> int:
             )
             and name = 'Factiverse CW/MO/CS'
         """
-    seg_id = execute_query_sqlite(q, "one")[0]
+    seg_id = utils.execute_query_sqlite(q, "one")[0]
     return seg_id
 
 
@@ -52,7 +50,7 @@ def get_utterances(episode_id: int) -> pd.DataFrame:
             where segmentation_id = {seg_id}
         """
 
-    utterances = execute_query_sqlite(q)
+    utterances = utils.execute_query_sqlite(q)
     utterance_df = pd.DataFrame(utterances, columns=["utterance_id", "text", "text_coref"])
     utterance_df["text_coref"] = utterance_df["text_coref"].fillna(utterance_df["text"])
     return utterance_df
@@ -74,7 +72,7 @@ def get_factiverse_claim_df(episode_id: int) -> pd.DataFrame:
     facti_claim_df = facti_claim_df.rename(columns={"text_coref": "utterance_text"})
 
     for i, text in enumerate(utterance_df["text_coref"]):
-        facti_claim_check = factiverse_api.claim_detection(text)
+        facti_claim_check = factiverse_utils.factiverse_api.claim_detection(text)
         if len(facti_claim_check["detectedClaims"]) == 0:
             facti_claim_df.loc[i, "factiverse_is_CW"] = "FALSE"
         else:
@@ -128,7 +126,7 @@ def get_annotation_claim_df(episode_id: int) -> pd.DataFrame:
             and segmentation_id = {seg_id}
             group by utterance_id
             """
-    annot_claim_df = execute_query_pandas(q)
+    annot_claim_df = utils.execute_query_pandas(q)
     annot_claim_df["toloka_is_cw"] = np.where(
         annot_claim_df["CW_claim_count"] < annot_claim_df["Not_CW_claim_count"], False, True
     )
@@ -165,7 +163,7 @@ def generate_toloka_annot_claim_detection_csv(episode_id: int):
     output_path = os.path.join(current_dir, "output", "toloka-annotation")
     output_file_name = f"toloka_annot_cd_ep_{episode_id}.csv"
 
-    create_csv_from_df(result_df, episode_id, output_path, output_file_name)
+    utils.create_csv_from_df(result_df, episode_id, output_path, output_file_name)
 
 
 def generate_claim_detection_crowdwork_csv(episode_id: int):
@@ -188,7 +186,7 @@ def generate_claim_detection_crowdwork_csv(episode_id: int):
     output_path = os.path.join(current_dir, "output", "crowd-work", "claim-detection")
     output_file_name = f"crowd_work_cd_ep_{episode_id}.csv"
 
-    create_csv_from_df(crowd_work_df, episode_id, output_path, output_file_name)
+    utils.create_csv_from_df(crowd_work_df, episode_id, output_path, output_file_name)
 
 
 def generate_ai_claim_detection_prediction_csv(episode_id: int):
@@ -208,7 +206,25 @@ def generate_ai_claim_detection_prediction_csv(episode_id: int):
     output_path = os.path.join(current_dir, "output", "ai-prediction", "claim-detection")
     output_file_name = f"ai_cd_ep_{episode_id}.csv"
 
-    create_csv_from_df(result_df, episode_id, output_path, output_file_name)
+    utils.create_csv_from_df(result_df, episode_id, output_path, output_file_name)
+
+
+def update_ai_claim_detection_prediction_csv(episode_id: int, new_labels: pd.Series):
+    """Updates the existing ai prediction csv files with new labels for new or existing ai tool
+
+    Args:
+        episode_id (int): Episode Id for updating values
+        new_labels (pd.Series): New or existing Column for the AI Prediction File
+    """
+    data_source_path = os.path.join(current_dir, "output", "ai-prediction", "claim-detection")
+    podcast_dir = utils.get_podcast_dir_path(data_source_path, episode_id)
+    data_file_path = os.path.join(podcast_dir, f"ai_cd_ep_{episode_id}.csv")
+
+    ai_pred_claim_df = pd.read_csv(data_file_path)
+
+    ai_pred_claim_df[new_labels.name] = new_labels
+
+    utils.create_csv_from_df(ai_pred_claim_df, episode_id, data_source_path, data_file_path)
 
 
 def generate_claim_detection_ground_truth_csv(episode_id: int):
@@ -231,7 +247,7 @@ def generate_claim_detection_ground_truth_csv(episode_id: int):
     relevance_df = cd_ground_truth_df[["utterance_id"]]
 
     data_source_path = os.path.join(current_dir, "data", "crowd-work", "claim-detection")
-    podcast_dir = get_podcast_dir_path(data_source_path, episode_id)
+    podcast_dir = utils.get_podcast_dir_path(data_source_path, episode_id)
 
     # Get Crowd-work annotated data from CSV
     for data_file_name in os.listdir(podcast_dir):
@@ -262,4 +278,4 @@ def generate_claim_detection_ground_truth_csv(episode_id: int):
 
     output_path = os.path.join(current_dir, "output", "crowd-work", "claim-detection-ground-truth")
     output_file_name = f"cd_ground_truth_ep_{episode_id}.csv"
-    create_csv_from_df(cd_ground_truth_df, episode_id, output_path, output_file_name)
+    utils.create_csv_from_df(cd_ground_truth_df, episode_id, output_path, output_file_name)

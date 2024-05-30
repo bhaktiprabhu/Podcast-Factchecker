@@ -6,9 +6,7 @@ import random
 import pandas as pd
 from requests import ReadTimeout
 
-import openai_utils
-from factiverse_api import factiverse_api
-from utils import create_csv_from_df, get_podcast_dir_path
+from src import factiverse_utils, openai_utils, utils
 
 current_dir = os.path.dirname(os.path.abspath(__file__))
 
@@ -24,7 +22,7 @@ def get_cw_claims_list(episode_id: int) -> pd.Series:
     """
     # Getting the episode file
     data_source_path = os.path.join(current_dir, "output", "crowd-work", "claim-detection-ground-truth")
-    podcast_dir = get_podcast_dir_path(data_source_path, episode_id)
+    podcast_dir = utils.get_podcast_dir_path(data_source_path, episode_id)
     filename = f"cd_ground_truth_ep_{episode_id}.csv"
     file_path = os.path.join(podcast_dir, filename)
 
@@ -59,7 +57,7 @@ def generate_stance_detection_csv(episode_id: int):
     for claim in cw_claims_list:
 
         try:
-            facti_stance = factiverse_api.stance_detection(claim)
+            facti_stance = factiverse_utils.factiverse_api.stance_detection(claim)
         except ReadTimeout:
             # Exclude claims that timed out while searching for evidence
             # Most cases are the one's with unresolved coreference resolution
@@ -94,12 +92,12 @@ def generate_stance_detection_csv(episode_id: int):
     output_path = os.path.join(current_dir, "output", "crowd-work", "stance-detection")
     output_file_name = f"crowd_work_sd_ep_{episode_id}.csv"
 
-    create_csv_from_df(crowd_work_df, episode_id, output_path, output_file_name)
+    utils.create_csv_from_df(crowd_work_df, episode_id, output_path, output_file_name)
 
     output_path = os.path.join(current_dir, "output", "ai-prediction", "stance-detection")
     output_file_name = f"ai_sd_ep_{episode_id}.csv"
 
-    create_csv_from_df(ai_stance_df, episode_id, output_path, output_file_name)
+    utils.create_csv_from_df(ai_stance_df, episode_id, output_path, output_file_name)
 
 
 def generate_stance_detection_ground_truth_csv(episode_id: int):
@@ -112,7 +110,7 @@ def generate_stance_detection_ground_truth_csv(episode_id: int):
     coref_df = None
 
     data_source_path = os.path.join(current_dir, "data", "crowd-work", "stance-detection")
-    podcast_dir = get_podcast_dir_path(data_source_path, episode_id)
+    podcast_dir = utils.get_podcast_dir_path(data_source_path, episode_id)
 
     # Get Crowd-work annotated data from CSV
     for data_file_name in os.listdir(podcast_dir):
@@ -145,4 +143,4 @@ def generate_stance_detection_ground_truth_csv(episode_id: int):
 
     output_path = os.path.join(current_dir, "output", "crowd-work", "stance-detection-ground-truth")
     output_file_name = f"sd_ground_truth_ep_{episode_id}.csv"
-    create_csv_from_df(sd_ground_truth_df, episode_id, output_path, output_file_name)
+    utils.create_csv_from_df(sd_ground_truth_df, episode_id, output_path, output_file_name)
