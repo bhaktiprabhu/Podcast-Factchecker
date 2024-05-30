@@ -1,7 +1,6 @@
 """This module includes functions for executing Factiverse APIs requests"""
 
 import os
-import random
 from typing import Dict
 
 import dotenv
