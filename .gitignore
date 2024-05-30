@@ -43,3 +43,6 @@ pydevd*.log
 nodeLanguageServer/**
 nodeLanguageServer.*/**
 dist/**
+/src/llm-model-training/training-results
+/src/llm-model-training/wandb
+/src/llm-model-training/saved-models
