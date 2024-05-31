@@ -1,0 +1,33 @@
+{
+    "episode_id": "562",
+    "episode_name": "Write It Out",
+    "podcast_name": "Just One Thing - with Michael Mosley",
+    "podcast_author": "BBC",
+    "podcast_categories": "Health & Fitness, Science",
+    "total_checkworthy_claims": 33,
+    "total_checkworthy_claims_with_evidence": 18,
+    "total_supported_claims": 12,
+    "total_refuted_claims": 6,
+    "claims_supported": [
+        "And expressive writing may even boost your brain power.",
+        "And if you're under stress, you're not able to take in other information.",
+        "And that's because expressive writing can be surprisingly beneficial for your brain, your wellbeing, and your life.",
+        "And with expressive writing, people heal more quickly than if people're writing about superficial topics.",
+        "But if it's low-level anxiety, the sort of thoughts that are keeping you up at night, expressive writing really could help.",
+        "Podcasts from the BBC World Service are supported by advertising.",
+        "Professor James Pennebaker was the first scientist to investigate how expressive writing can benefit health back in the 1980s.",
+        "Recent studies have shown some surprising benefits of expressive writing on your physical health, such as your immune system.",
+        "Research suggests that expressive writing can, in fact, reduce negative thoughts.",
+        "Studies have shown that doing expressive writing before an exam can improve performance by offloading, distracting worrisome thoughts, and freeing up working memory.",
+        "This sort of expressive writing has all sorts of benefits for your mood, your immune system, and even your memory.",
+        "expressive writing's just one thing you can incorporate into your daily routine, which really could benefit your body and life."
+    ],
+    "claims_refuted": [
+        "Amazingly, six months after receiving the vaccine, a group of medical students had a stronger immune response and far higher antibody levels than a control group who merely had the vaccine.",
+        "Randomised controlled trials, the gold standard of studies, have also shown that asthma patients use less medication and arthritis patients feel less pain after doing expressive writing.",
+        "Researchers in New Zealand, for example, asked a group of medical students to write about personal traumatic events the day before a group of medical students were vaccinated.",
+        "There have been a couple of thousand studies.",
+        "We know that when somebody is stressed and they're obsessing about things, their heart beats faster, their immune system is suppressed.",
+        "What these researchers found was that expressive writing increased a phenomenon called working memory."
+    ]
+}

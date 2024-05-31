@@ -1,0 +1,457 @@
+{
+    "episode_id": "562",
+    "episode_name": "Write It Out",
+    "podcast_name": "Just One Thing - with Michael Mosley",
+    "podcast_author": "BBC",
+    "podcast_categories": "Health & Fitness, Science",
+    "total_checkworthy_claims": 33,
+    "list_checkworthy_claims": [
+        "Podcasts from the BBC World Service are supported by advertising.",
+        "It can improve your sleep.",
+        "It has a positive impact on many physical ailments like asthma, arthritis.",
+        "It's even been shown to improve the well-being of breast cancer patients.",
+        "It may even enhance your brain power.",
+        "This sort of expressive writing has all sorts of benefits for your mood, your immune system, and even your memory.",
+        "And that's because expressive writing can be surprisingly beneficial for your brain, your wellbeing, and your life.",
+        "Research suggests that expressive writing can, in fact, reduce negative thoughts.",
+        "In one study, people who were asked to spend 15 minutes writing down people who were asked to spend 15 minutes writing down their thoughts on three separate occasions's thoughts on three separate occasions not only found that doing so improved the quality of people who were asked to spend 15 minutes writing down their thoughts on three separate occasions's sleep, but it also reduced how often people who were asked to spend 15 minutes writing down their thoughts on three separate occasions had negative thoughts.",
+        "But if it's low-level anxiety, the sort of thoughts that are keeping you up at night, expressive writing really could help.",
+        "And expressive writing may even boost your brain power.",
+        "Studies have shown that doing expressive writing before an exam can improve performance by offloading, distracting worrisome thoughts, and freeing up working memory.",
+        "Recent studies have shown some surprising benefits of expressive writing on your physical health, such as your immune system.",
+        "Researchers in New Zealand, for example, asked a group of medical students to write about personal traumatic events the day before a group of medical students were vaccinated.",
+        "Amazingly, six months after receiving the vaccine, a group of medical students had a stronger immune response and far higher antibody levels than a control group who merely had the vaccine.",
+        "Randomised controlled trials, the gold standard of studies, have also shown that asthma patients use less medication and arthritis patients feel less pain after doing expressive writing.",
+        "And encouragingly for patients recovering from cancer treatments, a small randomised controlled trial found that patients with early-stage breast cancer reported fewer coughs, headaches, less chest pain and stomach upset, and attended fewer cancer-related medical appointments in the months after patients with early-stage breast cancer had written about patients with early-stage breast cancer's feelings compared to a control group.",
+        "Professor James Pennebaker was the first scientist to investigate how expressive writing can benefit health back in the 1980s.",
+        "And what we found was that people who wrote about this upsetting experience that they hadn't talked much with others about ended up going to the doctor at far lower rates than people in our control conditions.",
+        "And if you're under stress, you're not able to take in other information.",
+        "What these researchers found was that expressive writing increased a phenomenon called working memory.",
+        "We know that when somebody is stressed and they're obsessing about things, their heart beats faster, their immune system is suppressed.",
+        "And when a person writes about an upsetting experience, you find certain enhancements in immune activity that the immune system is working more efficiently.",
+        "And with expressive writing, people heal more quickly than if people're writing about superficial topics.",
+        "And what's particularly intriguing is several studies looking at this're finding these changes using these ultrasound measures that are markers of healing.",
+        "But several studies looking at this're also finding these changes with these more elegant immune markers, hormones and peptides that are associated with the healing process itself.",
+        "There have been a couple of thousand studies.",
+        "What we found was that people who wrote about this upsetting experience, people who wrote about this upsetting experience's social behaviors changed.",
+        "A month later, people who wrote about this upsetting experience were talking more with others.",
+        "people who wrote about this upsetting experience were more socially engaged.",
+        "people who wrote about this upsetting experience laughed more.",
+        "One reason that this can be so powerful is that when you write, you get these upsetting experiences out of your mind.",
+        "expressive writing's just one thing you can incorporate into your daily routine, which really could benefit your body and life."
+    ],
+    "total_checkworthy_claims_with_evidence": 18,
+    "list_checkworthy_claims_with_evidence": [
+        {
+            "claim": "Amazingly, six months after receiving the vaccine, a group of medical students had a stronger immune response and far higher antibody levels than a control group who merely had the vaccine.",
+            "retrieved_evidences": [
+                {
+                    "evidence_snippet": "However, the antibody levels declined at 12 weeks and 6 months post-vaccination, indicating a waning of the immune response over time. At 6 months after the second dose, the Spike antibody levels were similar to the levels in persons vaccinated with one dose or in COVID-19 convalescent individuals. SARS-CoV-2 mRNA vaccines have proven high efficacy, however, limited data exists on the duration of immune responses and their relation to age and side effects. We studied the antibody and memory T cell responses after the two-dose BNT162b2 vaccine in 122 volunteers up to 6 months and correlated the findings with age and side effects. We found a robust antibody response to Spike protein after the second dose. However, the antibody levels declined at 12 weeks and 6 months post-vaccination, indicating a waning of the immune response over time. At 6 months after the second dose, the Spike antibody levels were similar to the levels in persons vaccinated with one dose or in COVID-19 convalescent individuals. The antibodies efficiently blocked ACE2 receptor binding to SARS-CoV-2 Spike protein of five variants of concern at one week but this was decreased at three months. 87% of individuals developed Spike-specific memory T cell responses, which were lower in individuals with increased proportions of immunosenescent CD8+ TEMRA cells.",
+                    "article_url": "https://www.sciencedirect.com/science/article/pii/S266677622100185X",
+                    "stance": "#CHOOSE#"
+                },
+                {
+                    "evidence_snippet": "Hamer: After three to six months or so, the natural immunity begins to wane and the risk of reinfection returns. We are definitely seeing people develop reinfections. Receiving the vaccine after having COVID is like a booster effect, and therefore it\u2019s much more effective. Studies have been done comparing those who had the disease versus those who did not, and those who got at least one shot after having COVID end up with very high levels of antibodies. There are more. And none of them are true. I do want to remind people there are still places we should mask up, like the doctor\u2019s office or on public transportation.",
+                    "article_url": "https://www.bu.edu/articles/2021/myths-vs-facts-covid-19-vaccine/",
+                    "stance": "#CHOOSE#"
+                }
+            ]
+        },
+        {
+            "claim": "And expressive writing may even boost your brain power.",
+            "retrieved_evidences": [
+                {
+                    "evidence_snippet": "Expressive writing therapy improves mood and well-being by increasing serotonin, dopamine, and endorphins, the neurotransmitters that regulate happiness, motivation, and pleasure, in your brain.  \u00b7 It also enhances your self-esteem and self-confidence by helping you acknowledge your strengths and achievements. Expressive writing therapy increases cognitive functioning and memory by stimulating the prefrontal cortex, the part of the brain responsible for executive functions such as planning, reasoning, and problem-solving. It strengthens the connections between different regions of the brain that are involved in memory formation and retrieval. Expressive writing can offer a range of benefits for your physical and psychological health, such as: Numerous studies have demonstrated the mental health benefits of expressive writing, including its ability to reduce stress and anxiety. Expressive writing can come with its own set of hurdles. But don\u2019t worry; there are practical ways to navigate them. Let\u2019s take a closer look at these challenges and discover how you can tackle them.",
+                    "article_url": "https://modernrecoveryservices.com/wellness/coping/skills/emotional/expressive-writing/",
+                    "stance": "SUPPORTS"
+                },
+                {
+                    "evidence_snippet": "Until now, we\u2019ve not really known why. New evidence is shedding light on the many ways writing helps your brain and body. Expressive writing has been linked with psychological benefits, such as improved mood, greater well-being, lower stress levels and fewer depressive symptoms. This brain pattern can make sadness, anger, and pain less intense. Research suggests expressive writing may also offer physical and psychological benefits to people by boosting immune function. In tests, writing significantly improved health outcomes in four areas: reported physical health, psychological well-being, physiological functioning, and general functioning. Research suggests expressive writing may also offer physical and psychological benefits to people by boosting immune function. In tests, writing significantly improved health outcomes in four areas: reported physical health, psychological well-being, physiological functioning, and general functioning. Another study found that simply writing about feelings before a stressful task helped chronic worriers\u2019 brains perform more efficiently.",
+                    "article_url": "https://thebestbrainpossible.com/writing-improves-brain-heal-emotions-health-journaling/",
+                    "stance": "SUPPORTS"
+                },
+                {
+                    "evidence_snippet": "Research confirms that counting your blessings rather than fixating on what\u2019s missing enhances well-being, especially if you put it in writing. Boost brain power: Processing your emotions through writing requires critical thinking, which stimulates your brain. There\u2019s even research to suggest that reflective writing can improve decision making. Processing your emotions through writing requires critical thinking, which stimulates your brain. There\u2019s even research to suggest that reflective writing can improve decision making. Achieve your goals: Keeping a journal is an ideal way to plot out your goals and track progress. No matter which pursuit or hobby you choose, documenting the steps you take can help you stay on course. And although you may have heard friends or relatives expound on their positive experiences of keeping a journal, research confirms it\u2019s a remarkably effective tool for improving mind and body. Several studies suggest that daily expressive writing helps reduce stress, improve quality of life and may help people navigate challenging physical and mental health conditions.",
+                    "article_url": "https://www.henryford.com/blog/2019/01/journaling-healing-power-pen",
+                    "stance": "SUPPORTS"
+                },
+                {
+                    "evidence_snippet": "Dr Mosley shares expressive writing could help boost your brain. (Image: GETTY) If you think that writing is best left to the likes of authors and journalists, Dr Michael Mosley will prompt you to think again. The expert shared that a technique called expressive writing could benefit anyone who is willing to try it. What\u2019s more, taking a part in this \u201cfree\u201d practice could even boost your brain health. What\u2019s more, taking a part in this \u201cfree\u201d practice could even boost your brain health. The idea behind expressive writing comes down to writing about your deepest emotions or worries. In return, you could see a positive impact on your physical health, including improvements in asthma and brain power. This suggests that this simple practice could not only boost your brain power but also free up some space in your mind. What\u2019s more, all you need to take up this practice is just a pen and paper, or your computer.",
+                    "article_url": "https://www.express.co.uk/life-style/health/1757371/dr-michael-mosley-brain-expressive-writing",
+                    "stance": "SUPPORTS"
+                },
+                {
+                    "evidence_snippet": "Furthermore, expressive writing about negative events or current worries may evoke strong emotions, which may alter neural activation in areas of the brain that typically process strong negative emotion. Thus, we hypothesized that changes in affective or emotional processing may be responsible for the benefits of expressive writing. While some have posited that telling a narrative of a past negative event or current anxiety \u201cfrees up\u201d cognitive resources, allowing individuals to focus more on the task at hand, there is little neural evidence suggesting that expressive writing has an effect on cognitive load. Moreover, little is known about how individual differences in the content of expressive writing could affect neural processing and the cognitive benefits writing confers. In our experiment, we compared brain activity in a group that had engaged in expressive writing vs. a control group, during performance on a feedback-based paired-associate word-learning task. While there is some evidence that writing about a past negative event leads to reductions in the physiological stress response (DiMenichi et al., 2018), some have posited that writing down negative feelings \u201cfrees up\u201d cognitive load to better focus on the task at hand (Klein and Boals, 2001; Ramirez and Beilock, 2011), thus leading to observed performance benefits. However, there is little empirical evidence regarding how expressive writing relates to cognitive processing in the brain, as well as other brain networks vital to cognition.",
+                    "article_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6869814/",
+                    "stance": "SUPPORTS"
+                }
+            ]
+        },
+        {
+            "claim": "And if you're under stress, you're not able to take in other information.",
+            "retrieved_evidences": [
+                {
+                    "evidence_snippet": "It seems that stress could be considered a positive component when it is under control and a negative factor when the circumstances are clearly adverse (no possibility of control) [1]. Otherwise said, when stress is moderate, it can enhance learning and memory. However, when stress becomes excessive or chronic, it can have negative effects on learning. High levels of stress can impair cognitive function, attention, and memory retrieval, leading to difficulties in concentrating, processing information, and retaining new knowledge. It is well known to most students that the stress undergone when facing an evaluation test can make it difficult to recall information that might be available in less stressful circumstances [37]. Nevertheless, the impact of stress on the process of encoding information into memory is controversial. Some authors defend that stress impairs memory functions [38]; meanwhile, others show that stress enhances memory encoding [39]. However, it is difficult to determine the factors that are responsible for the reported discrepancies. According to the information presented in this review, the impact of stress on the learning process seems to be controversial, impairing or enhancing memory functions [38,39]. The proposed explanation for this discrepancy is that stress could be considered a positive component when it is under control and a negative aspect when control is not possible [1]. Regarding emotions, they present a similar perspective. Emotions related to positive feelings (awareness, understanding, acceptance) favor the learning process; meanwhile, those related to negative feelings (distress, anxiety, threat) impair the learning process [8]. The activation of coping strategies creates key mechanisms for dealing positively with problems and new challenges.",
+                    "article_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10298416/",
+                    "stance": "SUPPORTS"
+                }
+            ]
+        },
+        {
+            "claim": "And that's because expressive writing can be surprisingly beneficial for your brain, your wellbeing, and your life.",
+            "retrieved_evidences": [
+                {
+                    "evidence_snippet": "Another study, co-authored by Professor Elizabeth Broadbent in 2013, found that expressive writing can have physical benefits. This study found that 76% of adults who spent 20 minutes a day for two weeks writing about their thoughts and feelings before a medically-necessary procedure were fully healed 11 days after their procedure. Meanwhile, 58% of the control group, who did not record their thoughts and feelings, had not yet recovered. Could it be that something about expressive writing allows the brain to heal what the body might not even know that it\u2019s holding onto? Multiple bodies of research on expressive writing have found it to be not only mentally beneficial, but physically as well. Research published in the September issue of the APA\u2019s Journal of Experimental Psychology: General (JEP: General) (Vol. 130, No. 3) found that expressive writing reduces intrusive and avoidant thoughts about negative events and improves working memory. Researchers believe that in turn, this frees up cognitive resources for other mental activities, such as the ability to better utilize coping skills, which in turn, reduces stress. This means that for some people journaling about trauma can lead to less stress in general and a better capacity to use coping skills. Therapists know that writing is often essential for working through trauma, as it acts as a form of meditation and healing for the brain. It\u2019s a place to safely release and explore strong, uncomfortable feelings, and provides space for new interpretations and different perspectives. Often I will have clients write freely about how they are feeling in the moment, only to have them read their entry days later with fresh eyes and completely different feelings.",
+                    "article_url": "https://wellnessandco.org/2020/03/12/rebirth/",
+                    "stance": "SUPPORTS"
+                },
+                {
+                    "evidence_snippet": "Previous research has supported that expressive writing is a beneficial tool for writers\u2019 mental and physical health. While consistent benefits of expressive writing on individuals\u2019 physical health outcomes (e.g., illness-related visits to doctor) have been found in previous research, the psychological benefits of writing are not as consistent (Baikie & Wilhelm, 2005). Expressive writing and health: Self-regulation of emotion-related experience, physiology, and behavior. In S. J. Lepore & J. M. Smyth (Eds.), The writing cure: How expressive writing promotes health and emotional wellbeing (pp. 99\u2013117). Washington, DC, USA: American Psychological Association. Keywords: expressive writing, specificity effects, cognitive avoidance, intrusive thoughts, positive emotions, negative emotions \u00b7 When facing difficult life experiences, such as natural disasters, health problems, violence, or emotional struggles, people find writing to be a beneficial tool to cope with difficulties.",
+                    "article_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7957853/",
+                    "stance": "SUPPORTS"
+                },
+                {
+                    "evidence_snippet": "Writing helps eliminate \u201cit sounded good in my head\u201d by forcing your hand; brains forgive fuzzy abstractions, prose does not. In one study that followed recently fired engineers, the researchers found that those engineers who consistently engaged with expressive writing were able to find another job faster. Much of the research on writing and happiness deals with \u201cexpressive writing,\u201d or jotting down what you think and how you feel. Even blogging \u201cundoubtedly affords similar benefits\u201d to private expressive writing in terms of therapeutic value. It seems that timing is critical for expressive writing to have an impact. Forcing the process to happen may only worsen things, but if writing is an activity that is engaged in naturally, the benefits seem clear.",
+                    "article_url": "https://www.helpscout.com/blog/benefits-of-writing/",
+                    "stance": "REFUTES"
+                },
+                {
+                    "evidence_snippet": "However, there is little empirical evidence regarding how expressive writing relates to cognitive processing in the brain, as well as other brain networks vital to cognition. If writing about negative experiences like past traumas or current anxieties \u201cfrees up\u201d cognitive resources, one would subsequently expect to see less activation in areas of the brain typically correlated with cognitive load, such as the dorsolateral prefrontal cortex (dlPFC; Rypma et al., 2002). Moreover, little is known about how individual differences in the content of expressive writing could affect neural processing and the cognitive benefits writing confers. In our experiment, we compared brain activity in a group that had engaged in expressive writing vs. a control group, during performance on a feedback-based paired-associate word-learning task. Moreover, writing about a past failure resulted in more activation relative to the control group during the learning task in the mid-cingulate cortex (MCC), an area of the brain crucial to processing negative emotion. While our results do not provide support for the assertion that expressive writing alters attentional processing, our findings suggest that choosing to write about particularly intense past negative experiences like a difficult past failure may have resulted in changes in neural activation during task processing.",
+                    "article_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6869814/",
+                    "stance": "REFUTES"
+                },
+                {
+                    "evidence_snippet": "Developed by social psychologist James Pennebaker in 1986, expressive writing is a way for you to explore the feelings you have related to trauma or emotional upset. Since then, more than 200 research studies have demonstrated that expressive writing (sometimes called emotional writing) can improve people\u2019s physical and emotional health. The research found that people who wrote about personal upheavals for 15 minutes a day over three or four days, visited doctors for health concerns less frequently and reported greater psychological well-being. Writing expressively can do many things for you. It can help you cope with challenging situations, it can help you make meaning out of something that feels random and unbearable, it can teach you about yourself, and it will give you hope. And, as an enormous bonus, the lessons of expressive writing \u2014 write frequently, pay no attention to quality, do it for a relatively short amount of time \u2014 will also help you become a better, more comfortable writer all across the board.",
+                    "article_url": "https://www.linkedin.com/pulse/why-you-should-consider-expressive-writing-daphne-gray-grant",
+                    "stance": "SUPPORTS"
+                }
+            ]
+        },
+        {
+            "claim": "And with expressive writing, people heal more quickly than if people're writing about superficial topics.",
+            "retrieved_evidences": [
+                {
+                    "evidence_snippet": "We owe it to ourselves \u2014 and our coworkers \u2014 to make space for processing this individual and collective trauma. A recent op-ed in the New York Times Sunday Review affirms what I, as a writer and professor of writing, have witnessed repeatedly, up close: expressive writing can heal us. A recent op-ed in the New York Times Sunday Review affirms what I, as a writer and professor of writing, have witnessed repeatedly, up close: expressive writing can heal us. ... Accelerate your career with Harvard ManageMentor\u00ae. HBR Learning\u2019s online leadership training helps you hone your skills with courses like Stress Management. Earn badges to share on LinkedIn and your resume.",
+                    "article_url": "https://hbr.org/2021/07/writing-can-help-us-heal-from-trauma",
+                    "stance": "SUPPORTS"
+                },
+                {
+                    "evidence_snippet": "The relationship between expressive writing and healing was first studied by Dr. James Pennebaker in the late 1980s, whose seminal study revealed striking benefits of writing about trauma. In Pennebaker\u2019s experiment, participants in the experimental group were instructed to write their deepest feelings and thoughts about a past trauma or emotional upheaval, while participants in the control group were instructed to simply write factually about superficial or neutral topics, without engaging with their emotions. Writing is a form of expressive therapy that uses the process of creative writing to cope with and heal from emotional trauma. The relationship between expressive writing and healing was first studied by Dr. James Pennebaker in the late 1980s, whose seminal study revealed striking benefits of writing about trauma. In Pennebaker\u2019s experiment, participants in the experimental group were instructed to write their deepest feelings and thoughts about a past trauma or emotional upheaval, while participants in the control group were instructed to simply write factually about superficial or neutral topics, without engaging with their emotions. Both groups wrote for 15 minutes a day for four consecutive days. Surprisingly, measurements of the participants\u2019 cellular immune-system function and health center visits revealed that participants in the experimental group showed improved immune-system functioning (as evidenced by increased lymphocyte response) and had less visits to the health center in the following months than the control group.",
+                    "article_url": "https://www.artandhealing.org/evidence-of-the-healing-power-of-expressive-writing/",
+                    "stance": "SUPPORTS"
+                },
+                {
+                    "evidence_snippet": "Encourage clients to write it down.Part of the magic of Pennebaker\u2019s approach is that participants wrote to and for themselves. They never received feedback on their writing. The most significant benefits were often experienced by those who wrote about previously undisclosed events.Clients may eventually be willing to talk about deeply personal experiences, but Pennebaker notes some individuals get to the heart of their issues more quickly without an audience. The option to keep their writing private can help ease challenges of building trust.To try this approach, invite clients to write about a topic they have been avoiding \u2013 or any subject that strongly influences their thoughts and feelings. Although many people in Pennebaker\u2019s studies reported feeling sad after writing about difficult experiences, this effect was short-lived and overshadowed by the benefits that followed.If clients would like to share what they wrote about, encourage them to talk about it rather than read aloud. Remind them that expressive writing is for their benefit alone. The purpose is to be completely honest with themselves. Some people choose to keep their writing and see how they change over time. Others prefer to destroy it immediately. Encourage clients to choose what works for them.It\u2019s important to note that writing may not always be a good fit. According to Pennebaker\u2019s research, the best time for people to write about emotional upheaval is when they believe they are thinking about it too much. It is usually not beneficial to push people to write about traumatic experiences immediately afterward. It may also be unhelpful to encourage clients to reawaken past experiences if they have already adapted well.Have them write in the waiting room.In a therapy session, the first 10 minutes are often needed for clients to catch up and re-establish the relationship. To jump-start appointments, Pennebaker recommends having clients write about their most pressing issues for 10 minutes before their appointments. With this approach, some people are much more focused and ready when sessions begin.As noted above, clients should be free to keep their writing samples. It is the writing process that is helpful \u2013 not the expectation that they read or share what they write.Suggest clients make a habit of writing in a journal.If a client finds that writing works well for them, they may want to include journaling in their daily routine. This can allow people to make the most of ongoing benefits, including stress relief, improved memory and a boost to the immune system.In the first expressive writing studies, participants experienced meaningful results after writing for 15 minutes each day. However, James Pennebaker notes there are a thousand ways to write and experience health benefits.If writing on paper doesn\u2019t work for a client, let them know personal voice recordings can be equally effective. Encourage them to experiment and find their ideal practice.Lead clients to shift perspective once in a while.Some people can get stuck telling the same story forever, Pennebaker notes. He explains these individuals repeat the same language indefinitely and miss the potential benefits of expressive writing.If your client is stuck in a loop, try prompting them to change perspective through writing. How do they think their situation appears to another person? How would they view this situation during a time in their past or future? What insights have they uncovered as time passes?It\u2019s important that writing doesn\u2019t turn into another form of rumination, Pennebaker explains. If writing doesn\u2019t seem helpful to your client, it\u2019s best to change things up.Bring evidence-based expressive writing tools to your practice.If your clients would benefit from structure and guidance in their writing, you may want to consider an evidence-based curriculum. The Change Companiespublishes Interactive Journals that use expressive writing to guide and motivate individuals toward positive behavior change.is a structured process that helps people reflect on where they\u2019ve been, where they are and where they wish to go. The Change Companies\u00ae has served over 5,500 public and private organizations to help over 30 million individuals make wise and healthy life choices. Interactive Journals are compatible with the ASAM dimensions and have underpinnings in expressive writing, motivational interviewing, cognitive-behavioral therapy and the transtheoretical model of behavior change.Interactive Journals are compatible with the ASAM dimensions and have underpinnings in expressive writing, motivational interviewing, cognitive-behavioral therapy and the transtheoretical model of behavior change. Pennebaker ran his seminal study using expressive writing in 1986. Over four days, participants wrote continuously for 15 minutes each day. The control group was instructed to write objectively about superficial topics. Meanwhile, participants in the experimental group were asked to write about the most traumatic experiences of their lives. Pennebaker\u2019s instructions ran something like this: Initially, Pennebaker attributed the benefits of expressive writing to a cathartic effect. People confronted past traumatic events by expressing their difficult feelings \u2013 therefore, they felt better. He became fascinated, however, with further questions: What is it about writing that makes a difference? Why do some people get better while others don\u2019t? Can we identify healthy writing?",
+                    "article_url": "https://blog.changecompanies.net/james-pennebaker-expressive-writing",
+                    "stance": "REFUTES"
+                }
+            ]
+        },
+        {
+            "claim": "But if it's low-level anxiety, the sort of thoughts that are keeping you up at night, expressive writing really could help.",
+            "retrieved_evidences": [
+                {
+                    "evidence_snippet": "Emotional and physical health benefits of expressive writing were first introduced by American social psychologist James W. Pennebaker. However, since then a lot of studies have found that journaling for depression and anxiety can significantly help people around the world. Below are 19 benefits that writing can have on your mental health. 1. A study by APA showed that writing can help to relieve stress by combatting negative and intrusive thoughts. Writing and depression, stress, or anxiety are connected. Using journaling to express your feelings has been proven to help people overcome traumatic events, reduce feelings of stress and emotional tension, and even boost our physical health. It also enables you to keep track of your mental state by showing mood and thought patterns, which is a helpful form of self-reflection. Something as simple as writing can relieve stress, reduce anxiety, and help to ease feelings of depression. This week, guest writer Vasy Kafidoff, co-founder and CEO at WritingMetier, delves into a wide range of benefits for supporting your mental health through writing. Emotional and physical health benefits of expressive writing were first introduced by American social psychologist James W. Pennebaker.",
+                    "article_url": "https://www.thisiscalmer.com/blog/benefits-of-writing-for-depression-anxiety-stress",
+                    "stance": "SUPPORTS"
+                }
+            ]
+        },
+        {
+            "claim": "Podcasts from the BBC World Service are supported by advertising.",
+            "retrieved_evidences": [
+                {
+                    "evidence_snippet": "Ten Unmissable Podcasts from BBC World Service international podcast producers we are supporting their production by adding advertising.",
+                    "article_url": "https://www.bbc.com/news/entertainment-arts-43975703",
+                    "stance": "SUPPORTS"
+                },
+                {
+                    "evidence_snippet": "No. UK listeners will continue to hear podcasts without advertising as they currently do. We will use the same geo-blocking technology currently used by the BBC to limit services such as iPlayer to UK residents. However, it is possible that a UK resident who travels outside the UK and downloads a podcast locally will hear advertising, just as they would if they visit the BBC News site from abroad. As podcasts are downloaded onto a particular device, they will still hear the advertising after they return to the UK.",
+                    "article_url": "https://www.bbc.co.uk/programmes/articles/4m9PWsXvDfytnSnV06Hrd1V/advertising-on-bbc-podcasts-outside-the-uk",
+                    "stance": "SUPPORTS"
+                },
+                {
+                    "evidence_snippet": "Since 2018, there are adverts on BBC podcasts delivered outside the UK. When a podcast is downloaded or played, we detect whether or not you're in the UK, regardless of how you're accessing the podcast. If our systems think you're outside the UK when you download or play the podcast, you may hear advertisements. If you're in the UK but you hear advertisements on the podcasts you download or listen to, have a look at our Why do you think I'm outside the UK? page for steps to try to resolve this. For more information about advertisements on podcasts, visit the BBC World Service Radio FAQ page.",
+                    "article_url": "https://www.bbc.co.uk/sounds/help/questions/playback-issues/podcast-ads-uk",
+                    "stance": "SUPPORTS"
+                },
+                {
+                    "evidence_snippet": "Why have adverts started appearing on some of the BBC\u2019s podcasts downloaded outside of the UK? Also, how one female listener did not appreciate hearing what Indian men think. Show more \u00b7 Listening to programmes from the BBC World Service is increasingly being done \u201con demand\u201d, breaking from the traditional habit of being tied to a radio schedule. But why have advertisements started appearing on some the BBC\u2019s podcasts downloaded outside of the UK? But why have advertisements started appearing on some the BBC\u2019s podcasts downloaded outside of the UK? Also, how one female listener did not appreciate hearing what Indian men think in a country that is searching its soul after much publicised acts of notorious sexual assaults against women.",
+                    "article_url": "https://www.bbc.co.uk/programmes/w3cswlyw",
+                    "stance": "SUPPORTS"
+                },
+                {
+                    "evidence_snippet": "The BBC is planning to sell adverts on some of its podcasts, for UK listeners on sites such as Apple and Spotify. \"Adverts are the norm\" on commercial platforms, BBC Studios said, and would \"generate more revenue to support the BBC, licence-fee payers our suppliers and rights holders\". But listeners on BBC Sounds would still hear the same content uninterrupted. In December, the licence fee increased by a smaller amount than expected, leaving an estimated \u00a390m funding gap. And with more BBC critics suggesting a universal fee no longer makes sense in a digital era of abundant choice, there has been speculation its funding model could change. The BBC's smaller drama, comedy and factual podcasts will carry ads from late 2024. BBC Studios already sells ads on BBC podcasts outside the UK. It also sells audiobooks - but last year, 75% of its revenue came from streaming services such as Amazon's Prime Video and Netflix. Meanwhile, BBC Sounds generated 1.6 billion plays last year. ... French bakers beat longest baguette world record.",
+                    "article_url": "https://www.bbc.co.uk/news/uk-england-london-68605338",
+                    "stance": "SUPPORTS"
+                }
+            ]
+        },
+        {
+            "claim": "Professor James Pennebaker was the first scientist to investigate how expressive writing can benefit health back in the 1980s.",
+            "retrieved_evidences": [
+                {
+                    "evidence_snippet": "The reference model is based on Pennebaker\u2019s theory (2004), which posits that expressing our deeper thoughts and feelings can result in significant health benefits in the short and long term. Studies over the past 25 years have shown that expressive writing, that is, simple writing on deeper thoughts and emotional sensations, is a useful tool to alleviate both physical and psychological symptoms. Background and Aims: Numerous studies in the international literature hold that expressive writing is a useful tool to take care of the person as a whole. It gives voice to emotions, moods and intimate thoughts of patients, as well as caregivers and family members. The reference model is based on Pennebaker\u2019s theory (2004), which posits that expressing our deeper thoughts and feelings can result in significant health benefits in the short and long term. Results: After analyzing the texts, as in Pennebaker\u2019s studies, there was a reduction of words with negative emotion in the course of writing sessions. Discussion: Expressive writing has a positive impact on adaptive coping strategies and work relational communication satisfaction.",
+                    "article_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6357577/",
+                    "stance": "REFUTES"
+                },
+                {
+                    "evidence_snippet": "Recently, I came across the landmark research of James Pennebaker. In the 1980\u2019s, he discovered a link between \u201cexpressive writing\u201d \u2014 writing for 15-20 minutes at a time, over several days, about a past traumatic event, or secret concerns \u2014 and measurable improvements in immune system function. Doctor visits also decreased. These results have been replicated in patients with a variety of conditions, including asthma, arthritis, breast cancer, and HIV. Subsequent studies found that when people did similar short-term writing interventions, wounds on their skin healed significantly faster. Incredible. (For an autobiographical summary of his research over time, read this 2017 article from Pennebaker in Perspectives on Psychological Science.) Some helpful facts have emerged from the research of Pennebaker and others, as understanding of this phenomenon has grown:",
+                    "article_url": "https://susanbiali.com/journaling-stress-trauma-heals-body/",
+                    "stance": "SUPPORTS"
+                },
+                {
+                    "evidence_snippet": "James Pennebaker, PhD, also discusses his research He conducted pioneering research on expressive writing in the 1980s and '90s. back in the early '80s.",
+                    "article_url": "https://www.apa.org/news/podcasts/speaking-of-psychology/expressive-writing",
+                    "stance": "SUPPORTS"
+                },
+                {
+                    "evidence_snippet": "James W. Pennebaker ... To read the full-text of this research, you can request a copy directly from the authors. ... To read the full-text of this research, you can request a copy directly from the authors. This paper presents a broad overview of the expressive writing paradigm. Since its first use in the 1980s, dozens of studies have explored the parameters and boundary conditions of its effectiveness. The significance of the research demonstrates that students in challenging emotional situations could benefit from ATB-SHOT tools. ... ... Based on the promising hypothesis regarding how individuals translate thoughts and feelings related to traumatic or stressful experiences into language can improve mental and physical health. Francis and Pennebaker conducted on of the first studies [99] to investigate and confirm the clinical value and therapeutic potential of expressive writing [100] James W. Pennebaker \u00b7 This study investigated whether emotional expression of traumatic experiences influenced the immune response to a hepatitis B vaccination program. Forty medical students who tested negative for hepatitis B antibodies were randomly assigned to write about personal traumatic events or control topics during 4 consecutive daily sessions.",
+                    "article_url": "https://www.researchgate.net/publication/287529579_Expressive_Writing_Connections_to_Physical_and_Mental_Health",
+                    "stance": "SUPPORTS"
+                },
+                {
+                    "evidence_snippet": "One of the earliest scientific investigations of the therapeutic effects of expressive writing was conducted in the 1980s by Dr. James Pennebaker, a psychology professor at the University of Texas at Austin with the help of Sandra Klihr Beall. They examined the effects of writing about traumatic experiences on health among college students who were randomly assigned to write either about a personal traumatic experience or a superficial topic. ... In the book Opening Up by Writing It Down written by James W. Pennebaker together with Joshua M. Smyth, the authors tell that the students assigned to write about their thoughts and feelings about a trauma were told the following: It set the precedent for researching expressive writing, and Pennebaker\u2019s research project has been replicated many times with positive outcomes. Since then, hundreds of studies over several decades have looked at the potential health benefits of this therapeutic practice for people with such illnesses as cancer, depression, PTSD, rheumatoid arthritis, and asthma. The British journal Advances in Psychiatric Treatment reports that physical and mental health outcomes of expressive writing include: The researchers discovered that students who wrote about traumatic experiences for 4 days, 15 minutes a day, ended up going to the student health center over the next 6 months at about half the rate of students in the control condition who wrote on neutral topics. This study received a lot of attention from clinical and social psychologists. It set the precedent for researching expressive writing, and Pennebaker\u2019s research project has been replicated many times with positive outcomes.",
+                    "article_url": "https://calmerry.com/blog/therapy/health-benefits-of-expressive-writing-tips-to-get-started/",
+                    "stance": "SUPPORTS"
+                }
+            ]
+        },
+        {
+            "claim": "Randomised controlled trials, the gold standard of studies, have also shown that asthma patients use less medication and arthritis patients feel less pain after doing expressive writing.",
+            "retrieved_evidences": [
+                {
+                    "evidence_snippet": "when using randomized controlled trial research designs. shown to be less patients with asthma or rheumatoid arthritis: A randomized trial.",
+                    "article_url": "https://journals.sagepub.com/doi/10.1177/1089268019831645",
+                    "stance": "REFUTES"
+                },
+                {
+                    "evidence_snippet": "Randomised controlled trials (RCTs) are seen Inconsistencies in outcomes have caused problems for people trying to use health care research",
+                    "article_url": "https://trialsjournal.biomedcentral.com/articles/10.1186/s13063-017-1978-4",
+                    "stance": "REFUTES"
+                },
+                {
+                    "evidence_snippet": "Smyth JM, Stone AA, Hurewitz A, Kaell A. Effects of writing about stressful experiences on symptom reduction in patients with asthma or rheumatoid arthritis: a randomized trial. JAMA. 1999;281: 1304\u20131309. pmid:10208146 ... 14. Broderick JE, Stone AA, Smyth JM, Kaell AT. The feasibility and effectiveness of an expressive writing intervention for rheumatoid arthritis via home-based videotaped instructions. The feasibility and effectiveness of an expressive writing intervention for rheumatoid arthritis via home-based videotaped instructions. Ann Behav Med. 2004;27: 50\u201359. pmid:14979863 ... 15. Harris AH, Thoresen CE, Humphreys K, Faul J. Does writing affect asthma? A randomized trial. Psychosom Med. 2005;67: 130\u2013136. pmid:15673635 ... 16. Rivkin ID, Gustafson J, Weingarten I, Chin D. The effects of expressive writing on adjustment to HIV. Harris AH, Thoresen CE, Humphreys K, Faul J. Does writing affect asthma? A randomized trial. Psychosom Med. 2005;67: 130\u2013136. pmid:15673635 ... 16. Rivkin ID, Gustafson J, Weingarten I, Chin D. The effects of expressive writing on adjustment to HIV. AIDS Behav. 2006;10: 13\u201326. pmid:16421649 ... 17. Manzoni GM, Castelnuovo G, Molinari E. The written-heart study (expressive writing for heart healing): rationale and design of a randomized controlled clinical trial of expressive writing in coronary patients referred to residential cardiac rehabilitation.",
+                    "article_url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0131802",
+                    "stance": "REFUTES"
+                }
+            ]
+        },
+        {
+            "claim": "Recent studies have shown some surprising benefits of expressive writing on your physical health, such as your immune system.",
+            "retrieved_evidences": [
+                {
+                    "evidence_snippet": "Since then, hundreds of studies over several decades have looked at the potential health benefits of this therapeutic practice for people with such illnesses as cancer, depression, PTSD, rheumatoid arthritis, and asthma. The British journal Advances in Psychiatric Treatment reports that physical and mental health outcomes of expressive writing include: ... When it comes to enhancing psychological well-being, expressive writing has been shown to reduce symptoms of general anxiety and depression, reduce physical stress, increase resilience, and improve cognitive functioning. It set the precedent for researching expressive writing, and Pennebaker\u2019s research project has been replicated many times with positive outcomes. Since then, hundreds of studies over several decades have looked at the potential health benefits of this therapeutic practice for people with such illnesses as cancer, depression, PTSD, rheumatoid arthritis, and asthma. The British journal Advances in Psychiatric Treatment reports that physical and mental health outcomes of expressive writing include: Research has shown that practicing expressive writing, coupled with supportive interventions like online talk therapy, can have a variety of benefits to our physical health, mental well-being, and our relationships. Expressive writing is a specific technique in which you honestly and freely reflect on a particular challenge, trauma, or a distressing experience.",
+                    "article_url": "https://calmerry.com/blog/therapy/health-benefits-of-expressive-writing-tips-to-get-started/",
+                    "stance": "REFUTES"
+                },
+                {
+                    "evidence_snippet": "One study outlined the benefits of expressive writing, which range from long-term benefits in health such as fewer stress-related visits to the doctor, an improved immune system among HIV patients, and greater psychological well-being. There is also evidence that suggests that expressive writing can induce positive medical benefits such as lung functioning in asthma, disease severity in rheumatoid arthritis and pain intensity in women with chronic pelvic pain. Now, more recent studies suggest that this kind of writing also benefits physical health. One study outlined the benefits of expressive writing, which range from long-term benefits in health such as fewer stress-related visits to the doctor, an improved immune system among HIV patients, and greater psychological well-being. Still, the prevailing findings on this therapy is that it positively impacts our mental health and well-being. Putting our feelings into words really does make a difference. So don\u2019t bottle it up, grab a pen and express yourself. Try it for at least four consecutive days and see how it improves your well-being.",
+                    "article_url": "https://www.psychreg.org/benefits-expressive-writing/",
+                    "stance": "SUPPORTS"
+                },
+                {
+                    "evidence_snippet": "Expressive writing has been shown to impact a wide range of health outcomes, such as stress, mood, immune system response, and outcome from cancer treatment. Additionally, expressive writing impacts our cognitive processes, increasing the availability of working memory and acting as a buffer against the overload of cognitive resources. The writing doesn\u2019t have to be long or in-depth \u2013 15 minutes will do \u2013 and it can be effective after as little as one session. Expressive writing has been shown to impact a wide range of health outcomes, such as stress, mood, immune system response, and outcome from cancer treatment. Those in these \u201cexpressive\u201d conditions were compared to other students who wrote about unrelated, neutral topics. Those in the expressive conditions had enhanced long-term health outcomes relative to those in the control condition, including a decreased number of trips to health centers, enhanced self-reported health, and enhanced immunological responses.",
+                    "article_url": "https://gothrive.io/blog/the-effects-of-expressive-writing-on-health-and-performance/",
+                    "stance": "SUPPORTS"
+                },
+                {
+                    "evidence_snippet": "The reference model is based on Pennebaker\u2019s theory (2004), which posits that expressing our deeper thoughts and feelings can result in significant health benefits in the short and long term. Studies over the past 25 years have shown that expressive writing, that is, simple writing on deeper thoughts and emotional sensations, is a useful tool to alleviate both physical and psychological symptoms. He writes that exposing our deeper thoughts and feelings can have significant health benefits in the short and long term. Studies of the last 25 years have shown that expressive writing, that is, simple writing on deeper thoughts and sensations related to emotional events, is a useful tool to alleviate both physical and psychological symptoms (4, 5). A literature review indicates that in chronic patients, expressive writing is very effective. Studies over the past 25 years have shown that expressive writing, that is, simple writing on deeper thoughts and emotional sensations, is a useful tool to alleviate both physical and psychological symptoms. This research seeks to ascertain whether and how expressive writing has an impact on work satisfaction, coping strategies, and relational communication satisfaction of health practitioners. Methods: a comparison was made between the expressive writing and neutral writing of two randomized groups of health care professionals. A group of 66 healthcare professionals participated in this study.",
+                    "article_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6357577/",
+                    "stance": "SUPPORTS"
+                },
+                {
+                    "evidence_snippet": "Higher education often exposes students to various stressors that can harm their mental health. This study explores the impact of expressive writing therapy on mitigating embitterment, a detrimental emotional response characterized by feelings of injustice and resentment. Further, paired samples t-test results indicate significant reduction in embitterment scores following expressive writing therapy. This research adds to the growing evidence supporting expressive writing as a valuable tool for improving emotional well-being among university students, with implications for enhancing mental health interventions in educational settings.",
+                    "article_url": "https://www.researchgate.net/publication/231337110_Emotional_and_physical_benefits_of_expressive_writing",
+                    "stance": "REFUTES"
+                }
+            ]
+        },
+        {
+            "claim": "Research suggests that expressive writing can, in fact, reduce negative thoughts.",
+            "retrieved_evidences": [
+                {
+                    "evidence_snippet": "Disclosure literature suggests that expressive writing about more intense negatives from one\u2019s past may actually result in greater health, physical, and cognitive benefits (Harber and Pennebaker, 1992; Pennebaker, 1997). Furthermore, in longitudinal mindfulness interventions, individuals are trained to draw awareness to one\u2019s thoughts and feelings in the present moment, and then slowly let go of negative or nagging feelings to focus on the current moment (Kabat-Zinn, 2009). It is possible that behavioral differences between groups would be stronger if the writing topic was more strongly negative, such as a trauma. It is interesting to note that previous research has suggested that the beneficial outcomes of expressive writing may be related to positive aspects of writing, such as meaning making and affect labeling (Pennebaker and Chung, 2011; Memarian et al., 2017). It is interesting to note that previous research has suggested that the beneficial outcomes of expressive writing may be related to positive aspects of writing, such as meaning making and affect labeling (Pennebaker and Chung, 2011; Memarian et al., 2017). In our dataset, externally coded scores based on the writing samples were not associated with behavioral or neural outcomes, whether they were based on the negativity of the writing samples or more positive aspects, such as persistence and finding a \u201csilver lining.\u201d Instead, it was the participants\u2019 own ratings of the stressfulness of the event which correlated with MCC activation, lending support to the idea that the experience that the participant writes about may be at least as important as the content of the writing sample.",
+                    "article_url": "https://www.frontiersin.org/articles/10.3389/fnhum.2019.00389/full",
+                    "stance": "SUPPORTS"
+                },
+                {
+                    "evidence_snippet": "Recent research has shown that individuals are equipped with the ability to combat the negative influence of test anxiety on performance. For example, asking students to write down their thoughts and feelings about exams on a sheet of paper for 20 min (i.e., expressive writing) can reduce anxiety-based performance deficits (Ramirez & Beilock, 2011). However, some evidence suggests that even one short period of expressive writing can have positive effects on writers. With these short interventions, expressive writing is thought to allow an anxious writer to offload their worries onto paper, so that these worrying thoughts will no longer consume their working memory resources during an upcoming task (Schroder, Moran, & Moser, 2018). These expressive-writing interventions are typically administered for long durations, with participants sometimes writing for multiple sessions across weeks or months. These longer interventions are thought to allow writers to better unpack and understand stressful experiences, eventually leading to changes in their thought patterns surrounding uncomfortable feelings (Pennebaker & Seagal, 1999). However, some evidence suggests that even one short period of expressive writing can have positive effects on writers.",
+                    "article_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8192598/",
+                    "stance": "SUPPORTS"
+                },
+                {
+                    "evidence_snippet": "Disclosure literature suggests that expressive writing about more intense negatives from one\u2019s past may actually result in greater health, physical, and cognitive benefits (Harber and Pennebaker, 1992; Pennebaker, 1997). Furthermore, in longitudinal mindfulness interventions, individuals are trained to draw awareness to one\u2019s thoughts and feelings in the present moment, and then slowly let go of negative or nagging feelings to focus on the current moment (Kabat-Zinn, 2009). Expressive writing about past negative events has been shown to lead to a slew of positive outcomes. However, little is known about why writing about something negative would have positive effects. While some have posited that telling a narrative of a past negative event or current anxiety \u201cfrees up\u201d cognitive resources, allowing individuals to focus more on the task at hand, there is little neural evidence suggesting that expressive writing has an effect on cognitive load. It is possible that behavioral differences between groups would be stronger if the writing topic was more strongly negative, such as a trauma. It is interesting to note that previous research has suggested that the beneficial outcomes of expressive writing may be related to positive aspects of writing, such as meaning making and affect labeling (Pennebaker and Chung, 2011; Memarian et al., 2017).",
+                    "article_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6869814/",
+                    "stance": "SUPPORTS"
+                },
+                {
+                    "evidence_snippet": "Research suggests that expressive writing and gratitude journaling can reduce symptoms of depression, providing an effective intervention for clients receiving treatment in therapy. In fact, based on client self-reports, research suggests a wide range of physical, cognitive, and emotional benefits from expressive writing (Baikie & Wilhelm, 2005): Research suggests that journaling, particularly expressive writing, can help those experiencing or recovering from the emotional trauma associated with PTSD (Sohal et al., 2022).",
+                    "article_url": "https://positivepsychology.com/benefits-of-journaling/",
+                    "stance": "SUPPORTS"
+                },
+                {
+                    "evidence_snippet": "Now, new research suggests expressive writing may also offer physical benefits to people battling terminal or life-threatening diseases. Studies by those in the forefront of this research--psychologists James Pennebaker, PhD, of the University of Texas at Austin, and Joshua Smyth, PhD, of Syracuse University--suggest that writing about emotions and stress can boost immune functioning in patients with such illnesses as HIV/AIDS, asthma and arthritis. Other research by Pennebaker indicates that suppressing negative, trauma-related thoughts compromises immune functioning, and that those who write visit the doctor less often. Also, Petrie's colleague Roger Booth, PhD, has linked writing with a stronger antibody response to the Hepatitis B vaccine. Not everyone agrees, though, that the mere act of writing is necessarily beneficial. In fact, initial writing about trauma triggers distress and physical and emotional arousal, researchers have found. And not all people will work through that distress therapeutically or through continued writing, says psychologist Helen Marlo, PhD, of Notre Dame de Namur University and a private practitioner in Burlingame, Calif. In past research, she found that, contrary to Pennebaker's results, writing about negative and positive life events produced no physical health benefits in undergraduate students.",
+                    "article_url": "https://www.apa.org/monitor/jun02/writing",
+                    "stance": "REFUTES"
+                }
+            ]
+        },
+        {
+            "claim": "Researchers in New Zealand, for example, asked a group of medical students to write about personal traumatic events the day before a group of medical students were vaccinated.",
+            "retrieved_evidences": [
+                {
+                    "evidence_snippet": "Forty medical students who tested negative for hepatitis B antibodies were randomly assigned to write about personal traumatic events or control topics during 4 consecutive daily sessions. The day after completion of the writing, participants were given their first hepatitis B vaccination, with booster injections at 1 and 4 months after the writing. Blood was collected before each vaccination and at a 6-month follow-up.",
+                    "article_url": "https://pubmed.ncbi.nlm.nih.gov/7593871/",
+                    "stance": "#CHOOSE#"
+                }
+            ]
+        },
+        {
+            "claim": "Studies have shown that doing expressive writing before an exam can improve performance by offloading, distracting worrisome thoughts, and freeing up working memory.",
+            "retrieved_evidences": [
+                {
+                    "evidence_snippet": "Beilock, who is also the author of a recently published book about mental logjams called \"Choke: What the Secrets of the Brain Reveal about Getting It Right When You Have To,\" said the findings of this new research are somewhat counterintuitive. Writing about anxiety before a test, it seems, would cause the worries to crystallize and manifest themselves, not alleviate them. \"But, once you know some of the science behind test anxiety, expressive writing and test performance, it makes sense,\" she said.",
+                    "article_url": "https://www.nsf.gov/news/news_summ.jsp?cntn_id=118396",
+                    "stance": "SUPPORTS"
+                },
+                {
+                    "evidence_snippet": "This explanation is also supported by the increase in references to course content and exam-taking tips observed. We were also heartened to see the number of complaints decline. Given how easy it was to carry out the crumpling and throwing expressive writing exercise and the improved academic performance Ramirez and Beilock documented (8), we suggest instructors consider implementing this intervention. While we feel the exercise was relatively successful, we do note that students were not willing to write for the ten minutes employed in the Ramirez and Beilock study (8). As writings were anonymous, we also were not able to determine whether the exercise changed exam performance. Possibly, as students became more familiar with course material and the exam format, they became less anxious. This explanation is also supported by the increase in references to course content and exam-taking tips observed. We were also heartened to see the number of complaints decline. Given how easy it was to carry out the crumpling and throwing expressive writing exercise and the improved academic performance Ramirez and Beilock documented (8), we suggest instructors consider implementing this intervention. Prior to the first exam, we informed students that we were adding an optional expressive writing exercise at the start of exams. We explained why we were doing this by sharing the results of the Ramirez and Beilock study (8). Furthermore, we let the students know that their writing would be anonymous (no name on page) and that the length of the exam was shortened to accommodate the writing time.",
+                    "article_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5576769/",
+                    "stance": "SUPPORTS"
+                },
+                {
+                    "evidence_snippet": "Results showed that the higher test anxiety students performed better on the exam if they completed the expressive writing exercise beforehand. Students with low test anxiety did not display a significant change in grades in either group. This study suggests that students who worry significantly about tests and are affected by high-pressure exam situations could benefit from pretest expressive writing exercises [7] . Neural activity during affect labeling predicts expressive writing effects on well-being: GLM and SVM approaches. Social Cognitive and Affective Neuroscience , 12 (9), 1437-1447. doi: 10.1093/scan/nsx084 \u00b7 Ramirez, G. & Beilock, S. L. (2011). Writing about testing worries boosts exam performance in the classroom. Science , 331 , 211-213. doi: 10.1126/science.1199427 \u00b7 Shen, L., Yang, L., Zhang, J., & Zhang, M. (2018). Benefits of expressive writing in reducing test anxiety: A randomized controlled trial in Chinese samples. This study suggests that students who worry significantly about tests and are affected by high-pressure exam situations could benefit from pretest expressive writing exercises [7] . In general, more recent studies have corroborated these results. In one study, Chinese high school seniors with high levels of test anxiety engaged in expressive writing exercises or control writing exercises every day for 30 days [8] . The expressive writing group was instructed to reflect and write for 20 minutes per day on their positive emotions for that day; the control group simply wrote for 20 minutes about their daily activities.",
+                    "article_url": "https://greymattersjournal.org/express-before-you-test/",
+                    "stance": "SUPPORTS"
+                },
+                {
+                    "evidence_snippet": "frees up working memory resources by \u201coffloading\u201d distract- ing worrisome thoughts prior to testing that would have oth- erwise led to",
+                    "article_url": "https://cpl.psy.msu.edu/wp-content/uploads/2020/01/Schroder-Moran-Moser-2018.pdf",
+                    "stance": "REFUTES"
+                },
+                {
+                    "evidence_snippet": "Since Pennebaker and Beall\u2019s (1986) seminal study demonstrating that expressive writing about a stressful experience improves indicators of physical health, more than 400 studies have tested the effects of expressive writing in different populations, on various outcomes, and under a variety of circumstances. Another study examining the effect of expressive writing on 40 patients recovering from bladder papilloma resection found that for those high in alexithymia, writing reduced the length of hospital stay and number of physical and psychological symptoms, but this effect was not found for patients low in alexithymia (Solano, Donati, Pecci, Persichetti, & Colaci, 2003). Studies demonstrating that emotional expressiveness predicts better outcomes from expressive writing, or that inability to express emotions predicts worse outcomes, are consistent with the matching hypothesis, which suggests that matching a person\u2019s naturally elected coping approach with contextual parameters (e.g., assigned intervention) is particularly beneficial (Engebretson, Matthews, & Scheier, 1989; Stanton et al., 2000). Although a number of studies have demonstrated that emotional expressiveness moderates the effect of expressive writing, the current body of work does not yet provide a consistent portrait of the direction of this relationship. The goal of this study was to examine components of emotional expressiveness as moderators of the effects of expressive writing on psychological and physical health in a sample of healthy adults.",
+                    "article_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3830620/",
+                    "stance": "REFUTES"
+                }
+            ]
+        },
+        {
+            "claim": "There have been a couple of thousand studies.",
+            "retrieved_evidences": [
+                {
+                    "evidence_snippet": "The correct sequence of the given words to be followed in order to make a meaningful sentence is: \u201cIt has been the subject of many scientific studies\u201d. Here, the subject is \u201cit\u201d while the verb is \u201chas been the subject of\u201d and lastly the object of the sentence is indicated by the words \u201c many scientific studies\u201d. The correct order of the rearranged words in the given sentence 'has been /many/it/the subject of/studies /scientific' is as follows : It has been the subject of many scientific studies. It has been the subject of many scientific studies. Word rearrangement exercises help us to practice the correct placement of different parts of speech, namely, noun, pronoun, adjective, determiner, verb, adverb, preposition, conjunction, and interjection. ... The correct sequence of the given words to be followed in order to make a meaningful sentence is: \u201cIt has been the subject of many scientific studies\u201d.",
+                    "article_url": "https://brainly.in/question/1560022",
+                    "stance": "#CHOOSE#"
+                }
+            ]
+        },
+        {
+            "claim": "This sort of expressive writing has all sorts of benefits for your mood, your immune system, and even your memory.",
+            "retrieved_evidences": [
+                {
+                    "evidence_snippet": "Expressive writing has been shown to impact a wide range of health outcomes, such as stress, mood, immune system response, and outcome from cancer treatment. Additionally, expressive writing impacts our cognitive processes, increasing the availability of working memory and acting as a buffer against the overload of cognitive resources. To gain some of these benefits, you only have to start journaling somewhat regularly. These benefits include reduced stress and enhanced mood, as well as greater focus, clarity, and self-awareness. These benefits, and more, have been documented in several decades of research on expressive writing. In this blog, I briefly discuss important findings relating expressive writing to health and performance. Writing is a potent source of clarity and self-affirmation, and Thrive uses writing in a number of programs to enhance engagement and results. The writing doesn\u2019t have to be long or in-depth \u2013 15 minutes will do \u2013 and it can be effective after as little as one session. Expressive writing has been shown to impact a wide range of health outcomes, such as stress, mood, immune system response, and outcome from cancer treatment.",
+                    "article_url": "https://gothrive.io/blog/the-effects-of-expressive-writing-on-health-and-performance/",
+                    "stance": "SUPPORTS"
+                },
+                {
+                    "evidence_snippet": "Expressive writing is a form of therapeutic journaling with a vast array of benefits. It has been shown to improve mood disorders, reduce the severity of symptoms among cancer patients and boost memory. Expressive writing is an activity anyone can do on their own to help cope with trauma and stressful life events. It has been shown to improve mood disorders, reduce the severity of symptoms among cancer patients and boost memory. Expressive writing is an activity anyone can do on their own to help cope with trauma and stressful life events. In these stressful times, and with mental health on the decline, it may prove to be a highly valuable tool for people. The concept of expressive writing is relatively simple. It is deeply personal, free-flowing and does not require accurate spelling, punctuation or grammar. You are meant to let your feelings loose with no regard for format or structure. Your focus is more on your feelings about an event, person, memory or object, which is what differentiates it from journaling.",
+                    "article_url": "https://studybreaks.com/thoughts/expressive-writing/",
+                    "stance": "SUPPORTS"
+                }
+            ]
+        },
+        {
+            "claim": "We know that when somebody is stressed and they're obsessing about things, their heart beats faster, their immune system is suppressed.",
+            "retrieved_evidences": [
+                {
+                    "evidence_snippet": "people respond when they're overwhelmed It can suppress your immune system, upset your When you're stressed out, the hormones produced by",
+                    "article_url": "https://www.helpguide.org/articles/stress/stress-symptoms-signs-and-causes.htm",
+                    "stance": "REFUTES"
+                },
+                {
+                    "evidence_snippet": "A current example of this is AIDS (acquired immune deficiency syndrome). Here the immune system is suppressed, leaving them vulnerable to illness. Stress would just lead to frequent illness and infections. Stress responses increase strain upon the circulatory system due to increased heart rate etc. When we\u2019re stressed, the immune system\u2019s ability to fight off antigens is reduced. That is why we are more susceptible to infections. The stress hormone corticosteroid can suppress the effectiveness of the immune system (e.g., it lowers the number of lymphocytes). The stress hormone corticosteroid can suppress the effectiveness of the immune system (e.g., it lowers the number of lymphocytes). Stress can also have an indirect effect on the immune system as a person may use unhealthy behavioral coping strategies to reduce their stress, such as drinking and smoking.",
+                    "article_url": "https://www.simplypsychology.org/stress-immune.html",
+                    "stance": "SUPPORTS"
+                },
+                {
+                    "evidence_snippet": "Stress triggers the body\u2019s fight-or-flight response. Chronic stress can cause negative health effects on your mood, immune and digestive systems, and cardiovascular health. You\u2019re sitting in traffic, late for an important meeting, watching the minutes tick away. Chronic stress can cause negative health effects on your mood, immune and digestive systems, and cardiovascular health. You\u2019re sitting in traffic, late for an important meeting, watching the minutes tick away. Your hypothalamus, a tiny control tower in your brain, decides to send out the order: Send in the stress hormones! These stress hormones are the same ones that trigger your body\u2019s \u201cfight or flight\u201d response. Your heart races, your breath quickens, and your muscles ready for action. But over time, stress hormones will weaken your immune system and reduce your body\u2019s response to foreign invaders. People under chronic stress are more susceptible to viral illnesses like the flu and the common cold, as well as other infections. Stress can also increase the time it takes you to recover from an illness or injury.",
+                    "article_url": "https://www.healthline.com/health/stress/effects-on-body",
+                    "stance": "SUPPORTS"
+                },
+                {
+                    "evidence_snippet": "And so our ancestors developed the stress response to help us survive. Here\u2019s what can happen during the stress response: You need both systems to run properly.",
+                    "article_url": "https://health.clevelandclinic.org/what-happens-to-your-body-during-the-fight-or-flight-response",
+                    "stance": "REFUTES"
+                }
+            ]
+        },
+        {
+            "claim": "What these researchers found was that expressive writing increased a phenomenon called working memory.",
+            "retrieved_evidences": [
+                {
+                    "evidence_snippet": "This is clearly evidenced by what is known as the flashbulb memory phenomenon. The researchers found that this simple writing task increased short-term memory",
+                    "article_url": "https://openbooks.library.baylor.edu/psychscience/chapter/memory/",
+                    "stance": "REFUTES"
+                }
+            ]
+        },
+        {
+            "claim": "expressive writing's just one thing you can incorporate into your daily routine, which really could benefit your body and life.",
+            "retrieved_evidences": [
+                {
+                    "evidence_snippet": "He writes that exposing our deeper thoughts and feelings can have significant health benefits in the short and long term. Studies of the last 25 years have shown that expressive writing, that is, simple writing on deeper thoughts and sensations related to emotional events, is a useful tool to alleviate both physical and psychological symptoms (4, 5). A literature review indicates that in chronic patients, expressive writing is very effective. The reference model is based on Pennebaker\u2019s theory (2004), which posits that expressing our deeper thoughts and feelings can result in significant health benefits in the short and long term. Studies over the past 25 years have shown that expressive writing, that is, simple writing on deeper thoughts and emotional sensations, is a useful tool to alleviate both physical and psychological symptoms. Written Emotional Expression Produces Health Benefits in Fibromyalgia Patients. Psychosom Med. 2005;67:326\u201334. [PubMed] [Google Scholar] 7. Petrie KJ, Fontanilla I, Thomas MG, Booth RJ, Pennebacker JW. Effect of written emotional expression on immune function in patients with human immunodeficiency virus infection: a randomized trial.",
+                    "article_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6357577/",
+                    "stance": "SUPPORTS"
+                },
+                {
+                    "evidence_snippet": "But here, we\u2019ll talk about a specific type of journaling that is called expressive writing. This simple technique helps people understand and deal with emotional upheavals in their lives. Research has shown that practicing expressive writing, coupled with supportive interventions like online talk therapy, can have a variety of benefits to our physical health, mental well-being, and our relationships. Since then, hundreds of studies over several decades have looked at the potential health benefits of this therapeutic practice for people with such illnesses as cancer, depression, PTSD, rheumatoid arthritis, and asthma. The British journal Advances in Psychiatric Treatment reports that physical and mental health outcomes of expressive writing include: It set the precedent for researching expressive writing, and Pennebaker\u2019s research project has been replicated many times with positive outcomes. Since then, hundreds of studies over several decades have looked at the potential health benefits of this therapeutic practice for people with such illnesses as cancer, depression, PTSD, rheumatoid arthritis, and asthma.",
+                    "article_url": "https://calmerry.com/blog/therapy/health-benefits-of-expressive-writing-tips-to-get-started/",
+                    "stance": "SUPPORTS"
+                },
+                {
+                    "evidence_snippet": "Until now, we\u2019ve not really known why. New evidence is shedding light on the many ways writing helps your brain and body. Expressive writing has been linked with psychological benefits, such as improved mood, greater well-being, lower stress levels and fewer depressive symptoms. Expressive writing has many benefits for your mind, brain, and body. ... After taking care of my brother as he wasted away and died of AIDs, the end of my 18-year marriage, and years of wrong turns and things not working out, I tried to kill myself in June of 2007, by swallowing a bunch of pills. Besides the many measurable benefits of writing for our brains and bodies, we know that it just plain feels good. With way too much chaos and craziness in the world, writing is a way to try to make sense of things that make no sense. It\u2019s a way to feel like we have a little bit of control in a world where we often have none.",
+                    "article_url": "https://thebestbrainpossible.com/writing-improves-brain-heal-emotions-health-journaling/",
+                    "stance": "SUPPORTS"
+                },
+                {
+                    "evidence_snippet": "Although there are many ways to journal, research has shown that a specific type of journaling, called expressive writing, can have a variety of benefits to our personal well-being and our relationships (Baikie & Wilhelm, 2005). The practice of expressive writing generally involves spending 15-20 minutes a day for 3-5 consecutive days writing about one\u2019s deepest feelings and emotions related to an event or interaction they have had. Emotional and physical health benefits of expressive writing. Advances in Psychiatric Treatment, 11(5), 338\u2013346. doi:10.1192/apt.11.5.338 \u00b7 Niles, A. N., Byrne Haltom, K. E., Lieberman, M. D., Hur, C., & Stanton, A. L. (2016). Writing content predicts benefit from written expressive disclosure: Evidence for repeated exposure and self-affirmation. This type of thinking can keep us up at night, distract us from our work or family life, and cause us to be in a constant state of stress. Instead of holding it in and letting frustration, disappointment, anger, or any other emotion build up, many people find that writing in a journal can help them deal with and process their emotions. Although there are many ways to journal, research has shown that a specific type of journaling, called expressive writing, can have a variety of benefits to our personal well-being and our relationships (Baikie & Wilhelm, 2005).",
+                    "article_url": "https://extension.usu.edu/relationships/faq/processing-tough-emotions-using-expressive-writing",
+                    "stance": "SUPPORTS"
+                },
+                {
+                    "evidence_snippet": "These benefits have been shown to persist for months. When we experience a stressful event or major life transition, it\u2019s easy to ruminate over that experience; thinking about it can keep us up at night, distract us from work, and make us feel less connected to others. Expressive writing allows us to step back for a moment and evaluate our lives. An everyday activity as a treatment for depression: The benefits of expressive writing for people diagnosed with major depressive disorder. Journal of Affective Disorders, 150(3), 1148\u20131151. Lepore, S. J., Revenson, T. A., Roberts, K. J., Pranikoff, J. R., & Davey, A. (2015). Randomised controlled trial of expressive writing and quality of life in men and women treated for colon or rectal cancer. Changes in language use mediate expressive writing's benefits on health-related quality of life following myocardial infarction. Health Psychology and Behavioral Medicine, 2(1), 1053\u20131066. Hijazi, A. M., Tavakoli, S., Slavin-Spenny, O., & Lumley, M. A. (2011). Targeting interventions: Moderators of the effects of expressive writing and assertiveness training on the adjustment of international university students.",
+                    "article_url": "https://ggia.berkeley.edu/practice/expressive_writing",
+                    "stance": "REFUTES"
+                }
+            ]
+        }
+    ],
+    "overall_summary": {
+        "total_supported_claims": 12,
+        "total_refuted_claims": 6,
+        "claims_supported": [
+            "And expressive writing may even boost your brain power.",
+            "And if you're under stress, you're not able to take in other information.",
+            "And that's because expressive writing can be surprisingly beneficial for your brain, your wellbeing, and your life.",
+            "And with expressive writing, people heal more quickly than if people're writing about superficial topics.",
+            "But if it's low-level anxiety, the sort of thoughts that are keeping you up at night, expressive writing really could help.",
+            "Podcasts from the BBC World Service are supported by advertising.",
+            "Professor James Pennebaker was the first scientist to investigate how expressive writing can benefit health back in the 1980s.",
+            "Recent studies have shown some surprising benefits of expressive writing on your physical health, such as your immune system.",
+            "Research suggests that expressive writing can, in fact, reduce negative thoughts.",
+            "Studies have shown that doing expressive writing before an exam can improve performance by offloading, distracting worrisome thoughts, and freeing up working memory.",
+            "This sort of expressive writing has all sorts of benefits for your mood, your immune system, and even your memory.",
+            "expressive writing's just one thing you can incorporate into your daily routine, which really could benefit your body and life."
+        ],
+        "claims_refuted": [
+            "Amazingly, six months after receiving the vaccine, a group of medical students had a stronger immune response and far higher antibody levels than a control group who merely had the vaccine.",
+            "Randomised controlled trials, the gold standard of studies, have also shown that asthma patients use less medication and arthritis patients feel less pain after doing expressive writing.",
+            "Researchers in New Zealand, for example, asked a group of medical students to write about personal traumatic events the day before a group of medical students were vaccinated.",
+            "There have been a couple of thousand studies.",
+            "We know that when somebody is stressed and they're obsessing about things, their heart beats faster, their immune system is suppressed.",
+            "What these researchers found was that expressive writing increased a phenomenon called working memory."
+        ]
+    }
+}

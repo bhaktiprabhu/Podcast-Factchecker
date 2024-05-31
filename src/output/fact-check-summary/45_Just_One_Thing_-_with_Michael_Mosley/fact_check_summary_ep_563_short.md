@@ -1,0 +1,43 @@
+# Fact-Check Summary for Episode 563
+
+## Episode Information
+
+**Episode Name**: Try Some Turmeric  
+**Podcast Name**: Just One Thing - with Michael Mosley  
+**Podcast Author**: BBC  
+**Podcast Categories**: Health & Fitness, Science
+
+## Fact-Check Report
+
+- **Total Checkworthy Claims**: 31
+- **Total Checkworthy Claims with Evidence**: 22
+- **Claims Supported**: 16
+- **Claims Refuted**: 6
+
+### Supported Claims
+
+1. And Dr Benny Antony from the Menzies Institute of Medical Research at the University of Tasmania in Australia found that the participants who were taking the turmeric extract had relief in pain compared to placebo group.
+2. And a lot of Non-steroidal anti-inflammatory drugs such as the ibuprofen have more severe adverse events such as the gastrointestinal bleeding or cardiovascular events.
+3. And as we'll discover in a moment, it appears turmeric can also relieve pain.
+4. I've asked Yushi, an office worker to spice things up with turmeric because turmeric not only adds colour and flavouring to food, turmeric's also been linked to some surprising health claims, from boosting attention and working memory to improving asthma and eczema.
+5. In an Australian study where they gave curcumin in pill form to 80 older individuals, they found that compared to placebo, taking curcumin in pill form improved working memory and reduced fatigue.
+6. One way curcumin in pill form might be working is by reducing inflammation.
+7. Over the last couple of decades or so, scientific research into turmeric and in particular into its active ingredient curcumin has exploded, with lots of studies exploring the health effects of turmeric.
+8. Podcasts from the BBC World Service are supported by advertising.
+9. So The authors think that one of the reasons why The authors saw such good results in The authors's study is because when you consume curcumin with fat and certain spices, this helps your body to absorb more of curcumin.
+10. So turmeric has been mainly known as an anti-inflammatory agent.
+11. The authors suggest that it's the curcumin, which is a polyphenol in the turmeric, which is responsible for these positive effects.
+12. The best way to do it is to combine the turmeric with some pepper because piperine seems to increase the bioavailability that means the increased absorption of curcumin in the body.
+13. Turmeric has been used for centuries in Ayurvedic medicine, that is a traditional Indian medicine, as well as traditional Chinese medicine.
+14. Turmeric has been widely used for millennia in many parts of the world's, especially in Southeast Asia, not just for cooking but also as medicine and there is new research showing Turmeric could be especially beneficial for some types of pain.
+15. Turmeric, as you may well know, is widely used in curries
+16. turmeric's been used in ancient Ayurvedic medicine for thousands of years to alleviate liver problems and digestive ailments.
+
+### Refuted Claims
+
+1. And similarly, the non-steroidal anti-inflammatory drugs such as ibuprofen have got only a modest effect.
+2. Especially the curcumin can actually improve a certain type of bacterial colony which reduces the inflammation.
+3. In a recent Japanese study where overweight but otherwise healthy participants were randomly allocated to placebo or curcumin extract, they found those taking curcumin extract had lower levels of an inflammatory marker in the blood called C-reactive protein.
+4. So compared to the non-steroidal anti-inflammatory drugs such as the ibuprofen, there seems to be no adverse event for turmeric extract.
+5. That means Non-steroidal anti-inflammatory drugs such as the ibuprofen cannot be taken in older patients.
+6. Yeah, that's one of the interesting or secondary outcomes of clinical trials looking at the benefits of using turmeric in arthritis was that there was a reduction in the number of medications which 70 patients were taking for 70 patients's knee pain.

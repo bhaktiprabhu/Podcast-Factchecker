@@ -1,0 +1,27 @@
+{
+    "episode_id": "555",
+    "episode_name": "Why eating nuts makes you healthier, according to science",
+    "podcast_name": "ZOE Science & Nutrition",
+    "podcast_author": "ZOE",
+    "podcast_categories": "Health & Fitness, Nutrition, Science, Education",
+    "total_checkworthy_claims": 15,
+    "total_checkworthy_claims_with_evidence": 12,
+    "total_supported_claims": 10,
+    "total_refuted_claims": 2,
+    "claims_supported": [
+        "And mixed nuts contain so many great nutrients.",
+        "And nuts are also very high in fat, but nuts're particularly high in monounsaturated fats, which we know are the healthy type of fats.",
+        "And polyphenols are thought to protect your cells from damage that are caused by free radicals.",
+        "And there's really compelling evidence linking high fiber intake to reducing the risk of many chronic diseases.",
+        "Now, in addition, nuts also contain bioactives.",
+        "So in particular, nuts can decrease our bad LDL cholesterol, and they can also decrease our blood triglyceride concentrations.",
+        "This is great because we know that oxidised LDL cholesterol can build up in the walls of your arteries.",
+        "We know that nuts improve insulin sensitivity.",
+        "We know that nuts reduce your fasting blood glucose.",
+        "oxidised LDL cholesterol can cause your arteries to become thicker and to stiffen, reducing just how much blood can actually get through your arteries, which can lead to atherosclerosis, which is the first step towards heart disease and strokes."
+    ],
+    "claims_refuted": [
+        "And there's a number of different ones that have found that people who eat various types of nuts see a drop in the levels of oxidised LDL cholesterol by up to about 30%.",
+        "We see with lots of different types of nuts like walnuts, almonds, pistachios, if you eat over a long period of time, a portion of lots of different types of nuts like walnuts, almonds, pistachios a day, you have a reduction in many of these different types of inflammatory measures."
+    ]
+}

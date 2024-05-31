@@ -1,0 +1,37 @@
+{
+    "episode_id": "565",
+    "episode_name": "Lift Some Weights",
+    "podcast_name": "Just One Thing - with Michael Mosley",
+    "podcast_author": "BBC",
+    "podcast_categories": "Health & Fitness, Science",
+    "total_checkworthy_claims": 32,
+    "total_checkworthy_claims_with_evidence": 22,
+    "total_supported_claims": 15,
+    "total_refuted_claims": 7,
+    "claims_supported": [
+        "An American study found that muscle mass is one of the strongest predictors of longevity, even more than weight or body mass index.",
+        "And by maintaining muscle mass, you can also reduce your risk of chronic conditions, such as type 2 diabetes and heart conditions.",
+        "And chronic conditions, such as type 2 diabetes and heart conditions actually do increase your risk for developing cognitive impairment and dementia.",
+        "And finally, strength training can do good things for your brain power.",
+        "And it appears that strength training can also directly impact both your brain function and brain structure.",
+        "And specifically, what we call associative memory, such that today is the first time I've met you.",
+        "And the parts of the muscle cells that generate energy, the mitochondria are actually really important benefits as we age.",
+        "Lifting weights can also benefit your metabolism, your waistline and even your blood sugars.",
+        "Recent evidence suggests that muscle-strengthening exercises for only a few minutes a day can confer some remarkable health benefits, boosting your immune system and even your brain.",
+        "Researchers found that those who had more muscle mass were at a lower risk of death from all causes.",
+        "So, it's been shown that strength training can improve your memory, as well as your more complex cognitive abilities, such as decision making.",
+        "Strength training may even reverse ageing at a cellular level.",
+        "That said, there are lots of benefits of incorporating a bit of strength training into your life.",
+        "That's partly because building muscle increases your insulin sensitivity, improving your ability to lower your blood sugar levels after a meal.",
+        "strength training's most widely known benefits include the maintenance of your muscle mass, as well as your muscle strength and your bone health."
+    ],
+    "claims_refuted": [
+        "And in two studies, we found that strength training had benefits for both the cognitive function, as well as metrics acquired on neuroimaging.",
+        "Apart from making you look more toned, building your muscles could help you live longer.",
+        "BDNF, brain-derived neurotrophic factor, which, as I understand it, is like a sort of fertilizer for the brain helps preserve brain cells.",
+        "But certainly one of the main mechanisms there's evidence for is a release of what we call neurotrophic factors.",
+        "There is a brain-derived neurotrophic factors, as well as insulin growth factor one.",
+        "We also found that with strength training, people had better executive functions, meaning that people were able to make the appropriate decision based on the circumstance presented to people.",
+        "What we found is that with strength training, people were able to remember things better."
+    ]
+}
