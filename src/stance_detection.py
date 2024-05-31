@@ -107,7 +107,6 @@ def generate_stance_detection_ground_truth_csv(episode_id: int):
         episode_id (int): Episode Id
     """
     sd_ground_truth_df = None
-    coref_df = None
 
     data_source_path = os.path.join(current_dir, "data", "crowd-work", "stance-detection")
     podcast_dir = utils.get_podcast_dir_path(data_source_path, episode_id)
@@ -119,27 +118,25 @@ def generate_stance_detection_ground_truth_csv(episode_id: int):
             data_file_path = os.path.join(podcast_dir, data_file_name)
 
             df = pd.read_csv(data_file_path)
-            coref_col_name = data_file_name.split("_")[0] + "_coref"
+
+            # Filter out rows where coreference is not resolved and drop the column
+            df = df[df["is_unresolved_coref"] == False].drop(columns=["is_unresolved_coref"])
+
             stance_col_name = data_file_name.split("_")[0] + "_stance"
 
-            df = df.rename(columns={"is_unresolved_coref": coref_col_name, "stance": stance_col_name})
+            df = df.rename(columns={"stance": stance_col_name})
 
             # For first matched csv
             if sd_ground_truth_df is None:
-                sd_ground_truth_df = df.drop(columns=coref_col_name)
-                coref_df = df[[coref_col_name]]
+                sd_ground_truth_df = df
             else:
-                coref_df = pd.concat([coref_df, df[[coref_col_name]]], axis=1)
-                df = df.drop(columns=["check_worthy_claim", "evidence_snippet", "article_url", coref_col_name])
+                df = df.drop(columns=["check_worthy_claim", "evidence_snippet", "article_url"])
                 sd_ground_truth_df = pd.concat([sd_ground_truth_df, df], axis=1)
-
-    is_unresolved_coref_modes = coref_df.mode(axis=1).iloc[:, 0]
-    sd_ground_truth_df["is_unresolved_coref"] = is_unresolved_coref_modes
 
     stance_modes = sd_ground_truth_df.iloc[:, 3:].mode(axis=1).iloc[:, 0]
     sd_ground_truth_df["stance"] = stance_modes
 
-    sd_ground_truth_df = sd_ground_truth_df[["check_worthy_claim", "evidence_snippet", "is_unresolved_coref", "stance"]]
+    sd_ground_truth_df = sd_ground_truth_df[["check_worthy_claim", "evidence_snippet", "article_url", "stance"]]
 
     output_path = os.path.join(current_dir, "output", "crowd-work", "stance-detection-ground-truth")
     output_file_name = f"sd_ground_truth_ep_{episode_id}.csv"
