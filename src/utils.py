@@ -80,7 +80,7 @@ def list_all_episodes(podcast_id: int = None) -> List:
     """Lists all episodes for a podcast/all podcasts.
 
     Args:
-        podcast_id (int, optional): _description_. Defaults to None.
+        podcast_id (int, optional): Podcast Id. Defaults to None.
 
     Returns:
         List: List of Ids of available episodes in the database
@@ -101,6 +101,25 @@ def list_all_episodes(podcast_id: int = None) -> List:
         print("Id: " + str(item[0]) + " || " + "Episode: " + item[1] + " || " + "Podcast: " + item[2])
 
     return ep_ids
+
+
+def get_episode_info(episode_id: int) -> Tuple:
+    """Returns Episode Title and Podcast Title for an episode.
+
+    Args:
+        episode_id (int): Episode Id.
+
+    Returns:
+        Tuple: Episode and Podcast Title
+    """
+    q = f"""select ep.title, pod.title, pod.author, pod.categories
+            from api_audioitem ep
+            inner join api_audiochannel pod on ep.channel_id = pod.id
+            where ep.id = {episode_id}
+        """
+    ep_info = execute_query_sqlite(q, "one")
+
+    return ep_info
 
 
 def get_podcast_dir_path(output_path: str, episode_id: int) -> str:
