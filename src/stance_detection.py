@@ -118,26 +118,67 @@ def generate_stance_detection_ground_truth_csv(episode_id: int):
             data_file_path = os.path.join(podcast_dir, data_file_name)
 
             df = pd.read_csv(data_file_path)
-
-            # Filter out rows where coreference is not resolved and drop the column
-            df = df[df["is_unresolved_coref"] == False].drop(columns=["is_unresolved_coref"])
-
+            coref_col_name = data_file_name.split("_")[0] + "_coref"
             stance_col_name = data_file_name.split("_")[0] + "_stance"
 
-            df = df.rename(columns={"stance": stance_col_name})
+            df = df.rename(columns={"is_unresolved_coref": coref_col_name, "stance": stance_col_name})
 
             # For first matched csv
             if sd_ground_truth_df is None:
-                sd_ground_truth_df = df
+                sd_ground_truth_df = df.drop(columns=coref_col_name)
+                coref_df = df[[coref_col_name]]
             else:
-                df = df.drop(columns=["check_worthy_claim", "evidence_snippet", "article_url"])
+                coref_df = pd.concat([coref_df, df[[coref_col_name]]], axis=1)
+                df = df.drop(columns=["check_worthy_claim", "evidence_snippet", "article_url", coref_col_name])
                 sd_ground_truth_df = pd.concat([sd_ground_truth_df, df], axis=1)
+
+    is_unresolved_coref_modes = coref_df.mode(axis=1).iloc[:, 0]
+    sd_ground_truth_df["is_unresolved_coref"] = is_unresolved_coref_modes
 
     stance_modes = sd_ground_truth_df.iloc[:, 3:].mode(axis=1).iloc[:, 0]
     sd_ground_truth_df["stance"] = stance_modes
+
+    # Filter out rows where "is_unresolved_coref" is True and drop the column
+    sd_ground_truth_df = sd_ground_truth_df[sd_ground_truth_df["is_unresolved_coref"] == False]
+    sd_ground_truth_df = sd_ground_truth_df.drop(columns=["is_unresolved_coref"])
 
     sd_ground_truth_df = sd_ground_truth_df[["check_worthy_claim", "evidence_snippet", "article_url", "stance"]]
 
     output_path = os.path.join(current_dir, "output", "crowd-work", "stance-detection-ground-truth")
     output_file_name = f"sd_ground_truth_ep_{episode_id}.csv"
     utils.create_csv_from_df(sd_ground_truth_df, episode_id, output_path, output_file_name)
+
+
+def filter_ai_stance_dectection(episode_id: int):
+    """Filter the generated AI Prediction dataframe to elimainate the rows which do not exist in ground truth dataset.
+       This is to remove the rows where the claims do not have coreference resolved.
+
+    Args:
+        episode_id (int): Episode Id
+    """
+    true_data_source_dir = os.path.join(current_dir, "output", "crowd-work", "stance-detection-ground-truth")
+    true_podcast_dir = utils.get_podcast_dir_path(true_data_source_dir, episode_id)
+    ai_data_source_dir = os.path.join(current_dir, "output", "ai-prediction", "stance-detection")
+    ai_podcast_dir = utils.get_podcast_dir_path(ai_data_source_dir, episode_id)
+
+    # Load the dataframes
+    true_df = pd.read_csv(os.path.join(true_podcast_dir, f"sd_ground_truth_ep_{episode_id}.csv"))
+    ai_df = pd.read_csv(os.path.join(ai_podcast_dir, f"ai_sd_ep_{episode_id}.csv"))
+
+    # Create a set of tuples for (check_worthy_claim, evidence_snippet) from the ground truth dataframe
+    true_claims_evidences = set(zip(true_df["check_worthy_claim"], true_df["evidence_snippet"]))
+
+    # Filter the AI predictions dataframe
+    ai_df_filtered = ai_df[
+        ai_df.apply(lambda row: (row["check_worthy_claim"], row["evidence_snippet"]) in true_claims_evidences, axis=1)
+    ]
+
+    # Print the shapes of the original and filtered dataframes for verification
+    print("True DF Shape:", true_df.shape)
+    print("Original AI predictions shape:", ai_df.shape)
+    print("Filtered AI predictions shape:", ai_df_filtered.shape)
+
+    output_path = os.path.join(current_dir, "output", "ai-prediction", "stance-detection")
+    output_file_name = f"ai_sd_ep_{episode_id}.csv"
+
+    utils.create_csv_from_df(ai_df_filtered, episode_id, output_path, output_file_name)
