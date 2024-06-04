@@ -133,16 +133,21 @@ def generate_stance_detection_ground_truth_csv(episode_id: int):
                 sd_ground_truth_df = pd.concat([sd_ground_truth_df, df], axis=1)
 
     is_unresolved_coref_modes = coref_df.mode(axis=1).iloc[:, 0]
-    sd_ground_truth_df["is_unresolved_coref"] = is_unresolved_coref_modes
-
     stance_modes = sd_ground_truth_df.iloc[:, 3:].mode(axis=1).iloc[:, 0]
+
+    sd_ground_truth_df["is_unresolved_coref"] = is_unresolved_coref_modes
     sd_ground_truth_df["stance"] = stance_modes
+
+    sd_ground_truth_df = sd_ground_truth_df[
+        ["check_worthy_claim", "evidence_snippet", "article_url", "stance", "is_unresolved_coref"]
+    ]
 
     # Filter out rows where "is_unresolved_coref" is True and drop the column
     sd_ground_truth_df = sd_ground_truth_df[sd_ground_truth_df["is_unresolved_coref"] == False]
     sd_ground_truth_df = sd_ground_truth_df.drop(columns=["is_unresolved_coref"])
 
-    sd_ground_truth_df = sd_ground_truth_df[["check_worthy_claim", "evidence_snippet", "article_url", "stance"]]
+    # Filter out rows where "is_unresolved_coref" is True and drop the column
+    sd_ground_truth_df = sd_ground_truth_df[sd_ground_truth_df["stance"] != "#CHOOSE#"]
 
     output_path = os.path.join(current_dir, "output", "crowd-work", "stance-detection-ground-truth")
     output_file_name = f"sd_ground_truth_ep_{episode_id}.csv"
@@ -182,3 +187,7 @@ def filter_ai_stance_dectection(episode_id: int):
     output_file_name = f"ai_sd_ep_{episode_id}.csv"
 
     utils.create_csv_from_df(ai_df_filtered, episode_id, output_path, output_file_name)
+
+
+generate_stance_detection_ground_truth_csv(219)
+# filter_ai_stance_dectection(630)
