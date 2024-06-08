@@ -27,7 +27,7 @@ def print_evaluation_report(true_labels: List, predicted_labels: List):
         true_labels (List): True values
         predicted_labels (List): Predicted Values
     """
-    report = classification_report(true_labels, predicted_labels, target_names=["not_cw_claim", "is_cw_claim"])
+    report = classification_report(true_labels, predicted_labels)
 
     # Micro average metrics
     micro_precision, micro_recall, micro_f1_score, _ = precision_recall_fscore_support(
@@ -35,7 +35,7 @@ def print_evaluation_report(true_labels: List, predicted_labels: List):
     )
 
     # Append Micro Avg Metrics
-    report += f"   micro avg       {micro_precision:.2f}      {micro_recall:.2f}      {micro_f1_score:.2f}      {len(true_labels)}"
+    report += f"   micro avg       {micro_precision:.2f}      {micro_recall:.2f}      {micro_f1_score:.2f}       {len(true_labels)}"
 
     print(report)
 
@@ -51,9 +51,15 @@ def ai_tools_performance_evaluation(analysis_type: str):
     if analysis_type == "claim-detection":
         true_data_source_dir = os.path.join(current_dir, "output", "crowd-work", "claim-detection-ground-truth")
         ai_data_source_dir = os.path.join(current_dir, "output", "ai-prediction", "claim-detection")
+        true_label_col = "is_check_worthy_claim"
+        factiverse_label_col = "factiverse_is_CW"
+        gpt4_label_col = "openai_gpt4_is_CW"
     elif analysis_type == "stance-detection":
         true_data_source_dir = os.path.join(current_dir, "output", "crowd-work", "stance-detection-ground-truth")
         ai_data_source_dir = os.path.join(current_dir, "output", "ai-prediction", "stance-detection")
+        true_label_col = "stance"
+        factiverse_label_col = "factiverse_stance"
+        gpt4_label_col = "openai_gpt4_stance"
     else:
         print("UNKNOWN Analysis Type")
         return
@@ -73,9 +79,10 @@ def ai_tools_performance_evaluation(analysis_type: str):
                 epiode_file_path = os.path.join(podcast_folder_path, episode_file)
 
                 df = pd.read_csv(epiode_file_path)
-                true_labels.extend(df["is_check_worthy_claim"].tolist())
-                print(f"Fetched {len(df['is_check_worthy_claim'])} true label values from file {episode_file}.")
+                true_labels.extend(df[true_label_col].tolist())
+                print(f"Fetched {len(df[true_label_col])} true label values from file {episode_file}.")
 
+    print(true_labels.count("#CHOOSE#"))
     print("------------------------------------------------------------------------------------------")
 
     # Fetch Predicted Labels from AI Prediction Files
@@ -88,9 +95,9 @@ def ai_tools_performance_evaluation(analysis_type: str):
                 epiode_file_path = os.path.join(podcast_folder_path, episode_file)
 
                 df = pd.read_csv(epiode_file_path)
-                factiverse_labels.extend(df["factiverse_is_CW"].tolist())
-                openai_gpt4_labels.extend(df["openai_gpt4_is_CW"].tolist())
-                print(f"Fetched {len(df['factiverse_is_CW'])} predicted label values from file {episode_file}.")
+                factiverse_labels.extend(df[factiverse_label_col].tolist())
+                openai_gpt4_labels.extend(df[gpt4_label_col].tolist())
+                print(f"Fetched {len(df[factiverse_label_col])} predicted label values from file {episode_file}.")
 
     # Print total values to confirm equal number of labels
     print("------------------------------------------------------------------------------------------")
@@ -127,9 +134,22 @@ def ai_tools_test_data_evaluation(analysis_type: str):
         ai_test_pod_dir = utils.get_podcast_dir_path(ai_data_source_dir, 672)
         ai_test_file = os.path.join(ai_test_pod_dir, "ai_cd_ep_672.csv")
 
+        true_label_col = "is_check_worthy_claim"
+        factiverse_label_col = "factiverse_is_CW"
+        gpt4_label_col = "openai_gpt4_is_CW"
+
     elif analysis_type == "stance-detection":
         true_data_source_dir = os.path.join(current_dir, "output", "crowd-work", "stance-detection-ground-truth")
+        true_test_pod_dir = utils.get_podcast_dir_path(true_data_source_dir, 219)
+        true_test_file = os.path.join(true_test_pod_dir, "sd_ground_truth_ep_219.csv")
+
         ai_data_source_dir = os.path.join(current_dir, "output", "ai-prediction", "stance-detection")
+        ai_test_pod_dir = utils.get_podcast_dir_path(ai_data_source_dir, 219)
+        ai_test_file = os.path.join(ai_test_pod_dir, "ai_sd_ep_219.csv")
+
+        true_label_col = "stance"
+        factiverse_label_col = "factiverse_stance"
+        gpt4_label_col = "openai_gpt4_stance"
     else:
         print("UNKNOWN Analysis Type")
         return
@@ -141,15 +161,15 @@ def ai_tools_test_data_evaluation(analysis_type: str):
     print("------------------------------------------------------------------------------------------")
 
     df = pd.read_csv(true_test_file)
-    true_labels = df["is_check_worthy_claim"].tolist()
-    print(f"Fetched {len(df['is_check_worthy_claim'])} true label values from file {true_test_file}.")
+    true_labels = df[true_label_col].tolist()
+    print(f"Fetched {len(df[true_label_col])} true label values from file {true_test_file}.")
 
     print("------------------------------------------------------------------------------------------")
 
     df = pd.read_csv(ai_test_file)
-    factiverse_labels = df["factiverse_is_CW"].tolist()
-    openai_gpt4_labels = df["openai_gpt4_is_CW"].tolist()
-    print(f"Fetched {len(df['factiverse_is_CW'])} predicted label values from file {ai_test_file}.")
+    factiverse_labels = df[factiverse_label_col].tolist()
+    openai_gpt4_labels = df[gpt4_label_col].tolist()
+    print(f"Fetched {len(df[factiverse_label_col])} predicted label values from file {ai_test_file}.")
 
     # Print total values to confirm equal number of labels
     print("------------------------------------------------------------------------------------------")
@@ -169,5 +189,8 @@ def ai_tools_test_data_evaluation(analysis_type: str):
     print("------------------------------------------------------------------------------------------")
 
 
-ai_tools_performance_evaluation(analysis_type="claim-detection")
+# ai_tools_performance_evaluation(analysis_type="claim-detection")
+# ai_tools_performance_evaluation(analysis_type="stance-detection")
+
 # ai_tools_test_data_evaluation(analysis_type="claim-detection")
+ai_tools_test_data_evaluation(analysis_type="stance-detection")
