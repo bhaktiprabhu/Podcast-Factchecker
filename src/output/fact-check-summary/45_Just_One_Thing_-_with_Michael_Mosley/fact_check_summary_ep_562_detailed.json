@@ -40,23 +40,8 @@
         "One reason that this can be so powerful is that when you write, you get these upsetting experiences out of your mind.",
         "expressive writing's just one thing you can incorporate into your daily routine, which really could benefit your body and life."
     ],
-    "total_checkworthy_claims_with_evidence": 18,
+    "total_checkworthy_claims_with_evidence": 15,
     "list_checkworthy_claims_with_evidence": [
-        {
-            "claim": "Amazingly, six months after receiving the vaccine, a group of medical students had a stronger immune response and far higher antibody levels than a control group who merely had the vaccine.",
-            "retrieved_evidences": [
-                {
-                    "evidence_snippet": "However, the antibody levels declined at 12 weeks and 6 months post-vaccination, indicating a waning of the immune response over time. At 6 months after the second dose, the Spike antibody levels were similar to the levels in persons vaccinated with one dose or in COVID-19 convalescent individuals. SARS-CoV-2 mRNA vaccines have proven high efficacy, however, limited data exists on the duration of immune responses and their relation to age and side effects. We studied the antibody and memory T cell responses after the two-dose BNT162b2 vaccine in 122 volunteers up to 6 months and correlated the findings with age and side effects. We found a robust antibody response to Spike protein after the second dose. However, the antibody levels declined at 12 weeks and 6 months post-vaccination, indicating a waning of the immune response over time. At 6 months after the second dose, the Spike antibody levels were similar to the levels in persons vaccinated with one dose or in COVID-19 convalescent individuals. The antibodies efficiently blocked ACE2 receptor binding to SARS-CoV-2 Spike protein of five variants of concern at one week but this was decreased at three months. 87% of individuals developed Spike-specific memory T cell responses, which were lower in individuals with increased proportions of immunosenescent CD8+ TEMRA cells.",
-                    "article_url": "https://www.sciencedirect.com/science/article/pii/S266677622100185X",
-                    "stance": "#CHOOSE#"
-                },
-                {
-                    "evidence_snippet": "Hamer: After three to six months or so, the natural immunity begins to wane and the risk of reinfection returns. We are definitely seeing people develop reinfections. Receiving the vaccine after having COVID is like a booster effect, and therefore it\u2019s much more effective. Studies have been done comparing those who had the disease versus those who did not, and those who got at least one shot after having COVID end up with very high levels of antibodies. There are more. And none of them are true. I do want to remind people there are still places we should mask up, like the doctor\u2019s office or on public transportation.",
-                    "article_url": "https://www.bu.edu/articles/2021/myths-vs-facts-covid-19-vaccine/",
-                    "stance": "#CHOOSE#"
-                }
-            ]
-        },
         {
             "claim": "And expressive writing may even boost your brain power.",
             "retrieved_evidences": [
@@ -298,16 +283,6 @@
             ]
         },
         {
-            "claim": "Researchers in New Zealand, for example, asked a group of medical students to write about personal traumatic events the day before a group of medical students were vaccinated.",
-            "retrieved_evidences": [
-                {
-                    "evidence_snippet": "Forty medical students who tested negative for hepatitis B antibodies were randomly assigned to write about personal traumatic events or control topics during 4 consecutive daily sessions. The day after completion of the writing, participants were given their first hepatitis B vaccination, with booster injections at 1 and 4 months after the writing. Blood was collected before each vaccination and at a 6-month follow-up.",
-                    "article_url": "https://pubmed.ncbi.nlm.nih.gov/7593871/",
-                    "stance": "#CHOOSE#"
-                }
-            ]
-        },
-        {
             "claim": "Studies have shown that doing expressive writing before an exam can improve performance by offloading, distracting worrisome thoughts, and freeing up working memory.",
             "retrieved_evidences": [
                 {
@@ -334,16 +309,6 @@
                     "evidence_snippet": "Since Pennebaker and Beall\u2019s (1986) seminal study demonstrating that expressive writing about a stressful experience improves indicators of physical health, more than 400 studies have tested the effects of expressive writing in different populations, on various outcomes, and under a variety of circumstances. Another study examining the effect of expressive writing on 40 patients recovering from bladder papilloma resection found that for those high in alexithymia, writing reduced the length of hospital stay and number of physical and psychological symptoms, but this effect was not found for patients low in alexithymia (Solano, Donati, Pecci, Persichetti, & Colaci, 2003). Studies demonstrating that emotional expressiveness predicts better outcomes from expressive writing, or that inability to express emotions predicts worse outcomes, are consistent with the matching hypothesis, which suggests that matching a person\u2019s naturally elected coping approach with contextual parameters (e.g., assigned intervention) is particularly beneficial (Engebretson, Matthews, & Scheier, 1989; Stanton et al., 2000). Although a number of studies have demonstrated that emotional expressiveness moderates the effect of expressive writing, the current body of work does not yet provide a consistent portrait of the direction of this relationship. The goal of this study was to examine components of emotional expressiveness as moderators of the effects of expressive writing on psychological and physical health in a sample of healthy adults.",
                     "article_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3830620/",
                     "stance": "REFUTES"
-                }
-            ]
-        },
-        {
-            "claim": "There have been a couple of thousand studies.",
-            "retrieved_evidences": [
-                {
-                    "evidence_snippet": "The correct sequence of the given words to be followed in order to make a meaningful sentence is: \u201cIt has been the subject of many scientific studies\u201d. Here, the subject is \u201cit\u201d while the verb is \u201chas been the subject of\u201d and lastly the object of the sentence is indicated by the words \u201c many scientific studies\u201d. The correct order of the rearranged words in the given sentence 'has been /many/it/the subject of/studies /scientific' is as follows : It has been the subject of many scientific studies. It has been the subject of many scientific studies. Word rearrangement exercises help us to practice the correct placement of different parts of speech, namely, noun, pronoun, adjective, determiner, verb, adverb, preposition, conjunction, and interjection. ... The correct sequence of the given words to be followed in order to make a meaningful sentence is: \u201cIt has been the subject of many scientific studies\u201d.",
-                    "article_url": "https://brainly.in/question/1560022",
-                    "stance": "#CHOOSE#"
                 }
             ]
         },
@@ -430,7 +395,7 @@
     ],
     "overall_summary": {
         "total_supported_claims": 12,
-        "total_refuted_claims": 6,
+        "total_refuted_claims": 3,
         "claims_supported": [
             "And expressive writing may even boost your brain power.",
             "And if you're under stress, you're not able to take in other information.",
@@ -446,10 +411,7 @@
             "expressive writing's just one thing you can incorporate into your daily routine, which really could benefit your body and life."
         ],
         "claims_refuted": [
-            "Amazingly, six months after receiving the vaccine, a group of medical students had a stronger immune response and far higher antibody levels than a control group who merely had the vaccine.",
             "Randomised controlled trials, the gold standard of studies, have also shown that asthma patients use less medication and arthritis patients feel less pain after doing expressive writing.",
-            "Researchers in New Zealand, for example, asked a group of medical students to write about personal traumatic events the day before a group of medical students were vaccinated.",
-            "There have been a couple of thousand studies.",
             "We know that when somebody is stressed and they're obsessing about things, their heart beats faster, their immune system is suppressed.",
             "What these researchers found was that expressive writing increased a phenomenon called working memory."
         ]

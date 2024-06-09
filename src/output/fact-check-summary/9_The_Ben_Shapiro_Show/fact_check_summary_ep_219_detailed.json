@@ -29,7 +29,7 @@
         "And 39 activities are things that you couldn't do in building the tabernacle.",
         "And so the idea is that you're not allowed to do 39 activities when you are on a normal Sabbath, because that's the way we're learning what you can do and what you can't do when it comes to the Jewish Sabbath."
     ],
-    "total_checkworthy_claims_with_evidence": 14,
+    "total_checkworthy_claims_with_evidence": 13,
     "list_checkworthy_claims_with_evidence": [
         {
             "claim": "At 67% of citizens aged 18 and older voted in the election in 2020.",
@@ -327,21 +327,6 @@
             ]
         },
         {
-            "claim": "You had 59% of a voting age population of 249 million in 2016, so 60%.",
-            "retrieved_evidences": [
-                {
-                    "evidence_snippet": "We estimate that 50% of young people, ages 18-29, voted in the 2020 presidential election, a remarkable 11-point increase from 2016 (39%) and likely one of the highest rates of youth electoral participation since the voting age was lowered to 18. Our new estimate is based on newly available voter file data in 41 states\u2014AK, DC, HI, MD, MS, NH, ND, UT, WI, WY do not have reliable vote history data by age. No states saw a decrease in turnout, and in only one state (Louisiana) did the youth voter turnout rate remain flat, at 42%, between 2016 and 2020. We also estimate that voter turnout among young people ages 18-19 was 46%. This age group deserves special attention because they are the newest eligible voters, so their electoral participation, or lack thereof can provide a window into how well\u2014and how equitably\u2014we are preparing and priming youth to participate in democracy. State-by-state turnout increases between 2016 and 2020 were 9 percentage points on average, but also varied widely. The largest increases in youth voter turnout were in New Jersey (+22), Arizona (+18), and California and Washington (both +17). Notably, with the exception of Arizona, all of those states automatically mailed absentee ballots to all registered voters without voters having to request them. No states saw a decrease in turnout, and in only one state (Louisiana) did the youth voter turnout rate remain flat, at 42%, between 2016 and 2020.",
-                    "article_url": "https://circle.tufts.edu/latest-research/half-youth-voted-2020-11-point-increase-2016",
-                    "stance": "#CHOOSE#"
-                },
-                {
-                    "evidence_snippet": "Their share of the voting population went from 40% to 41% during that time. In contrast, the share of citizens 18 and older with less than a bachelor\u2019s degree went down from 68% in 2016 to 65% in 2020. Their share of voters went from 60% to 59% during the same period but still remained the largest voting bloc. The largest increase was for non-Hispanic Asians (Figure 2). Of the non-Hispanic Asian population who were both citizens and of voting age, 59% reported voting in 2020, compared to 49% in 2016. Non-Hispanic Asian registration saw a large increase as well: 64%, compared to 56% in 2016. The 2020 election also featured higher turnout rates for: Non-Hispanic Whites: 71% voter turnout, compared to 65% in 2016. Hispanics: 54%, compared to 48% in 2016. Non-Hispanic Blacks: 63%, compared to 60% in 2016. While voter turnout in this group was higher than in 2016, it did not exceed turnout in 2008 (65%). Their share of voters went from 60% to 59% during the same period but still remained the largest voting bloc. Voter turnout for both groups increased in 2020. However, turnout for voters with less than a bachelor\u2019s degree increased at a higher rate: 60% in 2020 compared to 54% in 2016.",
-                    "article_url": "https://www.census.gov/library/stories/2021/04/record-high-turnout-in-2020-general-election.html",
-                    "stance": "#CHOOSE#"
-                }
-            ]
-        },
-        {
             "claim": "You're not allowed to wreck the tabernacle on the Jewish Sabbath.",
             "retrieved_evidences": [
                 {
@@ -364,7 +349,7 @@
     ],
     "overall_summary": {
         "total_supported_claims": 7,
-        "total_refuted_claims": 7,
+        "total_refuted_claims": 6,
         "claims_supported": [
             "Ben mean, the voter turnout rate had the highest voter turnout of the 21st century.",
             "Biden won about 81.25 million new votes in 2020.",
@@ -380,7 +365,6 @@
             "Corey'm bothered that the Washington State, where the legislature has recently passed bills allowing gender-affirming care of minors without parental consent House and Senate Republicans don't point out the horrible truth of what's actually happening, such as the sterilization and removal of healthy body parts of minors, as Matt Walsh does.",
             "So France is the healthiest in terms of demographics.",
             "Turnout as a percentage of eligible voters, Ben mean, back in 1980, Turnout as a percentage of eligible voters was like 54%.",
-            "You had 59% of a voting age population of 249 million in 2016, so 60%.",
             "You're not allowed to wreck the tabernacle on the Jewish Sabbath."
         ]
     }

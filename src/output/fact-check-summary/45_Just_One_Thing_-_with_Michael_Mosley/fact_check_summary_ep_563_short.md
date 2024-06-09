@@ -10,9 +10,9 @@
 ## Fact-Check Report
 
 - **Total Checkworthy Claims**: 31
-- **Total Checkworthy Claims with Evidence**: 22
+- **Total Checkworthy Claims with Evidence**: 21
 - **Claims Supported**: 16
-- **Claims Refuted**: 6
+- **Claims Refuted**: 5
 
 ### Supported Claims
 
@@ -40,4 +40,3 @@
 3. In a recent Japanese study where overweight but otherwise healthy participants were randomly allocated to placebo or curcumin extract, they found those taking curcumin extract had lower levels of an inflammatory marker in the blood called C-reactive protein.
 4. So compared to the non-steroidal anti-inflammatory drugs such as the ibuprofen, there seems to be no adverse event for turmeric extract.
 5. That means Non-steroidal anti-inflammatory drugs such as the ibuprofen cannot be taken in older patients.
-6. Yeah, that's one of the interesting or secondary outcomes of clinical trials looking at the benefits of using turmeric in arthritis was that there was a reduction in the number of medications which 70 patients were taking for 70 patients's knee pain.

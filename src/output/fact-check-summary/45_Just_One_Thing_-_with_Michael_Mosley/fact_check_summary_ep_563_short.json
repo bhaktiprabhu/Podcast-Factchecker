@@ -5,9 +5,9 @@
     "podcast_author": "BBC",
     "podcast_categories": "Health & Fitness, Science",
     "total_checkworthy_claims": 31,
-    "total_checkworthy_claims_with_evidence": 22,
+    "total_checkworthy_claims_with_evidence": 21,
     "total_supported_claims": 16,
-    "total_refuted_claims": 6,
+    "total_refuted_claims": 5,
     "claims_supported": [
         "And Dr Benny Antony from the Menzies Institute of Medical Research at the University of Tasmania in Australia found that the participants who were taking the turmeric extract had relief in pain compared to placebo group.",
         "And a lot of Non-steroidal anti-inflammatory drugs such as the ibuprofen have more severe adverse events such as the gastrointestinal bleeding or cardiovascular events.",
@@ -31,7 +31,6 @@
         "Especially the curcumin can actually improve a certain type of bacterial colony which reduces the inflammation.",
         "In a recent Japanese study where overweight but otherwise healthy participants were randomly allocated to placebo or curcumin extract, they found those taking curcumin extract had lower levels of an inflammatory marker in the blood called C-reactive protein.",
         "So compared to the non-steroidal anti-inflammatory drugs such as the ibuprofen, there seems to be no adverse event for turmeric extract.",
-        "That means Non-steroidal anti-inflammatory drugs such as the ibuprofen cannot be taken in older patients.",
-        "Yeah, that's one of the interesting or secondary outcomes of clinical trials looking at the benefits of using turmeric in arthritis was that there was a reduction in the number of medications which 70 patients were taking for 70 patients's knee pain."
+        "That means Non-steroidal anti-inflammatory drugs such as the ibuprofen cannot be taken in older patients."
     ]
 }

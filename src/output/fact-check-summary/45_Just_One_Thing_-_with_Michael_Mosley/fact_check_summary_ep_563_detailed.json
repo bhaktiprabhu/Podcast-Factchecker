@@ -38,7 +38,7 @@
         "So what we have found that it's been effective for acute pain as well.",
         "The best way to do it is to combine the turmeric with some pepper because piperine seems to increase the bioavailability that means the increased absorption of curcumin in the body."
     ],
-    "total_checkworthy_claims_with_evidence": 22,
+    "total_checkworthy_claims_with_evidence": 21,
     "list_checkworthy_claims_with_evidence": [
         {
             "claim": "And Dr Benny Antony from the Menzies Institute of Medical Research at the University of Tasmania in Australia found that the participants who were taking the turmeric extract had relief in pain compared to placebo group.",
@@ -324,11 +324,6 @@
             "claim": "So compared to the non-steroidal anti-inflammatory drugs such as the ibuprofen, there seems to be no adverse event for turmeric extract.",
             "retrieved_evidences": [
                 {
-                    "evidence_snippet": "turmeric compared with non-steroidal anti-inflammatory drugs (NSAIDs). In all studies there were no significant adverse events in the turmeric therapy group.",
-                    "article_url": "https://bmjopensem.bmj.com/content/7/1/e000935",
-                    "stance": "#CHOOSE#"
-                },
-                {
                     "evidence_snippet": "Considering that Turmeric is a naturally sourced herbal remedy and ibuprofen is an over the counter NSAID (Nonsteroidal anti-inflammatory drug), Turmeric is proving to be a safer and more efficacious alternative to Ibuprofen for inflammation and post-workout joint pain. Both Turmeric vs. Ibuprofen are used as a powerful anti-inflammatory, but which one is better? For years, I was taking Ibuprofen as an anti-inflammatory to help with increased exercise-induced muscle soreness and pain, post workout. However with the overwhelming and pivotal evidence supporting the fact, that Turmeric is just as effective as Ibuprofen for inflammation, joint mobility, and reducing pain (with less adverse effects and long term health effects) using turmeric instead of ibuprofen is a no brainer. Recent studies suggest that Turmeric is just as effective as ibuprofen to reduce inflammation and relieve pain. So which one is better, Turmeric Vs Ibuprofen?",
                     "article_url": "https://swolverine.com/blogs/blog/turmeric-vs-ibuprofen-which-one-is-more-effective-for-post-workout-inflammation-pain",
                     "stance": "REFUTES"
@@ -536,26 +531,6 @@
             ]
         },
         {
-            "claim": "Yeah, that's one of the interesting or secondary outcomes of clinical trials looking at the benefits of using turmeric in arthritis was that there was a reduction in the number of medications which 70 patients were taking for 70 patients's knee pain.",
-            "retrieved_evidences": [
-                {
-                    "evidence_snippet": "Included studies were RCTs that evaluated and reported the outcome measures of pain and physical function in humans with knee OA that were treated with turmeric therapy alone or in combination with NSAID therapy. Turmeric therapy was defined as any formulation of turmeric or curcumin extract developed for therapeutic use. No restrictions were made with regards to age, body mass index (BMI) or gender. Excluded were studies which evaluated arthritis secondary to inflammatory or rheumatological conditions. Based on evidence from randomised controlled trials, there is data supporting the use of turmeric therapy on patients with knee osteoarthritis to improve pain and physical function. Though findings do not suggest improvement in performance-based outcomes. Current studies do not examine the use of turmeric therapy both against and in conjunction with traditional therapies such as physical therapy. Osteoarthritis (OA) is the most prevalent joint disease worldwide and is the 11th cause of years lived with disability according to the 2010 WHO global burden of disease report.1 Roughly 80% of the OA disease burden is secondary to knee OA (KOA) which impacts over 300 million people worldwide and 19% of Americans above the age of 45.2 3 Current best practice management is often characterised as palliative and reactive, rather than a combination of shared decision-making coupled with proactive and preventive measures that are the goal of chronic disease management in today\u2019s environment.",
-                    "article_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7812094/",
-                    "stance": "#CHOOSE#"
-                },
-                {
-                    "evidence_snippet": "The primary outcome measure was Western Ontario and McMaster Universities Osteoarthritis Index (WOMAC) pain subscale. The secondary outcome measures were WOMAC total, WOMAC stiffness, and WOMAC physical function scores. Responder analysis of individual patients at different levels (\u2265 20%, \u2265 50%, and \u2265 70%) for WOMAC score was calculated. TNF alpha and CRP levels were evaluated and adverse events (AE) were also recorded. Seventy-one and seventy-three knee OA patients, respectively in bioavailable turmeric extract and paracetamol groups, completed the study. Bioavailable turmeric extract for knee osteoarthritis: a randomized, non-inferiority trial versus paracetamol ... To compare the efficacy and safety of bioavailable turmeric extract versus paracetamol in patients with knee osteoarthritis (OA). In this randomized, non-inferiority, controlled clinical study, patients of knee OA were randomized to receive bioavailable turmeric extract (BCM-95\u00ae) 500 mg capsule two times daily or paracetamol 650 mg tablet three times daily for 6 weeks. The primary outcome measure was Western Ontario and McMaster Universities Osteoarthritis Index (WOMAC) pain subscale. This was a single-center, randomized, active-controlled, prospective, non-inferiority, intention-to-treat study to compare the efficacy and safety of turmeric extract in pain reduction and functional improvement of knee OA patients with paracetamol. The study was conducted at the Department of Orthopedics, Lok Nayak Jai Prakash Hospital associated with Maulana Azad Medical College, New Delhi, after approval of the Institutional Ethics Committee of Maulana Azad Medical College and Associated Hospitals. No amendments on the accepted protocol were done after starting the study. The clinical trial was prospectively registered in the Clinical Trial Registry of India (CTRI/2017/02/007962).",
-                    "article_url": "https://trialsjournal.biomedcentral.com/articles/10.1186/s13063-021-05053-7",
-                    "stance": "#CHOOSE#"
-                },
-                {
-                    "evidence_snippet": "All prospective randomized clinical studies using turmeric (C. longa and the synonym domestica) and curcumin for the treatment of arthritis were included in this systematic review. Exclusion criteria included in vitro studies, in vivo studies in nonhuman species, studies that were only published in abstract form or included insufficient data to properly evaluate the outcomes, nonclinical trial studies, and studies in which arthritis was not the primary outcome measured, and then we eliminated the duplicates. Although turmeric and its curcumin-enriched extracts have been used for treating arthritis, no systematic review and meta-analysis of randomized clinical trials (RCTs) have been conducted to evaluate the strength of the research. We systemically evaluated all RCTs of turmeric extracts and curcumin for treating arthritis symptoms to elucidate the efficacy of curcuma for alleviating the symptoms of arthritis. Literature searches were conducted using 12 electronic databases, including PubMed, Embase, Cochrane Library, Korean databases, Chinese medical databases, and Indian scientific database. The following keywords of Medical Sub Headings (MeSH) were used as search terms: \u201ccurcumin,\u201d \u201ccurcuma,\u201d \u201cturmeric,\u201d \u201cCurcuma domestica,\u201d \u201cCurcuma Longa,\u201d \u201carthritis,\u201d \u201costeoarthritis,\u201d \u201crandomized,\u201d \u201ccontrolled trial,\u201d and \u201cclinical trial.\u201d In the systematic review, all RCTs were included from the available databases (as far back as 1966 in PubMed) up to April, 2016, that had examined the effects of turmeric (Curcuma) and curcumin on arthritis.",
-                    "article_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5003001/",
-                    "stance": "#CHOOSE#"
-                }
-            ]
-        },
-        {
             "claim": "turmeric's been used in ancient Ayurvedic medicine for thousands of years to alleviate liver problems and digestive ailments.",
             "retrieved_evidences": [
                 {
@@ -588,7 +563,7 @@
     ],
     "overall_summary": {
         "total_supported_claims": 16,
-        "total_refuted_claims": 6,
+        "total_refuted_claims": 5,
         "claims_supported": [
             "And Dr Benny Antony from the Menzies Institute of Medical Research at the University of Tasmania in Australia found that the participants who were taking the turmeric extract had relief in pain compared to placebo group.",
             "And a lot of Non-steroidal anti-inflammatory drugs such as the ibuprofen have more severe adverse events such as the gastrointestinal bleeding or cardiovascular events.",
@@ -612,8 +587,7 @@
             "Especially the curcumin can actually improve a certain type of bacterial colony which reduces the inflammation.",
             "In a recent Japanese study where overweight but otherwise healthy participants were randomly allocated to placebo or curcumin extract, they found those taking curcumin extract had lower levels of an inflammatory marker in the blood called C-reactive protein.",
             "So compared to the non-steroidal anti-inflammatory drugs such as the ibuprofen, there seems to be no adverse event for turmeric extract.",
-            "That means Non-steroidal anti-inflammatory drugs such as the ibuprofen cannot be taken in older patients.",
-            "Yeah, that's one of the interesting or secondary outcomes of clinical trials looking at the benefits of using turmeric in arthritis was that there was a reduction in the number of medications which 70 patients were taking for 70 patients's knee pain."
+            "That means Non-steroidal anti-inflammatory drugs such as the ibuprofen cannot be taken in older patients."
         ]
     }
 }

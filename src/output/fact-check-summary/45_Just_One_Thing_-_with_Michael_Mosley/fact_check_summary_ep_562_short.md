@@ -10,9 +10,9 @@
 ## Fact-Check Report
 
 - **Total Checkworthy Claims**: 33
-- **Total Checkworthy Claims with Evidence**: 18
+- **Total Checkworthy Claims with Evidence**: 15
 - **Claims Supported**: 12
-- **Claims Refuted**: 6
+- **Claims Refuted**: 3
 
 ### Supported Claims
 
@@ -31,9 +31,6 @@
 
 ### Refuted Claims
 
-1. Amazingly, six months after receiving the vaccine, a group of medical students had a stronger immune response and far higher antibody levels than a control group who merely had the vaccine.
-2. Randomised controlled trials, the gold standard of studies, have also shown that asthma patients use less medication and arthritis patients feel less pain after doing expressive writing.
-3. Researchers in New Zealand, for example, asked a group of medical students to write about personal traumatic events the day before a group of medical students were vaccinated.
-4. There have been a couple of thousand studies.
-5. We know that when somebody is stressed and they're obsessing about things, their heart beats faster, their immune system is suppressed.
-6. What these researchers found was that expressive writing increased a phenomenon called working memory.
+1. Randomised controlled trials, the gold standard of studies, have also shown that asthma patients use less medication and arthritis patients feel less pain after doing expressive writing.
+2. We know that when somebody is stressed and they're obsessing about things, their heart beats faster, their immune system is suppressed.
+3. What these researchers found was that expressive writing increased a phenomenon called working memory.

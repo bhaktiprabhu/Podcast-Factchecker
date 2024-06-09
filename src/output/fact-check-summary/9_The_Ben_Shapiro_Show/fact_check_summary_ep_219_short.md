@@ -10,9 +10,9 @@
 ## Fact-Check Report
 
 - **Total Checkworthy Claims**: 22
-- **Total Checkworthy Claims with Evidence**: 14
+- **Total Checkworthy Claims with Evidence**: 13
 - **Claims Supported**: 7
-- **Claims Refuted**: 7
+- **Claims Refuted**: 6
 
 ### Supported Claims
 
@@ -31,5 +31,4 @@
 3. Corey'm bothered that the Washington State, where the legislature has recently passed bills allowing gender-affirming care of minors without parental consent House and Senate Republicans don't point out the horrible truth of what's actually happening, such as the sterilization and removal of healthy body parts of minors, as Matt Walsh does.
 4. So France is the healthiest in terms of demographics.
 5. Turnout as a percentage of eligible voters, Ben mean, back in 1980, Turnout as a percentage of eligible voters was like 54%.
-6. You had 59% of a voting age population of 249 million in 2016, so 60%.
-7. You're not allowed to wreck the tabernacle on the Jewish Sabbath.
+6. You're not allowed to wreck the tabernacle on the Jewish Sabbath.

@@ -29,7 +29,7 @@
         "And mom's's immune system is what's going to help sustain that babies borrow off of mom's immune system from mom's.",
         "Not only just this nurturing and this connection of babies's nervous system regulating with mom's, but also that babies're picking up all of these antibodies, all of these things that are going to be so helpful for babies to go out and defend babies's bodies against environmental exposures that could potentially cause babies to be sick."
     ],
-    "total_checkworthy_claims_with_evidence": 16,
+    "total_checkworthy_claims_with_evidence": 15,
     "list_checkworthy_claims_with_evidence": [
         {
             "claim": "Allergies is an immune system problem.",
@@ -130,11 +130,6 @@
                     "stance": "SUPPORTS"
                 },
                 {
-                    "evidence_snippet": "All Disease Begins in the Gut' \u2014 Hippocrates The naturalist John Muir, who co-founded the Sierra Club, was quoted as saying The average American consumes",
-                    "article_url": "https://reviewofpresbyopia.com/all-disease-begins-in-the-gut-hippocrates/",
-                    "stance": "SUPPORTS"
-                },
-                {
                     "evidence_snippet": "Although Hippocrates\u2019 awareness of acute diseases is generally acclaimed, his writings have not been acknowledged as the origin of acute respiratory medicine. The aim of the present scoping review was to clarify conceptual boundaries of the diagnosis, prognosis, and treatment of acute and urgent respiratory diseases in the collected works of Hippocrates and to test the hypothesis whether these concepts, although first described in the classical Greek era, are still relevant to contemporary medical thinking and practice [12, 13]. These concepts have not been previously comprehensively reviewed or clarified. In all of these aspects of the Hippocratic approach to respiratory diseases the origins of current clinical practice in acute respiratory medicine can be traced. What is even more remarkable is the medical thinking and philosophy underlying these concepts. The physician tries to understand the factors leading to the presentation of the disease, analyses clinical symptoms and signs, provides the appropriate treatment and focuses on prognosis. This Hippocratic approach to acute respiratory diseases is in keeping with a more general axiom stated in Epidemics I: \u201cDeclare the past, diagnose the present, foretell the future; practice these acts. This scoping review revealed the origins of current key concepts of acute respiratory diseases and emergencies in the Hippocratic Collection. In these 2500 years old treatises references to several acute and urgent respiratory diseases common until nowadays were identified and studied.",
                     "article_url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7288510/",
                     "stance": "REFUTES"
@@ -178,16 +173,6 @@
                     "evidence_snippet": "Brief, quiet, centered and gentle Therapeutic Touch treatments done even by novices effectively increase an animal\u2019s comfort and supporting its healing. ... Founding the London Volunteer TT Hospital Team, which sees patients in ICU, CCU and UWO\u2019s Transplant Unit, as well as in regular hospital units. Giving TT presentations to veterinary students at the Ontario Veterinary College, University of Guelph in 1999 \u00b7 Training veterinarians in private practice, and animal owners in the use of the work. Owners of dogs, cats, horses and other animals can also use this short-course on TT. With birds, I recommend that the work be done hands off, with the treatment consisting of three to five gentle head-to-tail and head-to-toe unruffling strokes and grounding visualizations. Brief, quiet, centered and gentle Therapeutic Touch treatments done even by novices effectively increase an animal\u2019s comfort and supporting its healing. In the consultations, I offer Tellington TTouch, Therapeutic Touch (Krieger-Kunz Method), and Animal Communication. Most consultations are a half-hour in length, and because I want to give people skills they can continue to use with their animals, I try to find ways of teaching simple, effective procedures in a very brief period of time.",
                     "article_url": "https://www.barbarajanelle.com/a-very-short-course-on-therapeutic-touch-for-animal-owners/",
                     "stance": "REFUTES"
-                }
-            ]
-        },
-        {
-            "claim": "Not only just this nurturing and this connection of babies's nervous system regulating with mom's, but also that babies're picking up all of these antibodies, all of these things that are going to be so helpful for babies to go out and defend babies's bodies against environmental exposures that could potentially cause babies to be sick.",
-            "retrieved_evidences": [
-                {
-                    "evidence_snippet": "Dr. Welch: And then there\u2019s how important breastfeeding is in establishing and nurturing emotional connection between mothers and babies. Moms have less anxiety and depression, and they feel more confident in their caregiving. Babies have better brain and nervous system development, better cognitive and language scores, and lower risk for attention issues and socioemotional difficulty. Both moms and babies have better nervous system regulation (which is related to their stress response and overall health) that lasts long term. So connection is really important in a multitude of ways, and breastfeeding is a wonderful way to achieve this connection. We\u2019ve done over a decade of research on connection in the especially-vulnerable population of preterm babies and their moms. Our studies have found that when these moms and babies connect through sensory and emotional interactions, the results are remarkable:",
-                    "article_url": "https://nurturescienceprogram.org/how-covid-has-affected-breastfeeding/",
-                    "stance": "#CHOOSE#"
                 }
             ]
         },
@@ -394,7 +379,7 @@
     ],
     "overall_summary": {
         "total_supported_claims": 7,
-        "total_refuted_claims": 9,
+        "total_refuted_claims": 8,
         "claims_supported": [
             "Allergies is an immune system problem.",
             "And mom's's immune system is what's going to help sustain that babies borrow off of mom's immune system from mom's.",
@@ -408,7 +393,6 @@
             "Allergies's a dysregulation of our immune system.",
             "And our indoor living environment has been proved to be far more toxic, including the air that we're breathing, right?",
             "It can be very therapeutic to even touch an animal.",
-            "Not only just this nurturing and this connection of babies's nervous system regulating with mom's, but also that babies're picking up all of these antibodies, all of these things that are going to be so helpful for babies to go out and defend babies's bodies against environmental exposures that could potentially cause babies to be sick.",
             "Now we know that the birth canal offers just this coating and bathing of microbes for the baby when the baby're born vaginally.",
             "So despite rapid microbial colonization of the gut after birth, environmental microbes in the early postnatal period represent a critical exposure for early life immune programming.",
             "So it's so critical in those first few months of life that infants get flooded with these good bacteria, these good microbes to help build some resiliency because infants's immune system depends on it.",
