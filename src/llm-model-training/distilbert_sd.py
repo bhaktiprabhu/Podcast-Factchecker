@@ -48,6 +48,8 @@ class_weights_train = torch.tensor([weight_class_0_normalized, weight_class_1_no
 
 
 class FocalLoss(torch.nn.Module):
+    """Focal Loss for addressing class imbalance in classification tasks."""
+
     def __init__(self, alpha=None, gamma=2.0, reduction="mean"):
         super(FocalLoss, self).__init__()
         self.alpha = alpha
@@ -55,6 +57,7 @@ class FocalLoss(torch.nn.Module):
         self.reduction = reduction
 
     def forward(self, inputs, targets):
+        """Computes the focal loss between `inputs` and `targets`."""
         ce_loss = torch.nn.CrossEntropyLoss(reduction="none")(inputs, targets)
         pt = torch.exp(-ce_loss)  # pylint: disable=invalid-unary-operand-type
         focal_loss = ((1 - pt) ** self.gamma) * ce_loss
@@ -72,6 +75,8 @@ class FocalLoss(torch.nn.Module):
 
 
 class FocalTrainer(Trainer):
+    """Custom Trainer class that uses Focal Loss for training."""
+
     def compute_loss(self, model, inputs, return_outputs=False):
         labels = inputs.get("labels")
         outputs = model(**inputs)
