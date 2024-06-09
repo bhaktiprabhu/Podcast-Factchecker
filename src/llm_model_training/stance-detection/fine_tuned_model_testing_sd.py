@@ -1,17 +1,18 @@
-"""Training of Distilbert Transformer model with Podcast Data"""
+"""Testing Fine-Tuned Models for Stance Detection"""
 
 import os
 
 import numpy as np
-import torch
-from datasets import load_dataset
 from optimum.bettertransformer import BetterTransformer
 from sklearn.metrics import accuracy_score, classification_report, confusion_matrix, precision_recall_fscore_support
 from transformers import AutoModelForSequenceClassification, AutoTokenizer, EvalPrediction, Trainer, TrainingArguments
 
-from src import utils
+from src.llm_model_training.training_utils import get_dataset
 
 current_dir = os.path.dirname(__file__)
+
+# Define label mapping
+label_to_id = {"SUPPORTS": 1, "REFUTES": 0}
 
 
 # Preprocess the data
@@ -20,12 +21,21 @@ def tokenize_function(examples):
 
     Args:
         examples (dict): A dictionary containing the input text data to be tokenized.
-                         It is expected to have a key "utterance_text" with the text to be tokenized.
 
     Returns:
         dict: A dictionary with tokenized input data, including input_ids, attention_mask, and potentially other tokenizer outputs.
     """
-    return tokenizer(examples["utterance_text"], padding="max_length", truncation=True, max_length=256)
+    combined_texts = [
+        "[Claim]: " + claim + " [Evidence]: " + evidence
+        for claim, evidence in zip(examples["check_worthy_claim"], examples["evidence_snippet"])
+    ]
+    return tokenizer(combined_texts, padding="max_length", truncation=True, max_length=512)
+
+
+# Function to map string labels to integers
+def map_labels(examples):
+    examples["stance"] = [label_to_id[label] for label in examples["stance"]]
+    return examples
 
 
 # Compute metrics function for evaluation
@@ -48,13 +58,13 @@ def compute_metrics(p: EvalPrediction):
     conf_matrix = confusion_matrix(labels, preds)
     print(conf_matrix)
 
-    report = classification_report(labels, preds, target_names=["not_cw_claim", "is_cw_claim"])
+    report = classification_report(labels, preds, target_names=["REFUTES", "SUPPORTS"])
 
     # Micro average metrics
     micro_precision, micro_recall, micro_f1_score, _ = precision_recall_fscore_support(labels, preds, average="micro")
 
     # Append Micro Avg Metrics
-    report += f"   micro avg       {micro_precision:.2f}      {micro_recall:.2f}      {micro_f1_score:.2f}       {len(labels)}"
+    report += f"   micro avg       {micro_precision:.2f}      {micro_recall:.2f}      {micro_f1_score:.2f}        {len(labels)}"
 
     print(report)
 
@@ -70,24 +80,12 @@ def compute_metrics(p: EvalPrediction):
 
 ################################################################################################
 
-# Get Train Test File (Episode Id:672)
+# Get Test File (Episode Id:219)
+dataset = get_dataset("stance-detection")
 
-current_dir = os.path.dirname(os.path.abspath(__file__))
-parent_dir = os.path.dirname(os.path.abspath(current_dir))
-
-data_source_path = os.path.join(parent_dir, "output", "crowd-work", "claim-detection-ground-truth")
-
-podcast_dir = utils.get_podcast_dir_path(data_source_path, 672)
-filename = f"cd_ground_truth_ep_{672}.csv"
-test_file_path = os.path.join(podcast_dir, filename)
-
-
-# Load the test dataset
-dataset = load_dataset("csv", data_files={"test": test_file_path})
-print("---------------Test Dataset Loaded------------------")
-print(dataset)
-
-test_dataset = dataset["test"].remove_columns(["utterance_id"]).rename_column("is_check_worthy_claim", "label")
+# Apply label mapping
+dataset = dataset.map(map_labels, batched=True)
+test_dataset = dataset["test"]
 
 print("---------------Test Dataset------------------")
 print(test_dataset)
@@ -96,42 +94,52 @@ print(test_dataset.size_in_bytes)
 
 
 # Get the fine-tuned model directories
-albert_model_directory = os.path.join(current_dir, "saved-models", "albert-focal")
-distilbert_model_directory = os.path.join(current_dir, "saved-models", "distilbert-focal-2_5")
-distilroberta_model_directory = os.path.join(current_dir, "saved-models", "distilroberta-focal")
-mobilebert_model_directory = os.path.join(current_dir, "saved-models", "mobilebert-focal")
+albert_model_directory = os.path.join(current_dir, "saved-models", "albert-sd-custom")
+distilbert_model_directory = os.path.join(current_dir, "saved-models", "distilbert-sd-custom")
+distilroberta_model_directory = os.path.join(current_dir, "saved-models", "distilroberta-sd-custom")
+mobilebert_model_directory = os.path.join(current_dir, "saved-models", "mobilebert-sd-custom")
 
 
 # Load the tokenizers and Tokenize the dataset as per the model
 tokenizer = AutoTokenizer.from_pretrained(albert_model_directory, do_lower_case=True)
 albert_tokenized_test_dataset = test_dataset.map(tokenize_function, batched=True)
+albert_tokenized_test_dataset = albert_tokenized_test_dataset.remove_columns(["check_worthy_claim", "evidence_snippet"])
 
 tokenizer = AutoTokenizer.from_pretrained(distilbert_model_directory, do_lower_case=True)
 distilbert_tokenized_test_dataset = test_dataset.map(tokenize_function, batched=True)
+distilbert_tokenized_test_dataset = distilbert_tokenized_test_dataset.remove_columns(
+    ["check_worthy_claim", "evidence_snippet"]
+)
 
 tokenizer = AutoTokenizer.from_pretrained(distilroberta_model_directory, do_lower_case=True)
 distilroberta_tokenized_test_dataset = test_dataset.map(tokenize_function, batched=True)
+distilroberta_tokenized_test_dataset = distilroberta_tokenized_test_dataset.remove_columns(
+    ["check_worthy_claim", "evidence_snippet"]
+)
 
 tokenizer = AutoTokenizer.from_pretrained(mobilebert_model_directory, do_lower_case=True)
 mobilebert_tokenized_test_dataset = test_dataset.map(tokenize_function, batched=True)
+mobilebert_tokenized_test_dataset = mobilebert_tokenized_test_dataset.remove_columns(
+    ["check_worthy_claim", "evidence_snippet"]
+)
 
 
 # Load the fine-tuned models
-albert_podcast_cd_model = AutoModelForSequenceClassification.from_pretrained(albert_model_directory, num_labels=2)
-distilbert_podcast_cd_model = AutoModelForSequenceClassification.from_pretrained(
+albert_podcast_sd_model = AutoModelForSequenceClassification.from_pretrained(albert_model_directory, num_labels=2)
+distilbert_podcast_sd_model = AutoModelForSequenceClassification.from_pretrained(
     distilbert_model_directory, num_labels=2
 )
-distilroberta_podcast_cd_model = AutoModelForSequenceClassification.from_pretrained(
+distilroberta_podcast_sd_model = AutoModelForSequenceClassification.from_pretrained(
     distilroberta_model_directory, num_labels=2
 )
-mobilebert_podcast_cd_model = AutoModelForSequenceClassification.from_pretrained(
+mobilebert_podcast_sd_model = AutoModelForSequenceClassification.from_pretrained(
     mobilebert_model_directory, num_labels=2
 )
 
 # Tranform the models for Faster Inference
 # AlBERT model gives error during prediction if using BetterTransformer
-bt_distilbert_podcast_cd_model = BetterTransformer.transform(distilbert_podcast_cd_model)
-bt_distilroberta_podcast_cd_model = BetterTransformer.transform(distilroberta_podcast_cd_model)
+bt_distilbert_podcast_sd_model = BetterTransformer.transform(distilbert_podcast_sd_model)
+bt_distilroberta_podcast_sd_model = BetterTransformer.transform(distilroberta_podcast_sd_model)
 # MobileBERT is not supported by BetterTransformer
 
 
@@ -144,37 +152,37 @@ training_args = TrainingArguments(
 )
 
 # Create Trainers for Prediction and Evaluation
-albert_podcast_cd_trainer = Trainer(model=albert_podcast_cd_model, args=training_args, compute_metrics=compute_metrics)
-distilbert_podcast_cd_trainer = Trainer(
-    model=bt_distilbert_podcast_cd_model, args=training_args, compute_metrics=compute_metrics
+albert_podcast_sd_trainer = Trainer(model=albert_podcast_sd_model, args=training_args, compute_metrics=compute_metrics)
+distilbert_podcast_sd_trainer = Trainer(
+    model=bt_distilbert_podcast_sd_model, args=training_args, compute_metrics=compute_metrics
 )
-distilroberta_podcast_cd_trainer = Trainer(
-    model=bt_distilroberta_podcast_cd_model, args=training_args, compute_metrics=compute_metrics
+distilroberta_podcast_sd_trainer = Trainer(
+    model=bt_distilroberta_podcast_sd_model, args=training_args, compute_metrics=compute_metrics
 )
-mobilebert_podcast_cd_trainer = Trainer(
-    model=mobilebert_podcast_cd_model, args=training_args, compute_metrics=compute_metrics
+mobilebert_podcast_sd_trainer = Trainer(
+    model=mobilebert_podcast_sd_model, args=training_args, compute_metrics=compute_metrics
 )
 
 # Get Predictions and Evaluations for Testing the Model
 print("-------------------------------------------------------------------------------------------")
-print("**** AlBERT Podcast Claim Detection Model Evaluation for Test Data****")
-albert_podcast_cd_predictions = albert_podcast_cd_trainer.predict(albert_tokenized_test_dataset)
-print(albert_podcast_cd_predictions.metrics)
+print("**** AlBERT Podcast Stance Detection Model Evaluation for Test Data****")
+albert_podcast_sd_predictions = albert_podcast_sd_trainer.predict(albert_tokenized_test_dataset)
+print(albert_podcast_sd_predictions.metrics)
 
 print("-------------------------------------------------------------------------------------------")
-print("**** DistilBERT Podcast Claim Detection Model Evaluation for Test Data****")
-distilbert_podcast_cd_predictions = distilbert_podcast_cd_trainer.predict(distilbert_tokenized_test_dataset)
-print(distilbert_podcast_cd_predictions.metrics)
+print("**** DistilBERT Podcast Stance Detection Model Evaluation for Test Data****")
+distilbert_podcast_sd_predictions = distilbert_podcast_sd_trainer.predict(distilbert_tokenized_test_dataset)
+print(distilbert_podcast_sd_predictions.metrics)
 
 print("-------------------------------------------------------------------------------------------")
-print("**** DistilRoBERTa Podcast Claim Detection Model Evaluation for Test Data****")
-distilroberta_podcast_cd_predictions = distilroberta_podcast_cd_trainer.predict(distilroberta_tokenized_test_dataset)
+print("**** DistilRoBERTa Podcast Stance Detection Model Evaluation for Test Data****")
+distilroberta_podcast_sd_predictions = distilroberta_podcast_sd_trainer.predict(distilroberta_tokenized_test_dataset)
 
-print(distilroberta_podcast_cd_predictions.metrics)
+print(distilroberta_podcast_sd_predictions.metrics)
 
 print("-------------------------------------------------------------------------------------------")
-print("**** MobileBERT Podcast Claim Detection Model Evaluation for Test Data****")
-mobilebert_podcast_cd_predictions = mobilebert_podcast_cd_trainer.predict(mobilebert_tokenized_test_dataset)
-print(mobilebert_podcast_cd_predictions.metrics)
+print("**** MobileBERT Podcast Stance Detection Model Evaluation for Test Data****")
+mobilebert_podcast_sd_predictions = mobilebert_podcast_sd_trainer.predict(mobilebert_tokenized_test_dataset)
+print(mobilebert_podcast_sd_predictions.metrics)
 
 print("-------------------------------------------------------------------------------------------")
