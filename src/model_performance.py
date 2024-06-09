@@ -1,4 +1,4 @@
-"""This module includes functions for performance evaluation"""
+"""This module includes functions for performance evaluation of AI Tools"""
 
 import os
 from typing import List
