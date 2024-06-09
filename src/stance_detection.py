@@ -187,7 +187,3 @@ def filter_ai_stance_dectection(episode_id: int):
     output_file_name = f"ai_sd_ep_{episode_id}.csv"
 
     utils.create_csv_from_df(ai_df_filtered, episode_id, output_path, output_file_name)
-
-
-generate_stance_detection_ground_truth_csv(219)
-# filter_ai_stance_dectection(630)

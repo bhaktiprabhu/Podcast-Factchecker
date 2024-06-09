@@ -186,10 +186,3 @@ def test_dataset_evaluation(analysis_type: str):
     print_evaluation_report(true_labels, openai_gpt4_labels)
 
     print("------------------------------------------------------------------------------------------")
-
-
-# ai_tools_performance_evaluation(analysis_type="claim-detection")
-# ai_tools_performance_evaluation(analysis_type="stance-detection")
-
-# ai_tools_test_data_evaluation(analysis_type="claim-detection")
-# ai_tools_test_data_evaluation(analysis_type="stance-detection")

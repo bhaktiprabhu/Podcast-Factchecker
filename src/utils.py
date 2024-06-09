@@ -161,3 +161,5 @@ def create_csv_from_df(df: pd.DataFrame, episode_id: int, output_path: str, outp
     output_file_path = os.path.join(podcast_dir, output_file_name)
 
     df.to_csv(output_file_path, index=False)
+
+    print(f"Output generated for Episode {episode_id} at {output_file_path}")

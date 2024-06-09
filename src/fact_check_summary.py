@@ -51,6 +51,7 @@ def generate_fact_check_summary(episode_id, summary_type="both"):
 
     Args:
         episode_id (int): Episode Id
+        summary_type(str): detailed/short/both
     """
     ep_info = utils.get_episode_info(episode_id)
 
@@ -149,12 +150,14 @@ def generate_fact_check_summary(episode_id, summary_type="both"):
         output_file_path = os.path.join(podcast_dir, output_file_name)
         with open(output_file_path, "w", encoding="utf-8") as json_file:
             json.dump(detailed_summary, json_file, indent=4)
+        print(f" Detailed Summary generated for Episode {episode_id} at {output_file_path}")
 
     if summary_type in ["short", "both"]:
         output_file_name = f"fact_check_summary_ep_{episode_id}_short.json"
         output_file_path = os.path.join(podcast_dir, output_file_name)
         with open(output_file_path, "w", encoding="utf-8") as json_file:
             json.dump(short_summary, json_file, indent=4)
+        print(f" Short Summary generated for Episode {episode_id} at {output_file_path}")
 
         # Convert to Markdown and save
         markdown_summary = convert_to_markdown(short_summary)
@@ -163,6 +166,4 @@ def generate_fact_check_summary(episode_id, summary_type="both"):
         with open(output_file_path, "w", encoding="utf-8") as md_file:
             md_file.write(markdown_summary)
 
-
-# Example usage
-generate_fact_check_summary(219)
+        print(f" Short Summary in Markdown Format generated for Episode {episode_id} at {output_file_path}")
