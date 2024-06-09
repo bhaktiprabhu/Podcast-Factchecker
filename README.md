@@ -14,8 +14,8 @@ Podcast Fact-Checker is a tool designed to process podcast transcripts for detec
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/yourusername/Podcast-factchecker.git
-    cd Podcast-factchecker
+    git clone https://github.com/bhaktiprabhu/Podcast-Factchecker.git
+    cd Podcast-Factchecker
     ```
 
 2. Create and activate a virtual environment:
