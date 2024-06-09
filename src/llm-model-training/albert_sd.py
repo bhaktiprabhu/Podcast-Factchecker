@@ -123,8 +123,9 @@ def tokenize_function(examples):
     return tokenizer(combined_texts, padding="max_length", truncation=True, max_length=512)
 
 
-# Function to map string labels to integers
 def map_labels(examples):
+    """Function to map string labels to integers"""
+
     examples["stance"] = [label_to_id[label] for label in examples["stance"]]
     return examples
 

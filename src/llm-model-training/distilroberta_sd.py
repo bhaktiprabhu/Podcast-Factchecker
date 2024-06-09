@@ -47,44 +47,49 @@ print("Class Weights Normalized: ", [weight_class_0_normalized, weight_class_1_n
 class_weights_train = torch.tensor([weight_class_0_normalized, weight_class_1_normalized])
 
 
-# class FocalLoss(torch.nn.Module):
-#     def __init__(self, alpha=None, gamma=2.0, reduction="mean"):
-#         super(FocalLoss, self).__init__()
-#         self.alpha = alpha
-#         self.gamma = gamma
-#         self.reduction = reduction
+class FocalLoss(torch.nn.Module):
+    """Focal Loss for addressing class imbalance in classification tasks."""
 
-#     def forward(self, inputs, targets):
-#         ce_loss = torch.nn.CrossEntropyLoss(reduction="none")(inputs, targets)
-#         pt = torch.exp(-ce_loss)  # pylint: disable=invalid-unary-operand-type
-#         focal_loss = ((1 - pt) ** self.gamma) * ce_loss
+    def __init__(self, alpha=None, gamma=2.0, reduction="mean"):
+        super(FocalLoss, self).__init__()
+        self.alpha = alpha
+        self.gamma = gamma
+        self.reduction = reduction
 
-#         if self.alpha is not None:
-#             alpha_t = self.alpha.gather(0, targets.data.view(-1))
-#             focal_loss = alpha_t * focal_loss
+    def forward(self, inputs, targets):
+        """Computes the focal loss between `inputs` and `targets`."""
+        ce_loss = torch.nn.CrossEntropyLoss(reduction="none")(inputs, targets)
+        pt = torch.exp(-ce_loss)  # pylint: disable=invalid-unary-operand-type
+        focal_loss = ((1 - pt) ** self.gamma) * ce_loss
 
-#         if self.reduction == "mean":
-#             return focal_loss.mean()
-#         elif self.reduction == "sum":
-#             return focal_loss.sum()
-#         else:
-#             return focal_loss
+        if self.alpha is not None:
+            alpha_t = self.alpha.gather(0, targets.data.view(-1))
+            focal_loss = alpha_t * focal_loss
+
+        if self.reduction == "mean":
+            return focal_loss.mean()
+        elif self.reduction == "sum":
+            return focal_loss.sum()
+        else:
+            return focal_loss
 
 
-# class FocalTrainer(Trainer):
-#     def compute_loss(self, model, inputs, return_outputs=False):
-#         labels = inputs.get("labels")
-#         outputs = model(**inputs)
-#         logits = outputs.get("logits")
+class FocalTrainer(Trainer):
+    """Custom Trainer class that uses Focal Loss for training."""
 
-#         # Class frequencies
-#         alpha = class_weights_train.to(logits.device)
+    def compute_loss(self, model, inputs, return_outputs=False):
+        labels = inputs.get("labels")
+        outputs = model(**inputs)
+        logits = outputs.get("logits")
 
-#         # Custom Focal Loss function
-#         loss_fct = FocalLoss(alpha=alpha, gamma=2.5)
-#         loss = loss_fct(logits, labels)
+        # Class frequencies
+        alpha = class_weights_train.to(logits.device)
 
-#         return (loss, outputs) if return_outputs else loss
+        # Custom Focal Loss function
+        loss_fct = FocalLoss(alpha=alpha, gamma=2.5)
+        loss = loss_fct(logits, labels)
+
+        return (loss, outputs) if return_outputs else loss
 
 
 class CustomTrainer(Trainer):
@@ -118,8 +123,9 @@ def tokenize_function(examples):
     return tokenizer(combined_texts, padding="max_length", truncation=True, max_length=512)
 
 
-# Function to map string labels to integers
 def map_labels(examples):
+    """Function to map string labels to integers"""
+
     examples["stance"] = [label_to_id[label] for label in examples["stance"]]
     return examples
 
