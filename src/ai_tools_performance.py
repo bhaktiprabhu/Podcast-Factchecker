@@ -40,7 +40,7 @@ def print_evaluation_report(true_labels: List, predicted_labels: List):
     print(report)
 
 
-def ai_tools_performance_evaluation(analysis_type: str):
+def full_evaluation(analysis_type: str):
     """Perform evaluation of AI tools based on the specified type of analysis.
 
     Args:
@@ -82,7 +82,6 @@ def ai_tools_performance_evaluation(analysis_type: str):
                 true_labels.extend(df[true_label_col].tolist())
                 print(f"Fetched {len(df[true_label_col])} true label values from file {episode_file}.")
 
-    print(true_labels.count("#CHOOSE#"))
     print("------------------------------------------------------------------------------------------")
 
     # Fetch Predicted Labels from AI Prediction Files
@@ -117,7 +116,7 @@ def ai_tools_performance_evaluation(analysis_type: str):
     print("------------------------------------------------------------------------------------------")
 
 
-def ai_tools_test_data_evaluation(analysis_type: str):
+def test_dataset_evaluation(analysis_type: str):
     """Perform evaluation of AI tools based on the specified type of analysis.
 
     Args:
@@ -193,4 +192,4 @@ def ai_tools_test_data_evaluation(analysis_type: str):
 # ai_tools_performance_evaluation(analysis_type="stance-detection")
 
 # ai_tools_test_data_evaluation(analysis_type="claim-detection")
-ai_tools_test_data_evaluation(analysis_type="stance-detection")
+# ai_tools_test_data_evaluation(analysis_type="stance-detection")
