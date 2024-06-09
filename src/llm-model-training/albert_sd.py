@@ -1,4 +1,4 @@
-"""Training of AlBERT Transformer model with Podcast Data"""
+"""Training of AlBERT Transformer model with Podcast Stance Detection Data"""
 
 import os
 

@@ -1,4 +1,4 @@
-"""Training of DistilRoBERTa Transformer model with Podcast Data"""
+"""Training of DistilroBERTa Transformer model with Podcast Stance Detection Data"""
 
 import os
 

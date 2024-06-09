@@ -1,4 +1,4 @@
-"""Training of Distilbert Transformer model with Podcast Data"""
+"""Training of DistilRoBERTa Transformer model with Podcast Claim Detection Dataset"""
 
 import os
 
