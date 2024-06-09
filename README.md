@@ -21,7 +21,7 @@ Podcast Fact-Checker is a tool designed to process podcast transcripts for detec
 2. Create and activate a virtual environment:
 
     ```bash
-    python3 -m venv venv
+    python -m venv venv
     source venv/bin/activate
     ```
 
