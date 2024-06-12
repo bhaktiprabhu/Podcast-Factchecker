@@ -1,4 +1,4 @@
-"""Testing Fine-Tuned Models for Claim Detection"""
+"""Statistical evaluation using t-tests for Claim Detection"""
 
 import os
 
@@ -53,10 +53,10 @@ test_dataset = dataset["test"]
 
 # Define model directories
 model_directories = {
-    "albert": os.path.join(saved_model_dir, "albert-cd"),
-    "distilbert": os.path.join(saved_model_dir, "distilbert-cd"),
-    "distilroberta": os.path.join(saved_model_dir, "distilroberta-cd"),
-    "mobilebert": os.path.join(saved_model_dir, "mobilebert-cd"),
+    "AlBERT": os.path.join(saved_model_dir, "albert-cd"),
+    "DistilBERT": os.path.join(saved_model_dir, "distilbert-cd"),
+    "DistilRoBERTa": os.path.join(saved_model_dir, "distilroberta-cd"),
+    "MobileBERT": os.path.join(saved_model_dir, "mobilebert-cd"),
 }
 
 # Tokenize datasets for each model
@@ -69,7 +69,7 @@ for model_name, model_dir in model_directories.items():
 models = {}
 for model_name, model_dir in model_directories.items():
     model = AutoModelForSequenceClassification.from_pretrained(model_dir, num_labels=2)
-    if model_name not in ("albert", "mobilebert"):
+    if model_name not in ("AlBERT", "MobileBERT"):
         model = BetterTransformer.transform(model)
     models[model_name] = model
 

@@ -96,96 +96,39 @@ print(test_dataset.shape)
 print(test_dataset.size_in_bytes)
 
 
-# Get the fine-tuned model directories
-albert_model_directory = os.path.join(current_dir, "saved-models", "albert-podcast-stance-detection")
-distilbert_model_directory = os.path.join(current_dir, "saved-models", "distilbert-podcast-stance-detection")
-distilroberta_model_directory = os.path.join(current_dir, "saved-models", "distilroberta-podcast-stance-detection")
-mobilebert_model_directory = os.path.join(current_dir, "saved-models", "mobilebert-podcast-stance-detection")
+# Define model directories
+model_directories = {
+    "AlBERT": os.path.join(saved_model_dir, "albert-cd"),
+    "DistilBERT": os.path.join(saved_model_dir, "distilbert-cd"),
+    "DistilRoBERTa": os.path.join(saved_model_dir, "distilroberta-cd"),
+    "MobileBERT": os.path.join(saved_model_dir, "mobilebert-cd"),
+}
 
 
-# Load the tokenizers and Tokenize the dataset as per the model
-tokenizer = AutoTokenizer.from_pretrained(albert_model_directory, do_lower_case=True)
-albert_tokenized_test_dataset = test_dataset.map(tokenize_function, batched=True)
-albert_tokenized_test_dataset = albert_tokenized_test_dataset.remove_columns(["check_worthy_claim", "evidence_snippet"])
-
-tokenizer = AutoTokenizer.from_pretrained(distilbert_model_directory, do_lower_case=True)
-distilbert_tokenized_test_dataset = test_dataset.map(tokenize_function, batched=True)
-distilbert_tokenized_test_dataset = distilbert_tokenized_test_dataset.remove_columns(
-    ["check_worthy_claim", "evidence_snippet"]
-)
-
-tokenizer = AutoTokenizer.from_pretrained(distilroberta_model_directory, do_lower_case=True)
-distilroberta_tokenized_test_dataset = test_dataset.map(tokenize_function, batched=True)
-distilroberta_tokenized_test_dataset = distilroberta_tokenized_test_dataset.remove_columns(
-    ["check_worthy_claim", "evidence_snippet"]
-)
-
-tokenizer = AutoTokenizer.from_pretrained(mobilebert_model_directory, do_lower_case=True)
-mobilebert_tokenized_test_dataset = test_dataset.map(tokenize_function, batched=True)
-mobilebert_tokenized_test_dataset = mobilebert_tokenized_test_dataset.remove_columns(
-    ["check_worthy_claim", "evidence_snippet"]
-)
+# Tokenize datasets for each model
+tokenized_datasets = {}
+for model_name, model_dir in model_directories.items():
+    tokenizer = AutoTokenizer.from_pretrained(model_dir, do_lower_case=True)
+    tokenized_datasets[model_name] = test_dataset.map(tokenize_function, batched=True)
 
 
-# Load the fine-tuned models
-albert_podcast_sd_model = AutoModelForSequenceClassification.from_pretrained(albert_model_directory, num_labels=2)
-distilbert_podcast_sd_model = AutoModelForSequenceClassification.from_pretrained(
-    distilbert_model_directory, num_labels=2
-)
-distilroberta_podcast_sd_model = AutoModelForSequenceClassification.from_pretrained(
-    distilroberta_model_directory, num_labels=2
-)
-mobilebert_podcast_sd_model = AutoModelForSequenceClassification.from_pretrained(
-    mobilebert_model_directory, num_labels=2
-)
+# Load models
+models = {}
+for model_name, model_dir in model_directories.items():
+    model = AutoModelForSequenceClassification.from_pretrained(model_dir, num_labels=2)
+    if model_name not in ("AlBERT", "MobileBERT"):
+        model = BetterTransformer.transform(model)
+    models[model_name] = model
 
-# Tranform the models for Faster Inference
-# AlBERT model gives error during prediction if using BetterTransformer
-bt_distilbert_podcast_sd_model = BetterTransformer.transform(distilbert_podcast_sd_model)
-bt_distilroberta_podcast_sd_model = BetterTransformer.transform(distilroberta_podcast_sd_model)
-# MobileBERT is not supported by BetterTransformer
-
-
-train_ouptut_dir = os.path.join(current_dir, "training-results")
-
-# Training Args to Create a Trainer Object
-training_args = TrainingArguments(
-    output_dir=train_ouptut_dir,
-    per_device_eval_batch_size=16,
-)
-
-# Create Trainers for Prediction and Evaluation
-albert_podcast_sd_trainer = Trainer(model=albert_podcast_sd_model, args=training_args, compute_metrics=compute_metrics)
-distilbert_podcast_sd_trainer = Trainer(
-    model=bt_distilbert_podcast_sd_model, args=training_args, compute_metrics=compute_metrics
-)
-distilroberta_podcast_sd_trainer = Trainer(
-    model=bt_distilroberta_podcast_sd_model, args=training_args, compute_metrics=compute_metrics
-)
-mobilebert_podcast_sd_trainer = Trainer(
-    model=mobilebert_podcast_sd_model, args=training_args, compute_metrics=compute_metrics
-)
+# Define training arguments
+train_output_dir = os.path.join(current_dir, "training-results")
+training_args = TrainingArguments(output_dir=train_output_dir, per_device_eval_batch_size=16)
 
 # Get Predictions and Evaluations for Testing the Model
-print("-------------------------------------------------------------------------------------------")
-print("**** AlBERT Podcast Stance Detection Model Evaluation for Test Data****")
-albert_podcast_sd_predictions = albert_podcast_sd_trainer.predict(albert_tokenized_test_dataset)
-print(albert_podcast_sd_predictions.metrics)
-
-print("-------------------------------------------------------------------------------------------")
-print("**** DistilBERT Podcast Stance Detection Model Evaluation for Test Data****")
-distilbert_podcast_sd_predictions = distilbert_podcast_sd_trainer.predict(distilbert_tokenized_test_dataset)
-print(distilbert_podcast_sd_predictions.metrics)
-
-print("-------------------------------------------------------------------------------------------")
-print("**** DistilRoBERTa Podcast Stance Detection Model Evaluation for Test Data****")
-distilroberta_podcast_sd_predictions = distilroberta_podcast_sd_trainer.predict(distilroberta_tokenized_test_dataset)
-
-print(distilroberta_podcast_sd_predictions.metrics)
-
-print("-------------------------------------------------------------------------------------------")
-print("**** MobileBERT Podcast Stance Detection Model Evaluation for Test Data****")
-mobilebert_podcast_sd_predictions = mobilebert_podcast_sd_trainer.predict(mobilebert_tokenized_test_dataset)
-print(mobilebert_podcast_sd_predictions.metrics)
-
-print("-------------------------------------------------------------------------------------------")
+for model_name, model in models.items():
+    trainer = Trainer(model=model, args=training_args, compute_metrics=compute_metrics)
+    tokenized_test_dataset = tokenized_datasets[model_name]
+    print("-------------------------------------------------------------------------------------------")
+    print(f"**** {model_name} Podcast Stance Detection Model Evaluation for Test Data ****")
+    predictions = trainer.predict(tokenized_test_dataset)
+    print(predictions.metrics)
