@@ -13,7 +13,9 @@ from transformers import AutoModelForSequenceClassification, AutoTokenizer, Eval
 
 from src import utils
 
-current_dir = os.path.dirname(__file__)
+current_dir = os.path.dirname(os.path.abspath(__file__))
+src_dir = utils.get_src_dir_path()
+saved_model_dir = os.path.join(src_dir, "saved-models")
 
 
 # Preprocess the data
@@ -155,7 +157,7 @@ trainer = Trainer(
 
 trainer.train()
 
-model_path = os.path.join(current_dir, "saved-models", "roberta")
+model_path = os.path.join(saved_model_dir, "roberta")
 # model = BetterTransformer.reverse(model)
 model.save_pretrained(model_path)
 tokenizer.save_pretrained(model_path)

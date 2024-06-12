@@ -5,9 +5,12 @@ import os
 import wandb
 from transformers import AutoModelForSequenceClassification, AutoTokenizer, EarlyStoppingCallback, TrainingArguments
 
+from src import utils
 from src.llm_model_training.training_utils import FocalTrainer, compute_metrics, get_class_weights_train, get_dataset
 
-current_dir = os.path.dirname(__file__)
+current_dir = os.path.dirname(os.path.abspath(__file__))
+src_dir = utils.get_src_dir_path()
+saved_model_dir = os.path.join(src_dir, "saved-models")
 
 # Class distributions in training set
 num_class_0_train = 1220
@@ -102,7 +105,7 @@ trainer = FocalTrainer(
 
 trainer.train()
 
-model_path = os.path.join(current_dir, "saved-models", "albert-podcast-claim-detection")
+model_path = os.path.join(saved_model_dir, "albert-podcast-claim-detection")
 auto_model.save_pretrained(model_path)
 tokenizer.save_pretrained(model_path)
 
