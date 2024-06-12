@@ -32,6 +32,15 @@ toloka_annotation_df = toloka_data[
 ]
 
 
+def get_src_dir_path() -> str:
+    """Returns path for src directory
+
+    Returns:
+        str: src directory path
+    """
+    return current_dir
+
+
 def execute_query_pandas(query: str) -> pd.DataFrame:
     """Executes sql query on Pandas DataFrame
 
