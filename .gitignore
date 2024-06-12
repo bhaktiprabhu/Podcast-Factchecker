@@ -45,7 +45,6 @@ nodeLanguageServer.*/**
 dist/**
 /src/llm_model_training/claim-detection/training-results
 /src/llm_model_training/claim-detection/wandb
-/src/llm_model_training/claim-detection/saved-models
 /src/llm_model_training/stance-detection/training-results
 /src/llm_model_training/stance-detection/wandb
-/src/llm_model_training/stance-detection/saved-models
+/src/saved-models
