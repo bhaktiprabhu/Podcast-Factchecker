@@ -87,6 +87,8 @@ Examples:
 
 To Test the fine-tuned transformer models run the following commands.
 
+Examples:
+
 1. Claim Detection Model (Albert)
 
     ```bash
