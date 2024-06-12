@@ -7,9 +7,12 @@ from optimum.bettertransformer import BetterTransformer
 from sklearn.metrics import accuracy_score, classification_report, confusion_matrix, precision_recall_fscore_support
 from transformers import AutoModelForSequenceClassification, AutoTokenizer, EvalPrediction, Trainer, TrainingArguments
 
+from src import utils
 from src.llm_model_training.training_utils import get_dataset
 
-current_dir = os.path.dirname(__file__)
+current_dir = os.path.dirname(os.path.abspath(__file__))
+src_dir = utils.get_src_dir_path()
+saved_model_dir = os.path.join(src_dir, "saved-models")
 
 # Define label mapping
 label_to_id = {"SUPPORTS": 1, "REFUTES": 0}
@@ -32,9 +35,9 @@ def tokenize_function(examples):
     return tokenizer(combined_texts, padding="max_length", truncation=True, max_length=512)
 
 
-# Function to map string labels to integers
 def map_labels(examples):
-    examples["stance"] = [label_to_id[label] for label in examples["stance"]]
+    """Function to map string labels to integers"""
+    examples["label"] = [label_to_id[label] for label in examples["label"]]
     return examples
 
 
@@ -94,10 +97,10 @@ print(test_dataset.size_in_bytes)
 
 
 # Get the fine-tuned model directories
-albert_model_directory = os.path.join(current_dir, "saved-models", "albert-sd-custom")
-distilbert_model_directory = os.path.join(current_dir, "saved-models", "distilbert-sd-custom")
-distilroberta_model_directory = os.path.join(current_dir, "saved-models", "distilroberta-sd-custom")
-mobilebert_model_directory = os.path.join(current_dir, "saved-models", "mobilebert-sd-custom")
+albert_model_directory = os.path.join(current_dir, "saved-models", "albert-podcast-stance-detection")
+distilbert_model_directory = os.path.join(current_dir, "saved-models", "distilbert-podcast-stance-detection")
+distilroberta_model_directory = os.path.join(current_dir, "saved-models", "distilroberta-podcast-stance-detection")
+mobilebert_model_directory = os.path.join(current_dir, "saved-models", "mobilebert-podcast-stance-detection")
 
 
 # Load the tokenizers and Tokenize the dataset as per the model

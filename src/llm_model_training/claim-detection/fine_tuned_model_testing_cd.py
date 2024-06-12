@@ -7,9 +7,12 @@ from optimum.bettertransformer import BetterTransformer
 from sklearn.metrics import accuracy_score, classification_report, confusion_matrix, precision_recall_fscore_support
 from transformers import AutoModelForSequenceClassification, AutoTokenizer, EvalPrediction, Trainer, TrainingArguments
 
+from src import utils
 from src.llm_model_training.training_utils import get_dataset
 
-current_dir = os.path.dirname(__file__)
+current_dir = os.path.dirname(os.path.abspath(__file__))
+src_dir = utils.get_src_dir_path()
+saved_model_dir = os.path.join(src_dir, "saved-models")
 
 
 # Preprocess the data
@@ -79,10 +82,10 @@ print(test_dataset.size_in_bytes)
 
 
 # Get the fine-tuned model directories
-albert_model_directory = os.path.join(current_dir, "saved-models", "albert-test")
-distilbert_model_directory = os.path.join(current_dir, "saved-models", "distilbert-focal-2_5")
-distilroberta_model_directory = os.path.join(current_dir, "saved-models", "distilroberta-focal")
-mobilebert_model_directory = os.path.join(current_dir, "saved-models", "mobilebert-focal")
+albert_model_directory = os.path.join(saved_model_dir, "albert-cd")
+distilbert_model_directory = os.path.join(saved_model_dir, "distilbert-cd")
+distilroberta_model_directory = os.path.join(saved_model_dir, "distilroberta-cd")
+mobilebert_model_directory = os.path.join(saved_model_dir, "mobilebert-cd")
 
 
 # Load the tokenizers and Tokenize the dataset as per the model
