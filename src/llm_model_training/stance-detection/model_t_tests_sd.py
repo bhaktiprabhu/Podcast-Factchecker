@@ -42,8 +42,15 @@ def map_labels(examples):
     return examples
 
 
-# Compute metrics function for evaluation
 def compute_metrics(p: EvalPrediction):
+    """Compute accuracy, precision, recall, and F1 score for evaluation predictions.
+
+    Args:
+        p (EvalPrediction): An object containing predictions and true labels.
+
+    Returns:
+        dict: A dictionary with the computed accuracy, precision, recall, and F1 score.
+    """
     preds = np.argmax(p.predictions, axis=1)
     labels = p.label_ids
     precision, recall, f1, _ = precision_recall_fscore_support(labels, preds, average="weighted")
@@ -60,10 +67,10 @@ test_dataset = dataset["test"]
 
 # Define model directories
 model_directories = {
-    "AlBERT": os.path.join(saved_model_dir, "albert-cd"),
-    "DistilBERT": os.path.join(saved_model_dir, "distilbert-cd"),
-    "DistilRoBERTa": os.path.join(saved_model_dir, "distilroberta-cd"),
-    "MobileBERT": os.path.join(saved_model_dir, "mobilebert-cd"),
+    "AlBERT": os.path.join(saved_model_dir, "albert-sd"),
+    "DistilBERT": os.path.join(saved_model_dir, "distilbert-sd"),
+    "DistilRoBERTa": os.path.join(saved_model_dir, "distilroberta-sd"),
+    "MobileBERT": os.path.join(saved_model_dir, "mobilebert-sd"),
 }
 
 # Tokenize datasets for each model

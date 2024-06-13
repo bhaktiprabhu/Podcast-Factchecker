@@ -98,10 +98,10 @@ print(test_dataset.size_in_bytes)
 
 # Define model directories
 model_directories = {
-    "AlBERT": os.path.join(saved_model_dir, "albert-cd"),
-    "DistilBERT": os.path.join(saved_model_dir, "distilbert-cd"),
-    "DistilRoBERTa": os.path.join(saved_model_dir, "distilroberta-cd"),
-    "MobileBERT": os.path.join(saved_model_dir, "mobilebert-cd"),
+    "AlBERT": os.path.join(saved_model_dir, "albert-sd"),
+    "DistilBERT": os.path.join(saved_model_dir, "distilbert-sd"),
+    "DistilRoBERTa": os.path.join(saved_model_dir, "distilroberta-sd"),
+    "MobileBERT": os.path.join(saved_model_dir, "mobilebert-sd"),
 }
 
 
